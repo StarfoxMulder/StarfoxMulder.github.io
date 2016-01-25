@@ -1,0 +1,55 @@
+div {
+    border: 5px groove #b6e4fb;
+    border-radius: 5px;
+    padding: 3px;
+    }
+
+a:link {
+    text-decoration: none;
+    }
+a:visited {
+    text-decoration: none;
+    }
+a:hover {
+    border-radius: 5px;
+    background-color: #b6e4fb;
+    text-align: center;
+        }
+a:active {
+    text-decoration:none;
+    }
+    
+#header {
+    height: 20px;
+    width: 128px;
+    background-color: #aab4ff;
+    position: fixed;
+    font-size: .9em;
+    }
+#header:hover {
+    height: 20px;
+    width: 128px;
+    background-color: #b6e4fb;
+    position: fixed;
+    font-size: .9em;
+    }
+    
+.left {
+    height: 1000px;
+    background-color: #cbfffe;
+    float: left;
+    margin-top: 40px;
+    margin-left: 145px;
+    }
+
+.right {
+    height: 1000px;
+    background-color: #cbfffe;
+    float: right;
+    }
+
+#footer {
+    height: 75px; 
+    background-color: #bdb7ff;
+    clear: both;
+    }
