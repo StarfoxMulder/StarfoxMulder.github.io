@@ -4,6 +4,11 @@ div {
     padding: 3px;
     }
 
+img {
+	width:100px;
+	height:100px;
+    }
+	
 a:link {
     text-decoration: none;
     }
@@ -37,6 +42,7 @@ a:active {
     
 .left {
     height: 500px;
+    width:650px;
     background-color: #cbfffe;
     float: left;
     margin-top: 40px;
