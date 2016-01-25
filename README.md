@@ -1,5 +1,4 @@
 # StarfoxMulder.github.io
-Think I'm starting to understand this a little better....
 <!DOCTYPE html>
 <html>
 	<head>
