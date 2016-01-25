@@ -46,7 +46,6 @@ a:active {
     }
     
 .left {
-    height: 500px;
     width:650px;
     background-color: #cbfffe;
     float: left;
@@ -55,7 +54,6 @@ a:active {
     }
 
 .right {
-    height: 500px;
     width: 650px;
     background-color: #cbfffe;
     float: right;
