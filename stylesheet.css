@@ -46,7 +46,7 @@ a:active {
     }
     
 .left {
-    width:650px;
+    width:600px;
     background-color: #cbfffe;
     float: left;
     padding: 5px;
@@ -55,17 +55,18 @@ a:active {
     }
 
 .middle {
-    width: 650px;
-    height: 25px;
+    width: 600px;
+    height: 50px;
     background-color: #cbfffe;
     float: right;
     position: relative;
     left: -50%; 
     text-align: left;
+    padding: 5px;
     }
 
 .right {
-    width: 650px;
+    width: 600px;
     background-color: #cbfffe;
     float: right;
     padding: 5px;
