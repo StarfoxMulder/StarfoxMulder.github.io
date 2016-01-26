@@ -52,7 +52,7 @@ a:active {
     padding: 5px;
     margin-top: 40px;
     margin-left: 145px;
-    position: ;
+    
     }
     
 .middle {
@@ -68,6 +68,8 @@ a:active {
     background-color: #cbfffe;
     position: relative;
     padding: 5px;
+    margin-top: 40px;
+    margin-left: 145px;
     }
     
 .clear { clear: both;}
