@@ -34,7 +34,6 @@ a:active {
     width: 128px;
     background-color: #aab4ff;
     position: fixed;
-    float: right;
     font-size: .9em;
     }
     
@@ -75,7 +74,7 @@ a:active {
     
 .clear { clear: both;
 	margin-left: 145px;
-	margin-right: 145px;
+	margin-right: 395px;
 }
 
 #footer {
