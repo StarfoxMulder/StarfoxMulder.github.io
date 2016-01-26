@@ -51,7 +51,7 @@ a:active {
     background-color: #cbfffe;
     padding: 5px;
     margin-top: 40px;
-    margin-left: 145px;
+    margin-left: 250px;
     margin-bottom: 40px;
     }
     
@@ -69,11 +69,14 @@ a:active {
     position: relative;
     padding: 5px;
     margin-top: 40px;
-    margin-left: 145px;
+    margin-left: 250px;
     margin-bottom: 40px;
     }
     
-.clear { clear: both;}
+.clear { clear: both;
+	margin-left: 145px;
+	margin-right: 145px;
+}
 
 #footer {
     height: 25px; 
