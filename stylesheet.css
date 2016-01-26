@@ -51,6 +51,7 @@ a:active {
     padding: 5px;
     margin-top: 40px;
     margin-left: 145px;
+    position: ;
     }
     
 .middle {
@@ -67,6 +68,8 @@ a:active {
     position: relative;
     padding: 5px;
     }
+    
+.clear { clear: both;}
 
 #footer {
     height: 25px; 
