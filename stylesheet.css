@@ -49,14 +49,26 @@ a:active {
     width:650px;
     background-color: #cbfffe;
     float: left;
+    padding: 5px;
     margin-top: 40px;
     margin-left: 145px;
+    }
+
+.middle {
+    width: 650px;
+    height: 25px;
+    background-color: #cbfffe;
+    float: right;
+    position: relative;
+    left: -50%; 
+    text-align: left;
     }
 
 .right {
     width: 650px;
     background-color: #cbfffe;
     float: right;
+    padding: 5px;
     }
 
 #footer {
