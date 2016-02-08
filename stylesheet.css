@@ -1,6 +1,7 @@
 html {
     background-image: url("http://www.spitzer.caltech.edu/uploaded_files/other_files/0006/0681/NASA_HiddenUniverse_12.jpg");
     background-size: cover;
+    font-family: Arial;
     }
     
 div {
@@ -56,7 +57,7 @@ a:active {
     margin-left: 10px;
     border: 5px groove #b6e4fb;
     border-radius: 5px;
-}    
+    }    
     
 .left {
     width:600px;
