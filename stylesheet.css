@@ -45,6 +45,16 @@ a:active {
     font-size: .9em;
     }
     
+#messageboard:hover {
+    background-color: #b6e4fb;
+    }    
+    
+#messageboard {
+    height: 20px;
+    width:50px;
+    background-color: #aab4ff;
+}    
+    
 .left {
     width:600px;
     background-color: #cbfffe;
