@@ -69,10 +69,12 @@ a:active {
     }
     
 .middle {
-    width: 600px;
+    width: 200px;
     height: 250px;
     background-color: #cbfffe;
-    position: relative;
+    position: fixed;
+    right:0;
+    top: 40;
     padding: 5px;
     margin-top: 40px;
     margin-left: 250px;
