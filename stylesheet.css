@@ -83,7 +83,7 @@ a:active {
     height: 250px;
     background-color: #cbfffe;
     position: fixed;
-    right: -10px;
+    right: 10px;
     top: -40px;
     padding: 5px;
     margin-top: 40px;
