@@ -11,8 +11,8 @@ div {
     }
 
 img {
-	width:100px;
-	height:100px;
+    width:100px;
+    height:100px;
     }
 	
 a:link {
@@ -58,6 +58,16 @@ a:active {
     border: 5px groove #b6e4fb;
     border-radius: 5px;
     }    
+   
+#no-style {
+    background-color: none;	
+    border: none;
+}   
+   
+.container {
+    position: relative;	
+    overflow: auto;
+}   
     
 .left {
     width:600px;
