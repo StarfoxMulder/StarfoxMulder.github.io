@@ -21,10 +21,6 @@ form input:focus {
   transition: background 2s;
 }
 
-.section {
-  position: absolute;
-}
-
 button.btn {
   background: white;
   height: 25px;
@@ -43,6 +39,8 @@ button.btn:hover {
 }
 
 .container {
+  border: 2px;
+  border-color: #00f28f;
   height: 600px;
   width: 400px;
   position: relative;
@@ -50,7 +48,15 @@ button.btn:hover {
   background-repeat: no-repeat;
 }
 
+.section {
+  border: 2px;
+  border-color: #00f28f;
+  position: absolute;
+}
+
 .footer {
+  border: 2px;
+  border-color: #00f28f;
   clear: both;
   height: 25px;
   font-size: 8px;
