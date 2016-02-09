@@ -1,5 +1,5 @@
 html {
-  background-image: url: ("https://scontent-iad3-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/12651233_506718919511118_1412335370857718700_n.jpg?oh=45bc171080e422071a2663671e88d3c6&oe=572AFC0D");
+  background-image: url ("https://scontent-iad3-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/12651233_506718919511118_1412335370857718700_n.jpg?oh=45bc171080e422071a2663671e88d3c6&oe=572AFC0D");
   background-size: cover;
   font-family: Arial;
   }
@@ -10,4 +10,10 @@ html {
 
 #container2 {
   
+}
+
+#footer {
+  clear: both;
+  height: 25px;
+  font-size: 10px;
 }
