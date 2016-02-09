@@ -1,4 +1,4 @@
-html {
+html, body {
   background-image: url("blob:https%3A//drive.google.com/1a1c7d2c-af6b-4598-a01d-cd1b336cda4c");
   background-size: contain;
   background-repeat: no-repeat;
@@ -7,7 +7,9 @@ html {
   }
 
 form {
-   margin: 80px 0 100px 0;
+  border-color: none;
+  height: 25px;
+  width: 150px;
 }
 
 form input {
@@ -18,7 +20,7 @@ form input {
   position: relative;
 }
 
-.btn {
+button.btn {
   background: white;
   font-size: 36px;
   padding: 20px 24px;
@@ -26,7 +28,7 @@ form input {
   transition: background 2s, color 1s;
 }
 
-.btn:hover {
+button.btn:hover {
   background: #FF6347;
   color: #fff;
   transition: background 2s, color 1s;
