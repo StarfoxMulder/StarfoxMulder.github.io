@@ -27,6 +27,8 @@ form input:focus {
 
 button.btn {
   background: white;
+  height: 25px;
+  width: 50px;
   font-size: 36px;
   color: #FF6347;
   padding: 20px 24px;
@@ -45,7 +47,6 @@ button.btn:hover {
   width: 400px;
   position: relative;
   background-image: url("https://pbs.twimg.com/media/CUpaoWMWcAAB6wf.jpg");
-  background-size: contain;
   background-repeat: no-repeat;
 }
 
