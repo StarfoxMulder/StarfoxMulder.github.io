@@ -74,23 +74,6 @@ body {
   margin-top: 50px;
   opacity: 0.8;
 }
-/*
-#left {
-  float: left;
-  border: 2px solid black;
-  width: 10%;
-  margin-top: 100px;
-  text-align: center;
-  height: 20px;
-}
-#right {
-  float: right;
-  border: 2px solid green;
-  width: 10%;
-  margin-top: 100px;
-  text-align: center;
-  height: 20px;
-} */
 p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 40px;
@@ -121,15 +104,110 @@ p {
   opacity: .8;
   height: 37px;
 }
-#facebook img {
-  height: 15px;
-  width: 15px;
+
+/* ART PAGE */
+
+.collection {
+  width: 100%;
+  max-width: 1080px;
+  height: 450px;
+  overflow: hidden;
+  margin: 50px auto;
 }
-#twitter img{
-  height: 15px;
-  width: 15px;
+.collection ul {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin: 0;
+  padding: 0;
 }
-#twitter {
-  position: absolute;
-  margin-right: 5px;
-  }
+.collection ul li {
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  width: 16.666%;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 500ms ease;
+}
+.collection ul li div {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+.collection ul li div a {
+  display: block;
+  height: 450px;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  vertical-align: bottom;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  transition: all 200ms ease;
+}
+.collection ul li div a * {
+  opacity: 0;
+  margin: 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  position: relative;
+  z-index: 5;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.collection ul li div a h2 {
+  font-family: 'Oswald', sans-serif;
+  text-overflow: clip;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  top: 160px;
+}
+.collection ul li div a p {
+  top: 160px;
+  font-size: 13.5px;
+}
+/*images*/
+.collection ul li:nth-child(1) { background-image: url("https://photos-4.dropbox.com/t/2/AAByRGxZQVU8Mpe3pA2HiiPFmZ3IbiJiXOx9c76p3JCoxg/12/203727679/jpeg/32x32/1/_/1/2/art1.jpg/EKW5x6MEGF0gAigC/ETWLHhB_XOSxpSXeVoIS4LZFeptk2zxd0cZ-TzuKq5c?size=800x600&size_mode=3"); }
+.collection ul li:nth-child(2) { background-image: url("https://photos-5.dropbox.com/t/2/AACKKiJulAKvPae-XP-rAsxEjztRcP7dfFuYi7NvruJB1Q/12/203727679/jpeg/32x32/1/_/1/2/art2.jpg/EKW5x6MEGF0gAigC/wnB9h2CN1rINTb_cTpJawLxaqr4ZTgs6u4qejyFu5j4?size=800x600&size_mode=3"); }
+.collection ul li:nth-child(3) { background-image: url("https://photos-1.dropbox.com/t/2/AAAxBjEqdL2O3bs5tjBc1SGEcjs3XAgD7C6cf7EQqMLCJg/12/203727679/jpeg/32x32/1/_/1/2/art3.jpg/EKW5x6MEGF0gAigC/svLSLo-LrMIGsDlyZhOs8Uoc6728DXcpYH3MZIQ_4_w?size=800x600&size_mode=3"); }
+.collection ul li:nth-child(4) { background-image: url("https://photos-6.dropbox.com/t/2/AAD-Wyvb9QJfCHIphKLQqey_4YJwXCjLKCV--eYCeROgww/12/203727679/jpeg/32x32/1/_/1/2/art4.jpg/EKW5x6MEGF0gAigC/uR1-jaIylogq9GXOLFTv1UpDjaH6_Ais2QwHdtVJkhI?size=800x600&size_mode=3"); }
+.collection ul li:nth-child(5) { background-image: url("https://photos-2.dropbox.com/t/2/AADlMC_R5vG1hU9GLiwXPdA4w1SgdkteA5sSdgfXGK-rrQ/12/203727679/jpeg/32x32/1/_/1/2/art5.jpg/EKW5x6MEGF0gAigC/TzSXuKUH6jY8BSxcIV1qgfMe1hXnQLy-Gq0Y0ru5eAY?size=800x600&size_mode=3"); }
+.collection ul li:nth-child(6) { background-image: url("https://photos-6.dropbox.com/t/2/AABe--hs4lF9UOE6nyBxvsrfXrwQR6z6p3S0trvAFA_f2A/12/203727679/jpeg/32x32/1/_/1/2/art6.jpg/EKW5x6MEGF0gAigC/ao6hf4eLJxXETfTCFAeoutuaaIujriRA0kklASXrewM?size=800x600&size_mode=3"); }
+.collection ul li:nth-child(7) { background-image: url("https://photos-2.dropbox.com/t/2/AADPa90KK0lSgTKbGiosTSzN10FFHzmuSIylwiOEbalZlw/12/203727679/jpeg/32x32/1/_/1/2/art7.jpg/EKW5x6MEGF0gAigC/BuegLKdaV-UyGHOXpxz0sRNGnMSaT4JB2CtwuCM6gVM?size=800x600&size_mode=3"); }
+.collection ul li:nth-child(8) { background-image: url("https://photos-3.dropbox.com/t/2/AACklLnVVl6SUtv06nHC-ioBAij6lCptvZeGjCmQ42o97g/12/203727679/jpeg/32x32/1/_/1/2/art8.jpg/EKW5x6MEGF0gAigC/nzvCI5LIt4CtzTBI2hg7HPNsPUR9ll-w1fPxzDB3ZHQ?size=800x600&size_mode=3"); }
+.collection ul li:nth-child(9) { background-image: url("https://photos-6.dropbox.com/t/2/AADUstkSWsty0Rs9FkprQDvI3Lt6pMRaQ1WLr2JKmNhQFA/12/203727679/jpeg/32x32/1/_/1/2/art9.jpg/EKW5x6MEGF0gAigC/v91QrdPcr6kz_1tMYaksDMpWE0QJ8wIKxcrMT9lA_ww?size=800x600&size_mode=3"); }
+
+
+.collection ul:hover li { width: 8%; }
+.collection ul:hover li:hover { width: 80%; }
+.collection ul:hover li:hover a { background: rgba(0, 0, 0, 0.4); }
+.collection ul:hover li:hover a * {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+@media screen and (max-width: 600px) {
+.collection { height: auto; }
+
+.collection ul li,
+.collection ul li:hover,
+.collection ul:hover li,
+.collection ul:hover li:hover {
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  -webkit-transition: none;
+  transition: none;
+}
+}
