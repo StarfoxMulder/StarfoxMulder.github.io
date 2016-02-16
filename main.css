@@ -9,11 +9,6 @@ body {
   height: 37px;
   opacity: .8;
 }
-a:link {
- text-decoration: none;
-a:visited {
- text-decoration: none;
-}
 .navigation div {
   display: inline-block;
   float: right;
