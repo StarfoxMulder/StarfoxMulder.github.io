@@ -33,6 +33,7 @@ body {
 #prestia {
   float: left;
   padding-left: 5px;
+  text-decoration: none;
 }
 
 #arrow {
@@ -52,6 +53,7 @@ body {
 }
 #myArt:hover {
   width: 100px;
+  text-decoration: none;
 }
 #myArt {
   padding: 0 0 0 5px;
@@ -59,6 +61,7 @@ body {
   margin-right: 0px;
   margin-bottom: 0px;
   position: relative;
+  text-decoration: none;
 }
 .welcome {
   width: 100%;
