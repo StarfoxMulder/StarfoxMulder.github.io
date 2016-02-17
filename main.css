@@ -33,11 +33,19 @@ body {
 .navigation a {
  text-decoration: none;
  decoration: none;
+ color: black;
 }
 
-.navigation a:link, .navigation a:visited {
+.navigation a:link {
  text-decoration: none;
  decoration: none;
+ color: black;
+}
+
+.navigation a:visited {
+ text-decoration: none;
+ decoration: none;
+ color: black;
 }
 
 #prestia {
