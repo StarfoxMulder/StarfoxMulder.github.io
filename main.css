@@ -30,6 +30,16 @@ body {
   text-decoration: none;
 }
 
+.navigation a {
+ text-decoration: none;
+ decoration: none;
+}
+
+.navigation a:link, .navigation a:visited {
+ text-decoration: none;
+ decoration: none;
+}
+
 #prestia {
   float: left;
   padding-left: 5px;
