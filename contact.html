@@ -1,28 +1,5 @@
-<!DOCTYPE php>
+<!DOCTYPE html>
 <html>
-<?php
-       // from the form
-       $name = trim(strip_tags($_POST['name']));
-       $email = trim(strip_tags($_POST['email']));
-	   $subject = trim(strip_tags($_POST['message']));
-       $message = htmlentities($_POST['message']);
-
-       // set here
-       $to = 'cjprestia@email.com';
-
-       $body = <<<HTML
-$message
-HTML;
-
-       $headers = "From: $email\r\n";
-       $headers .= "Content-type: text/html\r\n";
-
-       // send the email
-       mail($to, $subject, $body, $headers);
-
-       // redirect afterwords, if needed
-       header('Location: thanks.html');
-?>
 <head>
   <link href='https://fonts.googleapis.com/css?family=Oswald|Montserrat|Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
   <link type="text/css" rel="stylesheet" href="/main.css">
@@ -35,14 +12,14 @@ HTML;
   <div class="navigation">
     <div id="prestia"><a href="http://starfoxmulder.github.io/home.html">PRESTIA</a></div>
     <div id="myArt"><a href="http://starfoxmulder.github.io/myart.html">MY ART</a></div>
-    <div id="certifications">CERTIFICATIONS</div>
-    <div id="aboutMe">ABOUT ME</div>
-    <div id="contact">CONTACT</div>
+    <div id="certifications"><a href="http://starfoxmulder.github.io/certifications.html">CERTIFICATIONS</a></div>
+    <div id="aboutMe"><a href="http://starfoxmulder.github.io/aboutme.html">ABOUT ME</a></div>
+    <div id="contact"><a href="http://starfoxmulder.github.io/contact.html">CONTACT</a></div>
   </div>
    <div class="welcome"><div id="welcomeimage"></div>
        <p id="contme">CONTACT ME</p>
        <p id="returnmessage"></p>
-     <form id="form" method="post" action="">
+     <form id="form" method="post" action="/contact.php">
        <label>NAME</label><br>
        <input type="text" id="name" placeholder="WHAT DO YOU GO BY?"/><br>
        <label>EMAIL</label><br>
