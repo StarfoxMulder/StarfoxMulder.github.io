@@ -1,72 +1,54 @@
 body {
- margin: 0 0 0 0;
+ Margin: 0 0 0 0;
  padding: 0 0 0 0;
 }
 .navigation {
-  background-color: #0AAAD9;
-  position: relatve;
+	background-color: #0AAAD9;
+	position: relatve;
   width: 100%; 
   height: 37px;
   opacity: .8;
-  text-decoration: none;
 }
-.navigation div {
+.navigation div{
   display: inline-block;
   float: right;
-  font-family: 'Oswald', sans-serif;
+	font-family: 'Oswald', sans-serif;
   font-size: 25px;
   padding: 0 19px 0 19px;
   background-color: #0AAAD9;
-  text-decoration: none;
 }
 .navigation div:hover {
-  position: relative;
-  display: inline-block;
-  float: right;
-  font-family: 'Oswald', sans-serif;
+	position: relative;
+	display: inline-block;
+	float: right;
+	font-family: 'Oswald', sans-serif;
   padding: 0 19px 0 19px;
-  opacity: 0.4;
-  transition-duration: 0.3s;
-  text-decoration: none;
-}
-
-.navigation a {
- text-decoration: none;
- decoration: none;
- color: black;
-}
-
-.navigation a:link {
- text-decoration: none;
- decoration: none;
- color: black;
-}
-
-.navigation a:visited {
- text-decoration: none;
- decoration: none;
- color: black;
+	opacity: 0.4;
+	transition-duration: 0.3s;
 }
 
 #prestia {
-  float: left;
-  padding-left: 5px;
-  text-decoration: none;
-}
-#prestia a:link {
- text-decoration: none;
- decoration: none;
- color: black;
+	float: left;
+	padding-left: 5px;
 }
 
-#prestia a:visited {
- text-decoration: none;
- decoration: none;
- color: black;
+#arrow {
+  font-size: 15px;
+  margin-top: 11px;
+  margin-right: 37px;
+  padding: 0 0 0 0;
+}
+#arrow:before {
+    content: "\f078";
+    display: inline;
+    font-family: FontAwesome;
+    transform: translateZ(0);
+    transition-duration: 0.1s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
 }
 #myArt:hover {
   width: 100px;
-  text-decoration: none;
 }
 #myArt {
   padding: 0 0 0 5px;
@@ -74,12 +56,11 @@ body {
   margin-right: 0px;
   margin-bottom: 0px;
   position: relative;
-  text-decoration: none;
 }
 .welcome {
-  width: 100%;
-  height: 650px;
-  overflow: hidden;
+	width: 100%;
+	height: 650px;
+	overflow: hidden;
   position: relative;
   background-image: url("https://photos-5.dropbox.com/t/2/AAC3O61IIkHI6ayPB0Jx5m6mupxOQkF43o1JmBLPNLJuBw/12/203727679/jpeg/32x32/1/_/1/2/slothsHDcropV.jpg/EKW5x6MEGD8gAigC/dpTPOnXZA-Cj2LNQ7JDq3B_wQeWs9qGxt5lR6xsgeTY?size=1280x960&size_mode=3");
   background-repeat: no-repeat;
@@ -94,9 +75,9 @@ body {
   opacity: 0.8;
 }
 p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
-  color: #011419;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	color: #011419;
   position: absolute;
 }
 #top {
@@ -114,7 +95,7 @@ p {
   position: absolute;
 }
 .space {
-  visibility: hidden;
+	visibility: hidden;
 }
 .footer {
   background-color: #0AAAD9;
@@ -129,7 +110,7 @@ p {
 .collection {
   width: 100%;
   max-width: 1080px;
-  height: 550px;
+  height: 450px;
   overflow: hidden;
   margin: 50px auto;
 }
@@ -145,7 +126,7 @@ p {
   vertical-align: bottom;
   position: relative;
   width: 16.666%;
-  height: 550px;
+  height: 450px;
   background-repeat: no-repeat;
   background-position: center center;
   transition: all 500ms ease;
@@ -157,7 +138,7 @@ p {
 }
 .collection ul li div a {
   display: block;
-  height: 550px;
+  height: 450px;
   width: 100%;
   position: relative;
   z-index: 3;
@@ -189,10 +170,10 @@ p {
   font-size: 24px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  top: 300px;
+  top: 160px;
 }
 .collection ul li div a p {
-  top: 300px;
+  top: 160px;
   font-size: 13.5px;
 }
 /*images*/
@@ -208,7 +189,7 @@ p {
 
 
 .collection ul:hover li { width: 8%; }
-.collection ul:hover li:hover { width: 90%; }
+.collection ul:hover li:hover { width: 80%; }
 .collection ul:hover li:hover a { background: rgba(0, 0, 0, 0.4); }
 .collection ul:hover li:hover a * {
   opacity: 1;
@@ -228,5 +209,82 @@ p {
   width: 100%;
   -webkit-transition: none;
   transition: none;
- }
+}
+}
+
+/* CONTACT PAGE */
+
+#form {
+  margin-top: 75px;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  height: 500px;
+  list-style: none;
+  border: 1px solid black;
+  position: relative;
+}
+#form label {
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  margin: 22px 15px 22px 15px;
+  text-align: right;
+  width: 200px;
+  height: 30px;
+  position: absolute;
+}
+input {
+  width: 50%;
+  margin: 5px 0 10px 225px;
+  font-family: 'Oswald', sans-serif;
+  padding: 0 0 0 15px;
+  position: absolute;
+  height: 30px;
+}
+input:focus {
+  padding: 0 0 0 15px;
+  width: 50%;
+  height: 30px;
+}
+textarea {
+  width: 40%;
+  margin-right: 5%;
+  font-family: 'Oswald', sans-serif;
+  padding: 0 0 0 25px;
+  position: absolute;
+}
+
+#name {
+
+}
+#email{
+  
+}
+#subject {
+
+}
+#message {
+  width: 60%;
+  height: 300px;
+  margin: 5px 0 10px 225px;
+  position: absolute;
+  padding: 10px 0 0 15px;
+}
+#submit {
+  width: 31%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;  
+  height: 40px;
+  margin-left: 365px;
+  margin-top: 306px;
+  padding: 0 0 6px 0;
+}
+
+#contme {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;  
+  margin-top: 30px;
+  margin-left: 60px;
+  float: left;
+  clear: both;
 }
