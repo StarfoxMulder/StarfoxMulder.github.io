@@ -1,0 +1,62 @@
+<?php
+       // from the form
+       $name = trim(strip_tags($_POST['name']));
+       $email = trim(strip_tags($_POST['email']));
+	   $subject = trim(strip_tags($_POST['message']));
+       $message = htmlentities($_POST['message']);
+
+       // set here
+       $to = 'cjprestia@email.com';
+
+       $body = <<<HTML
+$message
+HTML;
+
+       $headers = "From: $email\r\n";
+       $headers .= "Content-type: text/html\r\n";
+
+       // send the email
+       mail($to, $subject, $body, $headers);
+
+       // redirect afterwords, if needed
+       header('Location: thanks.html');
+?>
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Oswald|Montserrat|Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+  <link type="text/css" rel="stylesheet" href="/main.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="stylesheet.js"></script>
+  <title>Chuck P's Contact Page</title>
+ </head>
+ <body>
+  <div class="navigation">
+    <div id="prestia"><a href="http://starfoxmulder.github.io/home.html">PRESTIA</a></div>
+    <div id="myArt"><a href="http://starfoxmulder.github.io/myart.html">MY ART</a></div>
+    <div id="certifications">CERTIFICATIONS</div>
+    <div id="aboutMe">ABOUT ME</div>
+    <div id="contact">CONTACT</div>
+  </div>
+   <div class="welcome"><div id="welcomeimage"></div>
+       <p id="contme">CONTACT ME</p>
+       <p id="returnmessage"></p>
+     <form id="form" method="post" action="">
+       <label>NAME</label><br>
+       <input type="text" id="name" placeholder="WHAT DO YOU GO BY?"/><br>
+       <label>EMAIL</label><br>
+       <input type="text" id="email" placeholder="IF YOU WOULD LIKE A RESPONSE BACK, PLEASE INCLUDE YOUR EMAIL ADDRESS"/><br>
+       <label>SUBJECT</label><br>
+       <input type="text" id="subject" placeholder="SUMMARY OF WHAT'S ON YOUR MIND"/><br>
+       <label>MESSAGE</label><br>
+       <textarea id="message" placeholder="SAY ANYTHING YOU LIKE   -   IF YOU LEAVE YOUR EMAIL ADDRESS I WILL RESPOND WITHIN A FEW DAYS"></textarea><br>
+      <input type="submit" id="submit" value="SEND MESSAGE"/>
+    </form>
+ </div>
+  <div class="space">
+  </div>
+  <div class="footer">
+  </div>
+ </body>
+ </html>
