@@ -26,29 +26,14 @@ body {
 	opacity: 0.4;
 	transition-duration: 0.3s;
 }
-
+a {
+  color: black;
+  text-decoration: none;
+}
 #prestia {
 	float: left;
 	padding-left: 5px;
-}
-
-#arrow {
-  font-size: 15px;
-  margin-top: 11px;
-  margin-right: 37px;
-  padding: 0 0 0 0;
-}
-#arrow:before {
-    content: "\f078";
-    display: inline;
-    font-family: FontAwesome;
-    transform: translateZ(0);
-    transition-duration: 0.1s;
-    transition-property: transform;
-    transition-timing-function: ease-out;
-}
-#myArt:hover {
-  width: 100px;
+  text-decoration: none;
 }
 #myArt {
   padding: 0 0 0 5px;
@@ -56,6 +41,7 @@ body {
   margin-right: 0px;
   margin-bottom: 0px;
   position: relative;
+  text-decoration: none;
 }
 .welcome {
 	width: 100%;
@@ -216,12 +202,11 @@ p {
 
 #form {
   margin-top: 75px;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 11%;
+  margin-right: 11%;
   width: 70%;
   height: 500px;
   list-style: none;
-  border: 1px solid black;
   position: relative;
 }
 #form label {
@@ -234,7 +219,7 @@ p {
   position: absolute;
 }
 input {
-  width: 50%;
+  width: 480px;
   margin: 5px 0 10px 225px;
   font-family: 'Oswald', sans-serif;
   padding: 0 0 0 15px;
@@ -243,17 +228,9 @@ input {
 }
 input:focus {
   padding: 0 0 0 15px;
-  width: 50%;
+  width: 60%;
   height: 30px;
 }
-textarea {
-  width: 40%;
-  margin-right: 5%;
-  font-family: 'Oswald', sans-serif;
-  padding: 0 0 0 25px;
-  position: absolute;
-}
-
 #name {
 
 }
@@ -264,11 +241,13 @@ textarea {
 
 }
 #message {
-  width: 60%;
+  width: 61%;
   height: 300px;
   margin: 5px 0 10px 225px;
   position: absolute;
-  padding: 10px 0 0 15px;
+  padding: 0 0 0 15px;
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
 }
 #submit {
   width: 31%;
@@ -279,7 +258,10 @@ textarea {
   margin-top: 306px;
   padding: 0 0 6px 0;
 }
-
+#submit:hover{
+  opacity: .8;
+  background-color: #0AAAD9;
+}
 #contme {
   font-family: 'Oswald', sans-serif;
   font-size: 25px;  
