@@ -174,7 +174,7 @@ p {
 
 
 .collection ul:hover li { width: 8%; }
-.collection ul:hover li:hover { width: 100%; }
+.collection ul:hover li:hover { width: 80%; }
 .collection ul:hover li:hover a { background: rgba(0, 0, 0, 0.4); }
 .collection ul:hover li:hover a * {
   opacity: 1;
