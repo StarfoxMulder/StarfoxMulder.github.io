@@ -55,7 +55,7 @@ a {
 #cont {
   position: relative;
   width: 100%;
-  height: 473px;
+  height: 471px;
   margin-top: 50px;
   opacity: 0.8;
 }
@@ -68,7 +68,7 @@ p {
 #top {
   margin-left: 15%;
   margin-right: 15%;
-  margin-top: 100px;
+  margin-top: 150px;
   text-align: center;
   position: absolute;
   width: 70%;
