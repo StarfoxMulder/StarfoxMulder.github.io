@@ -45,13 +45,12 @@ a {
 }
 .welcome {
   width: 100%;
-  height: 70%;
+  height: 80%;
   overflow: hidden;
   position: relative;
   background-image: url("https://photos-5.dropbox.com/t/2/AAC3O61IIkHI6ayPB0Jx5m6mupxOQkF43o1JmBLPNLJuBw/12/203727679/jpeg/32x32/1/_/1/2/slothsHDcropV.jpg/EKW5x6MEGD8gAigC/dpTPOnXZA-Cj2LNQ7JDq3B_wQeWs9qGxt5lR6xsgeTY?size=1280x960&size_mode=3");
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 #cont {
   position: relative;
@@ -74,7 +73,7 @@ p {
   width: 70%;
 }
 #bottom {
-  margin-top: 100px;
+  margin-top: 150px;
   text-align: center;
   margin-left: 15%;
   margin-right: 15%;
