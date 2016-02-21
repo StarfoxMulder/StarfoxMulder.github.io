@@ -269,3 +269,58 @@ input:focus {
   float: left;
   clear: both;
 }
+
+/* ABOUT ME */
+
+#codingPage {
+  position: relative;
+  height: 1440px;
+}
+#mainContent {
+  margin: 50px 100px 50px 100px;
+  height: 1440px;
+}
+#intro {
+ margin: 0 0 0 0;
+}
+#sectionbody {
+  margin: 75px 50px 25px 50px;
+  font-size: 24px;
+  position: absolute;
+  width: 75%;
+}
+#atbest {
+  position: absolute;
+  margin: 170px 0 15px 200px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+}
+#period {
+  position: absolute;
+  margin: 158px 0 15px 252px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+}
+#sectionbodyB {
+  font-size: 24px;
+  width: 75%;
+  margin: 164px 0 0 265px;
+  position: absolute;
+}
+#emphasis {
+  text-align: center;
+  font-size: 39px;
+  font-family: Roboto Slab;
+  margin: 170px 0 15px 360px;
+  width: 430px;
+}
+#sectionbody2 {
+  margin: 240px 0 25px 50px;
+  font-size: 24px;
+  width: 75%;
+  position: absolute;
+}
+#ckilink {
+  color: #F04F40;
+  text-decoration: none;
+}
