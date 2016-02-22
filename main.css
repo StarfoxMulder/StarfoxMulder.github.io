@@ -54,7 +54,6 @@ a {
   background-image: url("https://photos-5.dropbox.com/t/2/AAC3O61IIkHI6ayPB0Jx5m6mupxOQkF43o1JmBLPNLJuBw/12/203727679/jpeg/32x32/1/_/1/2/slothsHDcropV.jpg/EKW5x6MEGD8gAigC/dpTPOnXZA-Cj2LNQ7JDq3B_wQeWs9qGxt5lR6xsgeTY?size=1280x960&size_mode=3");
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px dotted black;
 }
 p {
   font-family: 'Montserrat', sans-serif;
@@ -69,7 +68,6 @@ p {
   text-align: center;
   position: absolute;
   width:70%;
-  border: 1px dotted gray;
 }
 #bottom {
   margin-top: 300px;
@@ -78,7 +76,6 @@ p {
   margin-right: 15%;
   position: absolute;
   width:70%;
-  border: 1px solid gray;
 }
 .space {
 	visibility: hidden;
