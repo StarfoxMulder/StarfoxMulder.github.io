@@ -38,6 +38,7 @@ a {
   padding-left: 5px;
   text-decoration: none;
 }
+/*
 #myArt {
   padding: 0 0 0 5px;
   width: 100px;
@@ -45,10 +46,10 @@ a {
   margin-bottom: 0px;
   position: relative;
   text-decoration: none;
-}
+} */
 .welcome {
   width: 100%;
-  height: 100%;
+  height: 90%;
   overflow: hidden;
   position: relative;
   background-image: url("https://photos-5.dropbox.com/t/2/AAC3O61IIkHI6ayPB0Jx5m6mupxOQkF43o1JmBLPNLJuBw/12/203727679/jpeg/32x32/1/_/1/2/slothsHDcropV.jpg/EKW5x6MEGD8gAigC/dpTPOnXZA-Cj2LNQ7JDq3B_wQeWs9qGxt5lR6xsgeTY?size=1280x960&size_mode=3");
@@ -60,7 +61,7 @@ a {
   position: relative;
   width: 100%;
   height: 100%;
-  margin-top: 50px;
+  margin-top: auto;
   opacity: 0.8;
   border: 2px dotted yellow;
 }
