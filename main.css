@@ -289,13 +289,13 @@ input:focus {
 }
 #atbest {
   position: absolute;
-  margin: 115px 0 15px 160px;
+  margin: 117px 0 15px 150px;
   font-family: 'Oswald', sans-serif;
   font-size: 12px;
 }
 #period {
   position: absolute;
-  margin: 115px 0 15px 252px;
+  margin: 115px 0 15px 202px;
   font-family: 'Oswald', sans-serif;
   font-size: 17px;
 }
