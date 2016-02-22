@@ -53,6 +53,7 @@ a {
   background-size: cover;
   border: 1px dotted black;
 }
+/*
 #cont {
   position: relative;
   width: 100%;
@@ -60,7 +61,7 @@ a {
   margin-bottom: 50px;
   opacity: 0.8;
   border: 1px solid black;
-}
+} */
 p {
   font-family: 'Montserrat', sans-serif;
   font-size: 32px;
