@@ -141,8 +141,8 @@ p {
   z-index: 5;
   white-space: nowrap;
   overflow: hidden;
-  -webkit-transform: translateX(-20px);
-  transform: translateX(-20px);
+  -webkit-transform: translateX(-10px);
+  transform: translateX(-10px);
   -webkit-transition: all 400ms ease;
   transition: all 400ms ease;
 }
@@ -153,10 +153,12 @@ p {
   text-transform: uppercase;
   margin-bottom: 2px;
   top: 300px;
+  padding: 0 0 0 5px;
 }
 .collection ul li div a p {
   top: 300px;
   font-size: 13.5px;
+  padding: 0 0 0 5px;
 }
 /*images*/
 .collection ul li:nth-child(1) { background-image: url("https://photos-4.dropbox.com/t/2/AAByRGxZQVU8Mpe3pA2HiiPFmZ3IbiJiXOx9c76p3JCoxg/12/203727679/jpeg/32x32/1/_/1/2/art1.jpg/EKW5x6MEGF0gAigC/ETWLHhB_XOSxpSXeVoIS4LZFeptk2zxd0cZ-TzuKq5c?size=800x600&size_mode=3"); }
