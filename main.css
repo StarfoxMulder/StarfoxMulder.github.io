@@ -2,9 +2,7 @@ body {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   height: 100%;
-  max-width: 1080px;
   width: 100%;
-  max-width: 1080px;
   border: 2px dotted red;
 }
 .navigation {
@@ -18,7 +16,7 @@ body {
   display: inline-block;
   float: right;
   font-family: 'Oswald', sans-serif;
-  font-size: 25px;
+  font-size: 15%;
   padding: 0 19px 0 19px;
   background-color: #0AAAD9;
 }
