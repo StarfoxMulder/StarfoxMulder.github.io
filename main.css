@@ -291,11 +291,11 @@ input:focus {
   position: absolute;
   margin: 117px 0 15px 155px;
   font-family: 'Oswald', sans-serif;
-  font-size: 12px;
+  font-size: 10px;
 }
 #period {
   position: absolute;
-  margin: 113px 0 15px 195px;
+  margin: 111px 0 15px 195px;
   font-family: 'Oswald', sans-serif;
   font-size: 17px;
 }
