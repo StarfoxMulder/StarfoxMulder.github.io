@@ -109,7 +109,7 @@ p {
   vertical-align: bottom;
   position: relative;
   width: 16.666%;
-  height: 450px;
+  height: 400px;
   background-repeat: no-repeat;
   background-position: center center;
   transition: all 500ms ease;
@@ -121,7 +121,7 @@ p {
 }
 .collection ul li div a {
   display: block;
-  height: 450px;
+  height: 400px;
   width: 100%;
   position: relative;
   z-index: 3;
@@ -170,8 +170,8 @@ p {
 .collection ul li:nth-child(9) { background-image: url("https://photos-6.dropbox.com/t/2/AADUstkSWsty0Rs9FkprQDvI3Lt6pMRaQ1WLr2JKmNhQFA/12/203727679/jpeg/32x32/1/_/1/2/art9.jpg/EKW5x6MEGF0gAigC/v91QrdPcr6kz_1tMYaksDMpWE0QJ8wIKxcrMT9lA_ww?size=800x600&size_mode=3"); }
 
 
-.collection ul:hover li { width: 8%; }
-.collection ul:hover li:hover { width: 80%; }
+.collection ul:hover li { width: 6%; }
+.collection ul:hover li:hover { width: 60%; }
 .collection ul:hover li:hover a { background: rgba(0, 0, 0, 0.4); }
 .collection ul:hover li:hover a * {
   opacity: 1;
