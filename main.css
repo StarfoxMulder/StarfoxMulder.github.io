@@ -283,7 +283,7 @@ input:focus {
 }
 #sectionbody {
   margin: 75px 50px 25px 50px;
-  font-size: 19px;
+  font-size: 17px;
   position: absolute;
   width: 75%;
 }
@@ -297,7 +297,7 @@ input:focus {
   position: absolute;
   margin: 158px 0 15px 252px;
   font-family: 'Oswald', sans-serif;
-  font-size: 19px;
+  font-size: 17px;
 }
 #sectionbodyB {
   font-size: 19px;
@@ -307,14 +307,14 @@ input:focus {
 }
 #emphasis {
   text-align: center;
-  font-size: 35px;
+  font-size: 33px;
   font-family: Roboto Slab;
   margin: 170px 0 15px 360px;
   width: 430px;
 }
 #sectionbody2 {
   margin: 240px 0 25px 50px;
-  font-size: 19px;
+  font-size: 17px;
   width: 75%;
   position: absolute;
 }
