@@ -51,7 +51,7 @@ a {
   max-height: 2000px;
   overflow: hidden;
   position: relative;
-  background-image: url("https://photos-5.dropbox.com/t/2/AAC3O61IIkHI6ayPB0Jx5m6mupxOQkF43o1JmBLPNLJuBw/12/203727679/jpeg/32x32/1/_/1/2/slothsHDcropV.jpg/EKW5x6MEGD8gAigC/dpTPOnXZA-Cj2LNQ7JDq3B_wQeWs9qGxt5lR6xsgeTY?size=1280x960&size_mode=3");
+  background-image: url("https://photos-1.dropbox.com/t/2/AAC6HcvAtkasv8_hul8vDWgIWasfnac8a2OKvTgflBLj2Q/12/203727679/jpeg/32x32/1/_/1/2/slothsHDcropVI.jpg/EKW5x6MEGF4gAigC/y0GZEkV1UmuHgO1yJsnbOgfeVkNiU69C0MNnOqrL14o?size=800x600&size_mode=3");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -290,7 +290,7 @@ input:focus {
 }
 #atbest {
   position: absolute;
-  margin: 170px 0 15px 200px;
+  margin: 169px 0 15px 200px;
   font-family: 'Oswald', sans-serif;
   font-size: 15px;
 }
