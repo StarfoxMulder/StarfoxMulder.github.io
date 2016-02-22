@@ -272,11 +272,11 @@ input:focus {
 
 #codingPage {
   position: relative;
-  height: 1440px;
+  height: 1040px;
 }
 #mainContent {
   margin: 50px 100px 50px 100px;
-  height: 1440px;
+  height: 1040px;
 }
 #intro {
  margin: 0 0 0 0;
@@ -289,7 +289,7 @@ input:focus {
 }
 #atbest {
   position: absolute;
-  margin: 169px 0 15px 200px;
+  margin: 110px 0 15px 200px;
   font-family: 'Oswald', sans-serif;
   font-size: 12px;
 }
@@ -300,20 +300,20 @@ input:focus {
   font-size: 17px;
 }
 #sectionbodyB {
-  font-size: 19px;
+  font-size: 17px;
   width: 75%;
-  margin: 164px 0 0 265px;
+  margin: 114px 0 0 265px;
   position: absolute;
 }
 #emphasis {
   text-align: center;
-  font-size: 33px;
+  font-size: 30px;
   font-family: Roboto Slab;
-  margin: 170px 0 15px 360px;
+  margin: 150px 0 15px 340px;
   width: 430px;
 }
 #sectionbody2 {
-  margin: 240px 0 25px 50px;
+  margin: 200px 0 25px 50px;
   font-size: 17px;
   width: 75%;
   position: absolute;
