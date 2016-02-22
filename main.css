@@ -272,11 +272,11 @@ input:focus {
 
 #codingPage {
   position: relative;
-  height: 1040px;
+  height: 850px;
 }
 #mainContent {
   margin: 50px 100px 50px 100px;
-  height: 1040px;
+  height: 850px;
 }
 #intro {
  margin: 0 0 0 0;
@@ -289,20 +289,20 @@ input:focus {
 }
 #atbest {
   position: absolute;
-  margin: 110px 0 15px 200px;
+  margin: 115px 0 15px 160px;
   font-family: 'Oswald', sans-serif;
   font-size: 12px;
 }
 #period {
   position: absolute;
-  margin: 158px 0 15px 252px;
+  margin: 115px 0 15px 252px;
   font-family: 'Oswald', sans-serif;
   font-size: 17px;
 }
 #sectionbodyB {
   font-size: 17px;
   width: 75%;
-  margin: 114px 0 0 265px;
+  margin: 115px 0 0 245px;
   position: absolute;
 }
 #emphasis {
