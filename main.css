@@ -289,20 +289,20 @@ input:focus {
 }
 #atbest {
   position: absolute;
-  margin: 117px 0 15px 150px;
+  margin: 117px 0 15px 152px;
   font-family: 'Oswald', sans-serif;
   font-size: 12px;
 }
 #period {
   position: absolute;
-  margin: 115px 0 15px 202px;
+  margin: 114px 0 15px 200px;
   font-family: 'Oswald', sans-serif;
   font-size: 17px;
 }
 #sectionbodyB {
   font-size: 17px;
   width: 75%;
-  margin: 115px 0 0 245px;
+  margin: 115px 0 0 215px;
   position: absolute;
 }
 #emphasis {
