@@ -93,7 +93,7 @@ p {
 .collection {
   width: 100%;
   max-width: 1080px;
-  height: 400px;
+  height: 370px;
   overflow: hidden;
   margin: 50px auto;
 }
@@ -108,8 +108,8 @@ p {
   display: table-cell;
   vertical-align: bottom;
   position: relative;
-  width: 16.666%;
-  height: 400px;
+  width: 6.666%;
+  height: 370px;
   background-repeat: no-repeat;
   background-position: center center;
   transition: all 500ms ease;
@@ -121,7 +121,7 @@ p {
 }
 .collection ul li div a {
   display: block;
-  height: 400px;
+  height: 370px;
   width: 100%;
   position: relative;
   z-index: 3;
