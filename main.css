@@ -87,6 +87,17 @@ p {
   height: 37px;
 }
 
+.footer p{
+  font-size: .7em;	
+}
+.footer a{
+  font-size: .7em;
+  text-decoration: none;
+}
+.footer a:hover {
+  opacity: 0.4;
+  transition-duration: 0.3s;
+}
 /* ART PAGE */
 
 .collection {
