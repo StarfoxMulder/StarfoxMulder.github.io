@@ -90,7 +90,7 @@ p {
 #donate {
   font-size: .9em;
   font-family: 'Oswald', sans-serif;
-  margin-left: 15%;
+  margin-left: 5%;
   margin-top: 40%;
 }
 .footer a{
@@ -98,7 +98,6 @@ p {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   margin-left: 5%;
-  margin-top: 35%;
 }
 .footer a:hover {
   opacity: 0.4;
