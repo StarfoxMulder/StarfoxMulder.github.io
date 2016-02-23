@@ -95,6 +95,7 @@ p {
   font-size: .9em;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+  margin-left: 10px;
 }
 .footer a:hover {
   opacity: 0.4;
