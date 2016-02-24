@@ -308,14 +308,12 @@ a {
 #form label {
   font-size: 3vh;
   font-family: 'Oswald', sans-serif;
-  margin: 5vh 3vh 5vh 3vw;
   text-align: right;
   width: 20vw;
   height: 4vh;
 }
 input {
   width: 30vw;
-  margin: 1vh 0 2vh 0;
   font-family: 'Oswald', sans-serif;
   padding: 0 0 0 2vw;
   height: 5vh;
@@ -336,7 +334,6 @@ input:focus {
 #message {
   width: 40vw;
   height: 30vh;
-  margin: 5vh 3vh 5vh 3vw;
   padding: 0 0 0 2vw;
   font-family: 'Oswald', sans-serif;
 }
