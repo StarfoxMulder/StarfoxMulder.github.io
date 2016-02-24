@@ -104,9 +104,9 @@ body {
 .navigation {
   background-color: #0AAAD9;
   opacity: .8;
-  height: 8vh;
+  height: 6vh;
   display: block;
-  float:left;
+  float: left;
 }
 .navigation div{
   display: inline-block;
@@ -137,7 +137,7 @@ a {
   overflow: hidden;
   background-image: url("https://photos-5.dropbox.com/t/2/AADQRUOpFMNp80nfZMVTMLhurj6i66xPgsLGuZ4DssTngA/12/203727679/jpeg/32x32/1/_/1/2/slothHDcropXb.jpg/EKW5x6MEGGQgAigC/lJn9gKJFfw5VXR3unPmpzXcDaYYBhf5H1EpfBgjjIZc?size=800x600&size_mode=3");
   background-size: cover;
-  height: 84vh;
+  height: 88vh;
   zoom: 1;
 }
 p {
@@ -162,7 +162,7 @@ p {
   background-color: #0AAAD9;
   width: 100%; 
   opacity: .8;
-  height: 8vh;
+  height: 6vh;
   display: block;
 	float:left;
 }
