@@ -399,25 +399,17 @@ input:focus {
 }
 #sectionbody {
   font-size: 3vh;
-}
-#atbest {
-  font-family: 'Oswald', sans-serif;
-  font-size: 2.2vh;
-}
-#period {
-  font-size: 3vh;
-}
-#sectionbodyB {
-  font-size: 3vh;
+  margin-bottom: 0;
 }
 #emphasis {
   text-align: center;
   font-size: 8vh;
   font-family: 'Roboto Slab', sans-serif;
-  margin: 0 0 0 0;
+  margin: -2vh 0 -2vh 0;
 }
 #sectionbody2 {
   font-size: 3vh;
+  margin-top: 0;
 }
 #ckilink {
   color: #F04F40;
