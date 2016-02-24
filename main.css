@@ -323,19 +323,24 @@ input:focus {
   height: 5vh;
 }
 #name {
-
+  float: left;
+  clear: both;
 }
 #email{
-  
+  float: left;
+  clear: both;
 }
 #subject {
-
+  float: left;
+  clear: both;
 }
-#message {
+textarea.#message {
   width: 40vw;
   height: 30vh;
   padding: 0 0 0 2vw;
   font-family: 'Oswald', sans-serif;
+  float: left;
+  clear: both;
 }
 #submit {
   width: 31vw;
