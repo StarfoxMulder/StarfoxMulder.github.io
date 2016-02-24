@@ -394,6 +394,7 @@ input:focus {
 }
 #intro {
  margin: 0 0 0 0;
+ font-size: 6vh;
 }
 #sectionbody {
   font-size: 3vh;
