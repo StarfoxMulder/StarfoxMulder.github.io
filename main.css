@@ -343,13 +343,15 @@ input:focus {
 #submit {
   width: 31vw;
   font-family: 'Oswald', sans-serif;
-  font-size: 6vh;  
-  height: 9vh;
-  padding: 0 0 2vh 0;
+  font-size: 2vh;  
+  height: 3vh;
+  padding: 0 0 1vh 0;
+  text-align: center;
 }
 #submit:hover{
   opacity: .8;
   background-color: #0AAAD9;
+  text-align: center;
 }
 #contme {
   font-family: 'Oswald', sans-serif;
