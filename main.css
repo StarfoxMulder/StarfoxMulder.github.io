@@ -96,7 +96,7 @@
 		width: 100%; 
 	}
 }
-/* Welcome/default page layout */
+/* default page layout */
 body {
  height: 100%;
  width:100%;
@@ -115,6 +115,7 @@ body {
   font-size: 1.7em;
   padding: 0 2% 0 2%;
   background-color: #0AAAD9;
+  height: 6vh;
 }
 .navigation div:hover {
   display: inline-block;
@@ -123,6 +124,7 @@ body {
   padding: 0 2% 0 2%;
   opacity: 0.4;
   transition-duration: 0.3s;
+  height: 6vh;
 }
 a {
   color: black;
@@ -132,31 +134,6 @@ a {
   float: left;
   padding-left: 1%;
   text-decoration: none;
-}
-.welcome {
-  overflow: hidden;
-  background-image: url("https://photos-6.dropbox.com/t/2/AAAYy8WN895mktEnGHgkifpLCoLUJuhN7c55of6lfjEoPw/12/203727679/jpeg/32x32/1/_/1/2/slothHDcropXII.jpg/EKW5x6MEGGQgAigC/OMpOi7XXeuYVzwrg9dB06sBpl0kY_ehjS86kaU1RUXE?size=800x600&size_mode=3");
-  background-size: cover;
-  height: 88vh;
-  zoom: 1;
-}
-.welcome p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2em;
-  color: #011419;
-}
-#top {
-  margin-top: 10%;
-  text-align: center;
-  display: block;
-	float: left;
-}
-#bottom {
-  margin-top: 5%;
-  margin-bottom: 10%;
-  text-align: center;
-	display: block;
-	float: left;
 }
 .footer {
   background-color: #0AAAD9;
@@ -182,11 +159,38 @@ a {
   transition-duration: 0.3s;
 }
 
+/* Prestia/Welcome Page */
+
+.welcome {
+  overflow: hidden;
+  background-image: url("https://photos-6.dropbox.com/t/2/AAAYy8WN895mktEnGHgkifpLCoLUJuhN7c55of6lfjEoPw/12/203727679/jpeg/32x32/1/_/1/2/slothHDcropXII.jpg/EKW5x6MEGGQgAigC/OMpOi7XXeuYVzwrg9dB06sBpl0kY_ehjS86kaU1RUXE?size=800x600&size_mode=3");
+  background-size: cover;
+  height: 88vh;
+  zoom: 1;
+}
+.welcome p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  color: #011419;
+}
+#top {
+  margin-top: 10vh;
+  text-align: center;
+  display: block;
+  float: left;
+}
+#bottom {
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  text-align: center;
+  display: block;
+  float: left;
+}
+
 /* ART PAGE */
 
 .collection {
   width: 100%;
-  max-width: 1080px;
   height: 60vh;
   overflow: hidden;
   margin: 0 15vw 0 15vw;
