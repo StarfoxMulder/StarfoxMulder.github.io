@@ -175,14 +175,13 @@ a {
   color: #011419;
 }
 #top {
-  margin-top: 10vh;
+  margin-top: 20vh;
   text-align: center;
   display: block;
   float: left;
 }
 #bottom {
-  margin-top: 5vh;
-  margin-bottom: 10vh;
+  margin-top: 25vh;
   text-align: center;
   display: block;
   float: left;
