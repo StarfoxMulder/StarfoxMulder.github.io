@@ -324,15 +324,15 @@ input:focus {
 }
 #name {
   float: left;
-  clear: both;
+  clear: right;
 }
 #email{
   float: left;
-  clear: both;
+  clear: right;
 }
 #subject {
   float: left;
-  clear: both;
+  clear: right;
 }
 #message {
   width: 40vw;
@@ -340,7 +340,7 @@ input:focus {
   padding: 0 0 0 2vw;
   font-family: 'Oswald', sans-serif;
   float: left;
-  clear: both;
+  clear: right;
 }
 #submit {
   width: 31vw;
