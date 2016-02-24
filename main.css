@@ -301,35 +301,28 @@ a {
 /* CONTACT PAGE */
 
 #form {
-  margin-top: 75px;
-  margin-left: 11%;
-  margin-right: 11%;
-  width: 70%;
-  height: 500px;
+  margin-top: 10vh;
+  height: 60vh;
   list-style: none;
-  position: relative;
 }
 #form label {
-  font-size: 25px;
+  font-size: 6vh;
   font-family: 'Oswald', sans-serif;
-  margin: 22px 15px 22px 15px;
+  margin: 5vh 3vh 5vh 3vw;
   text-align: right;
-  width: 200px;
-  height: 30px;
-  position: absolute;
+  width: 20vw;
+  height: 7vh;
 }
 input {
-  width: 480px;
-  margin: 5px 0 10px 225px;
+  width: 30vw;
+  margin: 1vh 0 2vh 0;
   font-family: 'Oswald', sans-serif;
-  padding: 0 0 0 15px;
-  position: absolute;
-  height: 30px;
+  padding: 0 0 0 2vw;
+  height: 5vh;
 }
 input:focus {
-  padding: 0 0 0 15px;
-  width: 60%;
-  height: 30px;
+  padding: 0 0 0 2vw;
+  height: 5vh;
 }
 #name {
 
@@ -341,22 +334,18 @@ input:focus {
 
 }
 #message {
-  width: 61%;
-  height: 300px;
-  margin: 5px 0 10px 225px;
-  position: absolute;
-  padding: 0 0 0 15px;
+  width: 40vw;
+  height: 30vh;
+  margin: 5vh 3vh 5vh 3vw;
+  padding: 0 0 0 2vw;
   font-family: 'Oswald', sans-serif;
-  position: absolute;
 }
 #submit {
-  width: 31%;
+  width: 31vw;
   font-family: 'Oswald', sans-serif;
-  font-size: 25px;  
-  height: 40px;
-  margin-left: 365px;
-  margin-top: 306px;
-  padding: 0 0 6px 0;
+  font-size: 6vh;  
+  height: 9vh;
+  padding: 0 0 2vh 0;
 }
 #submit:hover{
   opacity: .8;
@@ -364,19 +353,11 @@ input:focus {
 }
 #contme {
   font-family: 'Oswald', sans-serif;
-  font-size: 25px;  
-  margin-top: 30px;
-  margin-left: 60px;
+  font-size: 6vh;  
+  margin-top: 5vh;
+  margin-left: 5vh;
   float: left;
   clear: both;
-}
-#codingPage {
-  position: relative;
-  height: 820px;
-}
-#mainContent {
-  margin: 50px 100px 50px 100px;
-  height: 820px;
 }
 
 /* ABOUT ME */
@@ -385,7 +366,7 @@ input:focus {
   overflow: hidden;
   background-image: url('https://photos-6.dropbox.com/t/2/AAAYy8WN895mktEnGHgkifpLCoLUJuhN7c55of6lfjEoPw/12/203727679/jpeg/32x32/1/_/1/2/slothHDcropXII.jpg/EKW5x6MEGGQgAigC/OMpOi7XXeuYVzwrg9dB06sBpl0kY_ehjS86kaU1RUXE?size=800x600&size_mode=3');
   background-size: cover;
-  height: 180vh;
+  height: 165vh;
   zoom: 1;
 }
 .longpage p {
@@ -415,3 +396,6 @@ input:focus {
   color: #F04F40;
   text-decoration: none;
 }
+
+/* Certifications Page */
+
