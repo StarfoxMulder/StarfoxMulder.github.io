@@ -1,4 +1,4 @@
-/* Grid setup */
+* Grid setup */
 
 .span_8_of_8 {
 	width: 100%;
@@ -99,7 +99,7 @@
 /* default page layout */
 body {
  height: 100%;
- width: 100%;
+ width:100%;
 }
 .navigation {
   background-color: #0AAAD9;
@@ -126,29 +126,14 @@ body {
   transition-duration: 0.3s;
   height: 6vh;
 }
+a {
+  color: black;
+  text-decoration: none;
+}
 #prestia {
   float: left;
   padding-left: 1%;
-}
-#prestia a {
   text-decoration: none;
-  color: black;
-}
-#myart a {
-  color: black;
-  text-decoration: none;
-}
-#certifications a {
- color: #9CF2FF;
- text-decoration: none;
-}
-#aboutme a {
- color: #9CF2FF;
- text-decoration: none;
-}
-#contact a {
- color: #9CF2FF;
- text-decoration: none;
 }
 .footer {
   background-color: #0AAAD9;
