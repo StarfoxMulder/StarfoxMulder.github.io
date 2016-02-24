@@ -395,6 +395,7 @@ input:focus {
 #intro {
  margin: 0 0 0 0;
  font-size: 6vh;
+ font-family: 'Montserrat', sans-serif;
 }
 #sectionbody {
   font-size: 3vh;
