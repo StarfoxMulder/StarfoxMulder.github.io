@@ -99,7 +99,7 @@
 /* default page layout */
 body {
  height: 100%;
- width:100%;
+ width: 100%;
 }
 .navigation {
   background-color: #0AAAD9;
@@ -126,20 +126,27 @@ body {
   transition-duration: 0.3s;
   height: 6vh;
 }
-a {
-  color: black;
-  text-decoration: none;
-}
 #prestia {
   float: left;
   padding-left: 1%;
   text-decoration: none;
+  color: black;
 }
-#contact {
- color: #9CF2FF;	
+#myart {
+  color: black;
+  text-decoration: none;
 }
 #certifications {
- color: #9CF2FF;	
+ color: #9CF2FF;
+ text-decoration: none;
+}
+#aboutme{
+ color: #9CF2FF;
+ text-decoration: none;
+}
+#contact {
+ color: #9CF2FF;
+ text-decoration: none;
 }
 .footer {
   background-color: #0AAAD9;
