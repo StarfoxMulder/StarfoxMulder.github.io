@@ -140,7 +140,7 @@ a {
   height: 88vh;
   zoom: 1;
 }
-p {
+.welcome p {
   font-family: 'Montserrat', sans-serif;
   font-size: 2em;
   color: #011419;
@@ -169,7 +169,6 @@ p {
 #donate {
   font-size: .9em;
   font-family: 'Oswald', sans-serif;
-  padding-left: 3%;
 }
 .footer a{
   font-size: .9em;
