@@ -334,7 +334,7 @@ input:focus {
   float: left;
   clear: both;
 }
-textarea.#message {
+#message {
   width: 40vw;
   height: 30vh;
   padding: 0 0 0 2vw;
