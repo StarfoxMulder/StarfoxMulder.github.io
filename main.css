@@ -1,4 +1,4 @@
-* Grid setup */
+/* Grid setup */
 
 .span_8_of_8 {
 	width: 100%;
@@ -308,12 +308,14 @@ a {
 #form label {
   font-size: 3vh;
   font-family: 'Oswald', sans-serif;
+  margin: 5vh 3vh 5vh 3vw;
   text-align: right;
   width: 20vw;
   height: 4vh;
 }
 input {
   width: 30vw;
+  margin: 1vh 0 2vh 0;
   font-family: 'Oswald', sans-serif;
   padding: 0 0 0 2vw;
   height: 5vh;
@@ -323,41 +325,35 @@ input:focus {
   height: 5vh;
 }
 #name {
-  float: left;
-  clear: right;
+
 }
 #email{
-  float: left;
-  clear: right;
+  
 }
 #subject {
-  float: left;
-  clear: right;
+
 }
 #message {
   width: 40vw;
   height: 30vh;
+  margin: 5vh 3vh 5vh 3vw;
   padding: 0 0 0 2vw;
   font-family: 'Oswald', sans-serif;
-  float: left;
-  clear: right;
 }
 #submit {
   width: 31vw;
   font-family: 'Oswald', sans-serif;
-  font-size: 2vh;  
-  height: 3vh;
-  padding: 0 0 1vh 0;
-  text-align: center;
+  font-size: 6vh;  
+  height: 9vh;
+  padding: 0 0 2vh 0;
 }
 #submit:hover{
   opacity: .8;
   background-color: #0AAAD9;
-  text-align: center;
 }
 #contme {
   font-family: 'Oswald', sans-serif;
-  font-size: 4vh;  
+  font-size: 6vh;  
   margin-top: 5vh;
   margin-left: 5vh;
   float: left;
@@ -402,4 +398,3 @@ input:focus {
 }
 
 /* Certifications Page */
-
