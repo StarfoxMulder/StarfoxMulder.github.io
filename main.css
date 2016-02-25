@@ -1,4 +1,4 @@
-/* Grid setup */
+* Grid setup */
 
 .span_8_of_8 {
 	width: 100%;
@@ -300,22 +300,29 @@ a {
 
 /* CONTACT PAGE */
 
+.contactform {
+  content: '';
+  overflow: hidden;
+  background-image: url('https://photos-6.dropbox.com/t/2/AAAYy8WN895mktEnGHgkifpLCoLUJuhN7c55of6lfjEoPw/12/203727679/jpeg/32x32/1/_/1/2/slothHDcropXII.jpg/EKW5x6MEGGQgAigC/OMpOi7XXeuYVzwrg9dB06sBpl0kY_ehjS86kaU1RUXE?size=800x600&size_mode=3');
+  background-size: cover;
+  height: 88vh;
+  zoom: 1;
+}
+
 #form {
   margin-top: 10vh;
-  height: 60vh;
+  height: 75vh;
   list-style: none;
 }
 #form label {
   font-size: 3vh;
   font-family: 'Oswald', sans-serif;
-  margin: 5vh 3vh 5vh 3vw;
   text-align: right;
   width: 20vw;
   height: 4vh;
 }
 input {
   width: 30vw;
-  margin: 1vh 0 2vh 0;
   font-family: 'Oswald', sans-serif;
   padding: 0 0 0 2vw;
   height: 5vh;
@@ -325,35 +332,41 @@ input:focus {
   height: 5vh;
 }
 #name {
-
+  float: left;
+  clear: right;
 }
 #email{
-  
+  float: left;
+  clear: right;
 }
 #subject {
-
+  float: left;
+  clear: right;
 }
 #message {
   width: 40vw;
   height: 30vh;
-  margin: 5vh 3vh 5vh 3vw;
   padding: 0 0 0 2vw;
   font-family: 'Oswald', sans-serif;
+  float: left;
+  clear: right;
 }
 #submit {
-  width: 31vw;
+  width: 25vw;
   font-family: 'Oswald', sans-serif;
-  font-size: 6vh;  
-  height: 9vh;
-  padding: 0 0 2vh 0;
+  font-size: 2vh;  
+  height: 2vh;
+  padding: 0 0 1vh 0;
+  text-align: center;
 }
 #submit:hover{
   opacity: .8;
   background-color: #0AAAD9;
+  text-align: center;
 }
 #contme {
   font-family: 'Oswald', sans-serif;
-  font-size: 6vh;  
+  font-size: 4vh;  
   margin-top: 5vh;
   margin-left: 5vh;
   float: left;
@@ -398,3 +411,4 @@ input:focus {
 }
 
 /* Certifications Page */
+
