@@ -99,12 +99,12 @@
 /* default page layout */
 body {
  height: 100%;
- width:100%;
+ width: 100%;
 }
 .navigation {
   background-color: #0AAAD9;
   opacity: .8;
-  height: 6vh;
+  height: 7vh;
   display: block;
   float: left;
 }
@@ -112,10 +112,10 @@ body {
   display: inline-block;
   float: right;
   font-family: 'Oswald', sans-serif;
-  font-size: 4vh;
+  font-size: 5vh;
   padding: 0 2% 0 2%;
   background-color: #0AAAD9;
-  height: 6vh;
+  height: 7vh;
 }
 .navigation div:hover {
   display: inline-block;
@@ -124,12 +124,22 @@ body {
   padding: 0 2% 0 2%;
   opacity: 0.4;
   transition-duration: 0.3s;
-  height: 6vh;
+  height: 7vh;
 }
 a {
   color: black;
   text-decoration: none;
 }
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+/*
+a:unvisited {
+  color: black;
+  text-decoration: none;
+}
+*/
 #prestia {
   float: left;
   padding-left: 1%;
@@ -139,7 +149,7 @@ a {
   background-color: #0AAAD9;
   width: 100%; 
   opacity: .8;
-  height: 6vh;
+  height: 7vh;
   display: block;
   float: left;
 }
@@ -147,18 +157,21 @@ a {
   font-size: 2.2vh;
   font-family: 'Oswald', sans-serif;
   padding-left: 2vw;
+  padding-top: 2vh;
 }
 .footer a{
   font-size: 2.2vh;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   margin-left: 2%;
-  padding: .95vh 0 .95vh 0;
+  padding: .5vh 0 0 0;
+  color: black;
 }
 .footer a:hover {
   opacity: 0.4;
   transition-duration: 0.3s;
   padding: .95vh 0 .95vh 0;
+  text-decoration: none;
 }
 
 /* Prestia/Welcome Page */
@@ -299,53 +312,87 @@ a {
 }
 
 /* CONTACT PAGE */
-
+.contactform {
+  content: '';
+  overflow: hidden;
+  background-image: url('https://photos-6.dropbox.com/t/2/AAAYy8WN895mktEnGHgkifpLCoLUJuhN7c55of6lfjEoPw/12/203727679/jpeg/32x32/1/_/1/2/slothHDcropXII.jpg/EKW5x6MEGGQgAigC/OMpOi7XXeuYVzwrg9dB06sBpl0kY_ehjS86kaU1RUXE?size=800x600&size_mode=3');
+  background-size: cover;
+  height: 175vh;
+  zoom: 1;
+}
+.contactform {
+}
+.formcontainer{
+  margin-left: 30vw;
+}
+.formcontainer2{
+  margin-top: -15vh;
+  margin-left: 10vw;
+}
 #form {
-  margin-top: 10vh;
-  height: 60vh;
+  margin-top: 6vh;
+  marglin-left: 40vw;
+  height: 80vh;
   list-style: none;
 }
-#form label {
-  font-size: 3vh;
+.control-label {
+  font-size: 4vh;
   font-family: 'Oswald', sans-serif;
-  margin: 5vh 3vh 5vh 3vw;
-  text-align: right;
-  width: 20vw;
-  height: 4vh;
-}
-input {
-  width: 30vw;
-  margin: 1vh 0 2vh 0;
-  font-family: 'Oswald', sans-serif;
-  padding: 0 0 0 2vw;
+  margin: 4vh 1vw 1vh 1vw;
+  text-align: left;
+  width: 15vw;
   height: 5vh;
+  padding: 1vh 0 0 0;
 }
+
 input:focus {
   padding: 0 0 0 2vw;
   height: 5vh;
 }
 #name {
-
+  width: 30vw;
+  margin: 3vh 0 1vh 1.7vw;
+  font-family: 'Oswald', sans-serif;
+  padding: 0 0 0 1vw;
+  height: 6vh;
+  border-radius: .5em;
 }
 #email{
-  
+  width: 30vw;
+  margin: 3vh 0 1vh 1.7vw;
+  font-family: 'Oswald', sans-serif;
+  padding: 0 0 0 1vw;
+  height: 6vh;
+  border-radius: .5em;
 }
-#subject {
 
+#subject {
+  width: 30vw;
+  margin: 3vh 0 1vh 1.7vw;
+  font-family: 'Oswald', sans-serif;
+  padding: 0 0 0 1vw;
+  height: 6vh;
+  border-radius: .5em;
 }
 #message {
   width: 40vw;
-  height: 30vh;
-  margin: 5vh 3vh 5vh 3vw;
-  padding: 0 0 0 2vw;
+  height: 60vh;
+  margin: -12vh -35vw -10vh 31.7vw;
+  padding: .55vh 0 0 1vw;
   font-family: 'Oswald', sans-serif;
+  border-radius: 1em;
+}
+.messagelabel {
+  margin: -8vh 0 0 31vw;
 }
 #submit {
-  width: 31vw;
+  width: 30vw;
   font-family: 'Oswald', sans-serif;
   font-size: 6vh;  
   height: 9vh;
   padding: 0 0 2vh 0;
+  border-radius: .3em;
+  margin: 10vh 0 0 37vw;
 }
 #submit:hover{
   opacity: .8;
