@@ -105,6 +105,7 @@ body {
   background-color: #0AAAD9;
   opacity: .8;
   height: 7vh;
+  max-height: 35px;
   display: block;
   float: left;
 }
@@ -116,6 +117,7 @@ body {
   padding: 0 2% 0 2%;
   background-color: #0AAAD9;
   height: 7vh;
+  max-height: 35px;
 }
 .navigation div:hover {
   display: inline-block;
@@ -125,6 +127,7 @@ body {
   opacity: 0.4;
   transition-duration: 0.3s;
   height: 7vh;
+  max-height: 35px;
 }
 a {
   color: black;
@@ -150,6 +153,7 @@ a:unvisited {
   width: 100%; 
   opacity: .8;
   height: 7vh;
+  max-height: 35px;
   display: block;
   float: left;
 }
