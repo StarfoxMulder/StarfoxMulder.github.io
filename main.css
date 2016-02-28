@@ -95,6 +95,12 @@
 	.span_1_of_8 {
 		width: 100%; 
 	}
+	a {
+	font-size: 1em;
+	}
+	p {
+	font-size: 1.5em;
+	}
 }
 /* default page layout */
 body {
@@ -115,7 +121,7 @@ body {
   font-size: 2em;
   padding: 0 3% 0 3%;
   background-color: #0AAAD9;
-  height: 7vh;
+  height: 6vh;
 }
 .navigation div:hover {
   display: inline-block;
