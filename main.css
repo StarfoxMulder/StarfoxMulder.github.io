@@ -255,6 +255,14 @@ a:unvisited {
   height: 88vh;
   zoom: 1;
 }
+.welcome: before {
+  content: '';
+  overflow: hidden;
+  background-image: url('https://photos-6.dropbox.com/t/2/AAAYy8WN895mktEnGHgkifpLCoLUJuhN7c55of6lfjEoPw/12/203727679/jpeg/32x32/1/_/1/2/slothHDcropXII.jpg/EKW5x6MEGGQgAigC/OMpOi7XXeuYVzwrg9dB06sBpl0kY_ehjS86kaU1RUXE?size=800x600&size_mode=3');
+  background-size: cover;
+  height: 88vh;
+  zoom: 1;
+}
 .welcome p {
   font-family: 'Montserrat', sans-serif;
   font-size: 2em;
