@@ -1,6 +1,6 @@
 a {
   font-size: 1em;
-	color: black;
+  color: black;
   text-decoration: none;
 	}
 a:visited {
@@ -8,18 +8,15 @@ a:visited {
   text-decoration: none;
   }
 p {
-	font-size: 1.5em;
-	}
+  font-size: 1.5em;
+  }
 .header {
   background-color: #0AAAD9;
   opacity: .8;
   height: 6vh;
-  display: block;
-  float: left;
   }
 .header li{
   display: inline-block;
-  float: right;
   font-family: 'Oswald', sans-serif;
   font-size: 2em;
   padding: 0 3% 0 3%;
@@ -28,7 +25,6 @@ p {
   }
 .header li:hover {
   display: inline-block;
-  float: right;
   font-family: 'Oswald', sans-serif;
   padding: 0 3% 0 3%;
   opacity: 0.4;
@@ -40,8 +36,6 @@ p {
   width: 100%; 
   opacity: .8;
   height: 6vh;
-  display: block;
-  float: left;
   }
 #donate {
   font-size: 2.2vh;
@@ -69,13 +63,6 @@ p {
 body {
  height: 100%;
  width: 100%;
- }
-.navigation {
- background-color: #0AAAD9;
- opacity: .8;
- height: 6vh;
- display: block;
- float: left;
  }
 a {
  color: black;
@@ -122,12 +109,10 @@ a:unvisited {
 #top {
   margin-top: 20vh;
   text-align: center;
-  display: block;
   margin-left: 8vw;
 }
 #bottom {
   margin-top: 25vh;
   text-align: center;
-  display: block;
   margin-left: 8vw;
 }
