@@ -1,0 +1,178 @@
+a {
+  font-size: 1em;
+	color: black;
+  text-decoration: none;
+	}
+a:visited {
+  color: black;
+  text-decoration: none;
+  }
+p {
+	font-size: 1.5em;
+	}
+.navigation {
+  background-color: #0AAAD9;
+  opacity: .8;
+  height: 6vh;
+  display: block;
+  float: left;
+  }
+.navigation div{
+  display: inline-block;
+  float: right;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+  padding: 0 3% 0 3%;
+  background-color: #0AAAD9;
+  height: 6vh;
+  }
+.navigation div:hover {
+  display: inline-block;
+  float: right;
+  font-family: 'Oswald', sans-serif;
+  padding: 0 3% 0 3%;
+  opacity: 0.4;
+  transition-duration: 0.3s;
+  height: 6vh;
+  }
+.footer {
+  background-color: #0AAAD9;
+  width: 100%; 
+  opacity: .8;
+  height: 6vh;
+  display: block;
+  float: left;
+  }
+#donate {
+  font-size: 2.2vh;
+  font-family: 'Oswald', sans-serif;
+  padding-left: 2vw;
+  padding-top: 2vh;
+  }
+.footer a{
+  font-size: 2.2vh;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 2%;
+  padding: .5vh 0 0 0;
+  color: black;
+  }
+.footer a:hover {
+  opacity: 0.4;
+  transition-duration: 0.3s;
+  padding: .95vh 0 .95vh 0;
+  text-decoration: none;
+  }
+  
+/* default page layout */
+
+body {
+ height: 100%;
+ width: 100%;
+ }
+.navigation {
+ background-color: #0AAAD9;
+ opacity: .8;
+ height: 6vh;
+ display: block;
+ float: left;
+ }
+.navigation div{
+ display: inline-block;
+ float: right;
+ font-family: 'Oswald', sans-serif;
+ font-size: 2em;
+ padding: 0 3% 0 3%;
+ background-color: #0AAAD9;
+ height: 6vh;
+ }
+.navigation div:hover {
+ display: inline-block;
+ float: right;
+ font-family: 'Oswald', sans-serif;
+ padding: 0 3% 0 3%;
+ opacity: 0.4;
+ transition-duration: 0.3s;
+ height: 6vh;
+ }
+a {
+ color: black;
+ text-decoration: none;
+ }
+a:visited {
+ color: black;
+ text-decoration: none;
+ }
+a:unvisited {
+ color: black;
+ text-decoration: none;
+ }
+#prestia {
+  float: left;
+  padding-left: 1%;
+  text-decoration: none;
+ }
+.footer {
+  background-color: #0AAAD9;
+  width: 100%; 
+  opacity: .8;
+  height: 6vh;
+  display: block;
+  float: left;
+ }
+#donate {
+  font-size: 2.2vh;
+  font-family: 'Oswald', sans-serif;
+  padding-left: 2vw;
+  padding-top: 2vh;
+ }
+.footer a{
+  font-size: 2.2vh;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 2%;
+  padding: .5vh 0 0 0;
+  color: black;
+ }
+.footer a:hover {
+  opacity: 0.4;
+  transition-duration: 0.3s;
+  padding: .95vh 0 .95vh 0;
+  text-decoration: none;
+ }
+
+/* Prestia/Welcome Page */
+
+.welcome {
+  content: '';
+  overflow: hidden;
+  background-image: url('https://photos-6.dropbox.com/t/2/AAAYy8WN895mktEnGHgkifpLCoLUJuhN7c55of6lfjEoPw/12/203727679/jpeg/32x32/1/_/1/2/slothHDcropXII.jpg/EKW5x6MEGGQgAigC/OMpOi7XXeuYVzwrg9dB06sBpl0kY_ehjS86kaU1RUXE?size=800x600&size_mode=3');
+  background-size: cover;
+  height: 88vh;
+  zoom: 1;
+}
+.welcome: before {
+  content: '';
+  overflow: hidden;
+  background-image: url('https://photos-6.dropbox.com/t/2/AAAYy8WN895mktEnGHgkifpLCoLUJuhN7c55of6lfjEoPw/12/203727679/jpeg/32x32/1/_/1/2/slothHDcropXII.jpg/EKW5x6MEGGQgAigC/OMpOi7XXeuYVzwrg9dB06sBpl0kY_ehjS86kaU1RUXE?size=800x600&size_mode=3');
+  background-size: cover;
+  height: 88vh;
+  zoom: 1;
+}
+.welcome p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  color: #011419;
+}
+#top {
+  margin-top: 20vh;
+  text-align: center;
+  display: block;
+  margin-left: 8vw;
+}
+#bottom {
+  margin-top: 25vh;
+  text-align: center;
+  display: block;
+  margin-left: 8vw;
+}
