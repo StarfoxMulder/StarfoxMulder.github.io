@@ -1,8 +1,7 @@
 a {
-  font-size: 1em;
   color: black;
   text-decoration: none;
-	}
+  }
 a:visited {
   color: black;
   text-decoration: none;
@@ -22,6 +21,7 @@ p {
   padding: 0 3% 0 3%;
   background-color: #0AAAD9;
   height: 6vh;
+  border: 1px solid black;
   }
 .header li:hover {
   display: inline-block;
@@ -100,6 +100,7 @@ a:unvisited {
   background-size: cover;
   height: 88vh;
   zoom: 1;
+  border: 1px dotted yellow;
 }
 .main p {
   font-family: 'Montserrat', sans-serif;
