@@ -4,19 +4,19 @@
     .footer{font-size: 10px;}
 }
 @media (max-width: @screen-sm) {
-    .header{font-size: 12.5px;}
-    .main{font-size: 22.5px;}
-    .footer{font-size: 12.5px;}
+    .header{font-size: 13.5px;}
+    .main{font-size: 24.5px;}
+    .footer{font-size: 13.5px;}
 }
 @media (max-width: @screen-md) {
-    .header{font-size: 15px;}
-    .main{font-size: 25px;}
-    .footer{font-size: 15px;}
+    .header{font-size: 18px;}
+    .main{font-size: 29px;}
+    .footer{font-size: 18px;}
 }
 @media (max-width: @screen-lg) {
-    .header{font-size: 17.5px;}
-    .main{font-size: 27.5px;}
-    .footer{font-size: 17.5px;}
+    .header{font-size: 22.5px;}
+    .main{font-size: 34.5px;}
+    .footer{font-size: 22.5px;}
 }
 a {
   color: black;
@@ -26,16 +26,13 @@ a:visited {
   color: black;
   text-decoration: none;
   }
-p {
-  font-size: 1.5em;
-  }
 .header {
   background-color: #0AAAD9;
   opacity: .8;
   height: 5.5vh;
   }
 .header #prestia{
-  display: inline-block;
+  /*display: inline-block;*/
   font-family: 'Oswald', sans-serif;
   /*font-size: 2em;*/
   padding: 0 3% 0 3%;
@@ -44,7 +41,7 @@ p {
   border: 1px solid black;
   }
 .header #prestia:hover {
-  display: inline-block;
+  /*display: inline-block;*/
   font-family: 'Oswald', sans-serif;
   padding: 0 3% 0 3%;
   opacity: 0.4;
@@ -52,7 +49,7 @@ p {
   height: 5vh;
   }
 .header #contact{
-  display: inline-block;
+  /*display: inline-block;*/
   font-family: 'Oswald', sans-serif;
   /*font-size: 2em;*/
   padding: 0 3% 0 3%;
@@ -61,7 +58,7 @@ p {
   border: 1px solid black;
   }
 .header #contact:hover {
-  display: inline-block;
+  /*display: inline-block;*/
   font-family: 'Oswald', sans-serif;
   padding: 0 3% 0 3%;
   opacity: 0.4;
@@ -69,7 +66,7 @@ p {
   height: 5vh;
   }
 .header #aboutMe{
-  display: inline-block;
+  /*display: inline-block;*/
   font-family: 'Oswald', sans-serif;
   /*font-size: 2em;*/
   padding: 0 3% 0 3%;
@@ -78,7 +75,7 @@ p {
   border: 1px solid black;
   }
 .header #aboutMe:hover {
-  display: inline-block;
+  /*display: inline-block;*/
   font-family: 'Oswald', sans-serif;
   padding: 0 3% 0 3%;
   opacity: 0.4;
@@ -86,7 +83,6 @@ p {
   height: 5vh;
   }
 .header #certifications{
-  display: inline-block;
   font-family: 'Oswald', sans-serif;
   /*font-size: 2em;*/
   padding: 0 3% 0 3%;
@@ -95,7 +91,6 @@ p {
   border: 1px solid black;
   }
 .header #certifications:hover {
-  display: inline-block;
   font-family: 'Oswald', sans-serif;
   padding: 0 3% 0 3%;
   opacity: 0.4;
@@ -103,7 +98,6 @@ p {
   height: 5vh;
   }
 .header #myArt{
-  display: inline-block;
   font-family: 'Oswald', sans-serif;
   /*font-size: 2em;*/
   padding: 0 3% 0 3%;
@@ -112,7 +106,6 @@ p {
   border: 1px solid black;
   }
 .header #myArt:hover {
-  display: inline-block;
   font-family: 'Oswald', sans-serif;
   padding: 0 3% 0 3%;
   opacity: 0.4;
@@ -164,22 +157,17 @@ a:unvisited {
  color: black;
  text-decoration: none;
  }
-#prestia {
-  float: left;
-  padding-left: 1%;
-  text-decoration: none;
- }
 
 
 /* Prestia/Welcome Page */
 
 .main {
-  content: '';
+  /*content: '';*/
   overflow: hidden;
   background-image: url('https://photos-6.dropbox.com/t/2/AAAYy8WN895mktEnGHgkifpLCoLUJuhN7c55of6lfjEoPw/12/203727679/jpeg/32x32/1/_/1/2/slothHDcropXII.jpg/EKW5x6MEGGQgAigC/OMpOi7XXeuYVzwrg9dB06sBpl0kY_ehjS86kaU1RUXE?size=800x600&size_mode=3');
   background-size: cover;
-  height: 88vh;
-  zoom: 1;
+  height: 90vh;
+  /*zoom: 1;*/
 }
 .main p {
   font-family: 'Montserrat', sans-serif;
@@ -187,12 +175,10 @@ a:unvisited {
   color: #011419;
 }
 #top {
-  margin-top: 20vh;
+  margin-top: 20%;
   text-align: center;
-  margin-left: 8vw;
 }
 #bottom {
-  margin-top: 25vh;
+  margin-bottom: 20%;
   text-align: center;
-  margin-left: 8vw;
 }
