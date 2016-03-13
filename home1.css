@@ -18,28 +18,96 @@ p {
   opacity: .8;
   height: 6vh;
   }
-.header li{
+.header #prestia{
   display: inline-block;
   font-family: 'Oswald', sans-serif;
   font-size: 2em;
   padding: 0 3% 0 3%;
   background-color: #0AAAD9;
-  height: 6vh;
+  height: 5vh;
   border: 1px solid black;
   }
-.header li:hover {
+.header #prestia:hover {
   display: inline-block;
   font-family: 'Oswald', sans-serif;
   padding: 0 3% 0 3%;
   opacity: 0.4;
   transition-duration: 0.3s;
-  height: 6vh;
+  height: 5vh;
+  }
+.header #contact{
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+  padding: 0 3% 0 3%;
+  background-color: #0AAAD9;
+  height: 5vh;
+  border: 1px solid black;
+  }
+.header #contact:hover {
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  padding: 0 3% 0 3%;
+  opacity: 0.4;
+  transition-duration: 0.3s;
+  height: 5vh;
+  }
+.header #aboutMe{
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+  padding: 0 3% 0 3%;
+  background-color: #0AAAD9;
+  height: 5vh;
+  border: 1px solid black;
+  }
+.header #aboutMe:hover {
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  padding: 0 3% 0 3%;
+  opacity: 0.4;
+  transition-duration: 0.3s;
+  height: 5vh;
+  }
+.header #certifications{
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+  padding: 0 3% 0 3%;
+  background-color: #0AAAD9;
+  height: 5vh;
+  border: 1px solid black;
+  }
+.header #certifications:hover {
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  padding: 0 3% 0 3%;
+  opacity: 0.4;
+  transition-duration: 0.3s;
+  height: 5vh;
+  }
+.header #myArt{
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+  padding: 0 3% 0 3%;
+  background-color: #0AAAD9;
+  height: 5vh;
+  border: 1px solid black;
+  }
+.header #myArt:hover {
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  padding: 0 3% 0 3%;
+  opacity: 0.4;
+  transition-duration: 0.3s;
+  height: 5vh;
   }
 .footer {
   background-color: #0AAAD9;
   width: 100%; 
   opacity: .8;
-  height: 6vh;
+  height: 5vh;
   }
 #donate {
   font-size: 2.2vh;
