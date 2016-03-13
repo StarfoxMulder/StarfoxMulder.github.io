@@ -38,7 +38,6 @@ a:visited {
   padding: 0 3% 0 3%;
   background-color: #0AAAD9;
   height: 5vh;
-  border: 1px solid black;
   }
 .header #prestia:hover {
   /*display: inline-block;*/
@@ -52,15 +51,14 @@ a:visited {
   /*display: inline-block;*/
   font-family: 'Oswald', sans-serif;
   /*font-size: 2em;*/
-  padding: 0 3% 0 3%;
+  /*padding: 0 3% 0 3%;*/
   background-color: #0AAAD9;
   height: 5vh;
-  border: 1px solid black;
   }
 .header #contact:hover {
   /*display: inline-block;*/
   font-family: 'Oswald', sans-serif;
-  padding: 0 3% 0 3%;
+  /*padding: 0 3% 0 3%;*/
   opacity: 0.4;
   transition-duration: 0.3s;
   height: 5vh;
@@ -69,15 +67,14 @@ a:visited {
   /*display: inline-block;*/
   font-family: 'Oswald', sans-serif;
   /*font-size: 2em;*/
-  padding: 0 3% 0 3%;
+  /*padding: 0 3% 0 3%;*/
   background-color: #0AAAD9;
   height: 5vh;
-  border: 1px solid black;
   }
 .header #aboutMe:hover {
   /*display: inline-block;*/
   font-family: 'Oswald', sans-serif;
-  padding: 0 3% 0 3%;
+  /*padding: 0 3% 0 3%;*/
   opacity: 0.4;
   transition-duration: 0.3s;
   height: 5vh;
@@ -85,14 +82,13 @@ a:visited {
 .header #certifications{
   font-family: 'Oswald', sans-serif;
   /*font-size: 2em;*/
-  padding: 0 3% 0 3%;
+  /*padding: 0 3% 0 3%;*/
   background-color: #0AAAD9;
   height: 5vh;
-  border: 1px solid black;
   }
 .header #certifications:hover {
   font-family: 'Oswald', sans-serif;
-  padding: 0 3% 0 3%;
+  /*padding: 0 3% 0 3%;*/
   opacity: 0.4;
   transition-duration: 0.3s;
   height: 5vh;
@@ -100,14 +96,13 @@ a:visited {
 .header #myArt{
   font-family: 'Oswald', sans-serif;
   /*font-size: 2em;*/
-  padding: 0 3% 0 3%;
+  /*padding: 0 3% 0 3%;*/
   background-color: #0AAAD9;
   height: 5vh;
-  border: 1px solid black;
   }
 .header #myArt:hover {
   font-family: 'Oswald', sans-serif;
-  padding: 0 3% 0 3%;
+  /*padding: 0 3% 0 3%;*/
   opacity: 0.4;
   transition-duration: 0.3s;
   height: 5vh;
@@ -122,14 +117,14 @@ a:visited {
   /*font-size: 2.2vh;*/
   font-family: 'Oswald', sans-serif;
   padding-left: 2vw;
-  padding-top: 2vh;
+  padding-top: 1.5vh;
   }
 .footer a{
   /*font-size: 2.2vh;*/
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   margin-left: 2%;
-  padding: .5vh 0 0 0;
+  padding: .2vh 0 0 0;
   color: black;
   }
 .footer a:hover {
@@ -177,8 +172,10 @@ a:unvisited {
 #top {
   margin-top: 20%;
   text-align: center;
+  border: 1px solid blue;
 }
 #bottom {
   margin-bottom: 20%;
   text-align: center;
+  border: 1px solid blue;
 }
