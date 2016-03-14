@@ -148,10 +148,9 @@ a:unvisited {
   font-family: 'Montserrat', sans-serif;
   /*font-size: 2em;*/
   color: #011419;
-  padding: 8% 0 8% 0;
 }
 .top-space {
-  height: 10vh;  
+  height: 15vh;  
   border: 1px solid blue;
 }
 .mid-space {
