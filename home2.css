@@ -162,10 +162,13 @@ a:unvisited {
 }
 .top-space {
   height: 25%;  
+  border: 1px solid blue;
 }
 .mid-space {
  height: 5%;
+ border: 1px solid black;
 }
 .low-space {
  height: 25%;    
+ border: 1px solid blue;
 }
