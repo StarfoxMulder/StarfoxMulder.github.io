@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Oswald|Montserrat|Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+  <link type="text/css" rel="stylesheet" href="/home2.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <title>Chuck P's Welcome Page</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <div class="header">
+   <div class="container-fluid">
+     <div class="row">
+     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+      <div id="prestia" class="pull-left"><a style="text-decoration: none" href="http://starfoxmulder.github.io/home.html">PRESTIA</a></div></div>
+     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">  
+      <div id="aboutMe" class="pull-right"><a style="text-decoration: none" href="http://starfoxmulder.github.io/aboutme.html">ABOUT ME</a></div></div>
+     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"> 
+      <div id="myArt" class="pull-right"><a style="text-decoration: none" href="http://starfoxmulder.github.io/myart.html">MY ART</a></div></div>
+     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"> 
+      <div id="certifications" class="pull-right"><a style="text-decoration: none" href="http://starfoxmulder.github.io/certifications.html">CERTIFICATIONS</a></div></div>
+     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"> 
+      <div id="contact" class="pull-right"><a style="text-decoration: none" href="http://starfoxmulder.github.io/contact.html">CONTACT</a></div></div>
+     </div>
+     </div>
+    </div>
+  </div>
+  <div class="main">
+    <div class="container-fluid">
+      <div class="row">
+      <div class="col-lg-12">
+        <div class="row">
+        <div class="col-md-6 col-md-offset-3"
+       <p id="top" class="text-center">I am a DC based Front End Developer who enjoys <br> expanding the boundaries on what I am able to build.</p></div></div>
+        <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+       <p id="bottom" class="text-center">Let's work together to create something life changing.</p></div></div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="container-fluid">
+     <div class="row">
+     <div class="col-lg-12">
+    <p id="donate">Love me?  Donate to me via   <a href="https://www.paypal.me/CJPrestia">PayPal</a></p>
+     </div>
+     </div>
+    </div>
+  </div>
