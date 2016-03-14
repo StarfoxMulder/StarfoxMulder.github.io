@@ -153,9 +153,15 @@ a:unvisited {
   height: 15vh;  
   border: 1px solid blue;
 }
+#top{
+  height: 25vh;   
+}
 .mid-space {
  height: 5vh;
  border: 1px solid black;
+}
+#bottom {
+  height: 25vh;
 }
 .low-space {
  height: 25vh;    
