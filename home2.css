@@ -1,7 +1,7 @@
 @media (max-width: @screen-md) {
-    .header{font-size: 4vh;}
-    .main{font-size: 12vh;}
-    .footer{font-size: 2vh;}
+    .header div a{font-size: 4vh;}
+    .main div p {font-size: 12vh;}
+    .footer div p{font-size: 2vh;}
 }
 @media (max-width: @screen-lg) {
     .header{font-size: 6vh;}
