@@ -4,9 +4,9 @@
     .footer{font-size: 2em;}
 }
 @media (max-width: @screen-lg) {
-    .header{font-size: 4em;}
-    .main{font-size: 6em;}
-    .footer{font-size: 2em;}
+    .header{font-size: 6em;}
+    .main{font-size: 10em;}
+    .footer{font-size: 6em;}
 }
 a {
   color: black;
@@ -27,7 +27,6 @@ a:visited {
   /*font-size: 2em;*/
   padding: 0 3% 0 3%;
   background-color: #0AAAD9;
-  height: 5vh;
   }
 .header #prestia:hover {
   /*display: inline-block;*/
@@ -35,7 +34,6 @@ a:visited {
   padding: 0 3% 0 3%;
   opacity: 0.4;
   transition-duration: 0.3s;
-  height: 5vh;
   }
 .header #contact{
   /*display: inline-block;*/
@@ -43,7 +41,6 @@ a:visited {
   /*font-size: 2em;*/
   padding: 0 3% 0 3%;
   background-color: #0AAAD9;
-  height: 5vh;
   }
 .header #contact:hover {
   /*display: inline-block;*/
@@ -51,7 +48,6 @@ a:visited {
   padding: 0 3% 0 3%;
   opacity: 0.4;
   transition-duration: 0.3s;
-  height: 5vh;
   }
 .header #aboutMe{
   /*display: inline-block;*/
@@ -59,7 +55,6 @@ a:visited {
   /*font-size: 2em;*/
   padding: 0 3% 0 3%;
   background-color: #0AAAD9;
-  height: 5vh;
   }
 .header #aboutMe:hover {
   /*display: inline-block;*/
@@ -67,35 +62,30 @@ a:visited {
   padding: 0 3% 0 3%;
   opacity: 0.4;
   transition-duration: 0.3s;
-  height: 5vh;
   }
 .header #certifications{
   font-family: 'Oswald', sans-serif;
   /*font-size: 2em;*/
   padding: 0 3% 0 3%;
   background-color: #0AAAD9;
-  height: 5vh;
   }
 .header #certifications:hover {
   font-family: 'Oswald', sans-serif;
   padding: 0 3% 0 3%;
   opacity: 0.4;
   transition-duration: 0.3s;
-  height: 5vh;
   }
 .header #myArt{
   font-family: 'Oswald', sans-serif;
   /*font-size: 2em;*/
   padding: 0 3% 0 3%;
   background-color: #0AAAD9;
-  height: 5vh;
   }
 .header #myArt:hover {
   font-family: 'Oswald', sans-serif;
   padding: 0 3% 0 3%;
   opacity: 0.4;
   transition-duration: 0.3s;
-  height: 5vh;
   }
 .footer {
   background-color: #0AAAD9;
