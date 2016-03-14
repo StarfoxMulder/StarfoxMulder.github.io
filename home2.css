@@ -161,14 +161,14 @@ a:unvisited {
   padding: 8% 0 8% 0;
 }
 .top-space {
-  height: 25%;  
+  height: 10vh;  
   border: 1px solid blue;
 }
 .mid-space {
- height: 5%;
+ height: 5vh;
  border: 1px solid black;
 }
 .low-space {
- height: 25%;    
+ height: 25vh;    
  border: 1px solid blue;
 }
