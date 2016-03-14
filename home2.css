@@ -1,12 +1,12 @@
 @media (max-width: @screen-md) {
-    .header{font-size: 4em;}
-    .main{font-size: 15em;}
-    .footer{font-size: 2em;}
+    .header{font-size: 4vh;}
+    .main{font-size: 12vh;}
+    .footer{font-size: 2vh;}
 }
 @media (max-width: @screen-lg) {
-    .header{font-size: 6em;}
-    .main{font-size: 20em;}
-    .footer{font-size: 6em;}
+    .header{font-size: 6vh;}
+    .main{font-size: 15vh;}
+    .footer{font-size: 6vh;}
 }
 a {
   color: black;
