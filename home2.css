@@ -1,17 +1,12 @@
-@media (max-width: @screen-sm) {
-    .header{font-size: 13.5px;}
-    .main{font-size: 24.5px;}
-    .footer{font-size: 13.5px;}
-}
 @media (max-width: @screen-md) {
-    .header{font-size: 18px;}
-    .main{font-size: 29px;}
-    .footer{font-size: 18px;}
+    .header{font-size: 2em;}
+    .main{font-size: 3em;}
+    .footer{font-size: 2em;}
 }
 @media (max-width: @screen-lg) {
-    .header{font-size: 22.5px;}
-    .main{font-size: 34.5px;}
-    .footer{font-size: 22.5px;}
+    .header{font-size: 2em;}
+    .main{font-size: 3em;}
+    .footer{font-size: 2em;}
 }
 a {
   color: black;
@@ -46,14 +41,14 @@ a:visited {
   /*display: inline-block;*/
   font-family: 'Oswald', sans-serif;
   /*font-size: 2em;*/
-  /*padding: 0 3% 0 3%;*/
+  padding: 0 3% 0 3%;
   background-color: #0AAAD9;
   height: 5vh;
   }
 .header #contact:hover {
   /*display: inline-block;*/
   font-family: 'Oswald', sans-serif;
-  /*padding: 0 3% 0 3%;*/
+  padding: 0 3% 0 3%;
   opacity: 0.4;
   transition-duration: 0.3s;
   height: 5vh;
@@ -62,14 +57,14 @@ a:visited {
   /*display: inline-block;*/
   font-family: 'Oswald', sans-serif;
   /*font-size: 2em;*/
-  /*padding: 0 3% 0 3%;*/
+  padding: 0 3% 0 3%;
   background-color: #0AAAD9;
   height: 5vh;
   }
 .header #aboutMe:hover {
   /*display: inline-block;*/
   font-family: 'Oswald', sans-serif;
-  /*padding: 0 3% 0 3%;*/
+  padding: 0 3% 0 3%;
   opacity: 0.4;
   transition-duration: 0.3s;
   height: 5vh;
@@ -77,13 +72,13 @@ a:visited {
 .header #certifications{
   font-family: 'Oswald', sans-serif;
   /*font-size: 2em;*/
-  /*padding: 0 3% 0 3%;*/
+  padding: 0 3% 0 3%;
   background-color: #0AAAD9;
   height: 5vh;
   }
 .header #certifications:hover {
   font-family: 'Oswald', sans-serif;
-  /*padding: 0 3% 0 3%;*/
+  padding: 0 3% 0 3%;
   opacity: 0.4;
   transition-duration: 0.3s;
   height: 5vh;
@@ -91,13 +86,13 @@ a:visited {
 .header #myArt{
   font-family: 'Oswald', sans-serif;
   /*font-size: 2em;*/
-  /*padding: 0 3% 0 3%;*/
+  padding: 0 3% 0 3%;
   background-color: #0AAAD9;
   height: 5vh;
   }
 .header #myArt:hover {
   font-family: 'Oswald', sans-serif;
-  /*padding: 0 3% 0 3%;*/
+  padding: 0 3% 0 3%;
   opacity: 0.4;
   transition-duration: 0.3s;
   height: 5vh;
@@ -165,12 +160,12 @@ a:unvisited {
   color: #011419;
   padding: 8% 0 8% 0;
 }
-#top {
-  margin-top: 12%;
-  text-align: center;
-  border: 1px solid blue;
+.top-space {
+  height: 10%;  
 }
-#bottom {
-  text-align: center;
-  border: 1px solid blue;
+.mid-space {
+ height: 5%;
+}
+.low-space {
+ height: 10%;    
 }
