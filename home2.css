@@ -1,0 +1,176 @@
+@media (max-width: @screen-sm) {
+    .header{font-size: 13.5px;}
+    .main{font-size: 24.5px;}
+    .footer{font-size: 13.5px;}
+}
+@media (max-width: @screen-md) {
+    .header{font-size: 18px;}
+    .main{font-size: 29px;}
+    .footer{font-size: 18px;}
+}
+@media (max-width: @screen-lg) {
+    .header{font-size: 22.5px;}
+    .main{font-size: 34.5px;}
+    .footer{font-size: 22.5px;}
+}
+a {
+  color: black;
+  text-decoration: none;
+  }
+a:visited {
+  color: black;
+  text-decoration: none;
+  }
+.header {
+  background-color: #0AAAD9;
+  opacity: .8;
+  height: 5.5vh;
+  }
+.header #prestia{
+  /*display: inline-block;*/
+  font-family: 'Oswald', sans-serif;
+  /*font-size: 2em;*/
+  padding: 0 3% 0 3%;
+  background-color: #0AAAD9;
+  height: 5vh;
+  }
+.header #prestia:hover {
+  /*display: inline-block;*/
+  font-family: 'Oswald', sans-serif;
+  padding: 0 3% 0 3%;
+  opacity: 0.4;
+  transition-duration: 0.3s;
+  height: 5vh;
+  }
+.header #contact{
+  /*display: inline-block;*/
+  font-family: 'Oswald', sans-serif;
+  /*font-size: 2em;*/
+  /*padding: 0 3% 0 3%;*/
+  background-color: #0AAAD9;
+  height: 5vh;
+  }
+.header #contact:hover {
+  /*display: inline-block;*/
+  font-family: 'Oswald', sans-serif;
+  /*padding: 0 3% 0 3%;*/
+  opacity: 0.4;
+  transition-duration: 0.3s;
+  height: 5vh;
+  }
+.header #aboutMe{
+  /*display: inline-block;*/
+  font-family: 'Oswald', sans-serif;
+  /*font-size: 2em;*/
+  /*padding: 0 3% 0 3%;*/
+  background-color: #0AAAD9;
+  height: 5vh;
+  }
+.header #aboutMe:hover {
+  /*display: inline-block;*/
+  font-family: 'Oswald', sans-serif;
+  /*padding: 0 3% 0 3%;*/
+  opacity: 0.4;
+  transition-duration: 0.3s;
+  height: 5vh;
+  }
+.header #certifications{
+  font-family: 'Oswald', sans-serif;
+  /*font-size: 2em;*/
+  /*padding: 0 3% 0 3%;*/
+  background-color: #0AAAD9;
+  height: 5vh;
+  }
+.header #certifications:hover {
+  font-family: 'Oswald', sans-serif;
+  /*padding: 0 3% 0 3%;*/
+  opacity: 0.4;
+  transition-duration: 0.3s;
+  height: 5vh;
+  }
+.header #myArt{
+  font-family: 'Oswald', sans-serif;
+  /*font-size: 2em;*/
+  /*padding: 0 3% 0 3%;*/
+  background-color: #0AAAD9;
+  height: 5vh;
+  }
+.header #myArt:hover {
+  font-family: 'Oswald', sans-serif;
+  /*padding: 0 3% 0 3%;*/
+  opacity: 0.4;
+  transition-duration: 0.3s;
+  height: 5vh;
+  }
+.footer {
+  background-color: #0AAAD9;
+  width: 100%; 
+  opacity: .8;
+  height: 5vh;
+  }
+#donate {
+  /*font-size: 2.2vh;*/
+  font-family: 'Oswald', sans-serif;
+  padding-left: 2vw;
+  padding-top: 1.5vh;
+  }
+.footer a{
+  /*font-size: 2.2vh;*/
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 2%;
+  padding: .2vh 0 0 0;
+  color: black;
+  }
+.footer a:hover {
+  opacity: 0.4;
+  transition-duration: 0.3s;
+  padding: .95vh 0 .95vh 0;
+  text-decoration: none;
+  }
+  
+/* default page layout */
+
+body {
+ height: 100%;
+ width: 100%;
+ }
+a {
+ color: black;
+ text-decoration: none;
+ }
+a:visited {
+ color: black;
+ text-decoration: none;
+ }
+a:unvisited {
+ color: black;
+ text-decoration: none;
+ }
+
+
+/* Prestia/Welcome Page */
+
+.main {
+  /*content: '';*/
+  overflow: hidden;
+  background-image: url('https://photos-6.dropbox.com/t/2/AAAYy8WN895mktEnGHgkifpLCoLUJuhN7c55of6lfjEoPw/12/203727679/jpeg/32x32/1/_/1/2/slothHDcropXII.jpg/EKW5x6MEGGQgAigC/OMpOi7XXeuYVzwrg9dB06sBpl0kY_ehjS86kaU1RUXE?size=800x600&size_mode=3');
+  background-size: cover;
+  height: 90vh;
+  /*zoom: 1;*/
+}
+.main p {
+  font-family: 'Montserrat', sans-serif;
+  /*font-size: 2em;*/
+  color: #011419;
+  padding: 8% 0 8% 0;
+}
+#top {
+  margin-top: 12%;
+  text-align: center;
+  border: 1px solid blue;
+}
+#bottom {
+  text-align: center;
+  border: 1px solid blue;
+}
