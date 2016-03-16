@@ -19,15 +19,16 @@ footer {
 }
 
 #header {
-  height: 45vh;
+  height: 55vh;
   background-image: url("https://photos-4.dropbox.com/t/2/AADyb4zJuq-bJRAu964i_AbTShr7Ook1MBMUriRiHjDuOA/12/203727679/jpeg/32x32/1/_/1/2/slothsHDcropII.jpg/EKW5x6MEGGQgAigC/VS5nHmXYtNXxl2HJtjKHsfzVLgOCrBhCVTZ3dNi-B04%2ClXxuq57gs8s57MQTYeHRotDmkY66jhGDhen4aa9Hvio?size=800x600&size_mode=3");
   background-size: cover;
   overflow: hidden;
+  margin: -50vh 0 0 0;
 }
 #intro {
   opacity: 0.4;
   padding: 2vh, 0, 2vh, 0;
-  margin: 50% 0 50% 0;
+  margin: 20% 0 20% 0;
 }
 #intro p {
   text-align: center;
