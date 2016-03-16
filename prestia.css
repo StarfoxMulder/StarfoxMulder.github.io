@@ -2,6 +2,10 @@
   margin-bottom: 0;
   border-radius: 0;
 }
+.navbar li {
+  color: #5A737F;
+  text-align: center;
+}
 footer {
   background-color: #68CCFF;
   padding: 25px;
@@ -22,8 +26,8 @@ footer {
   padding: 2vh, 0, 2vh, 0;
 }
 #intro p {
-    text-align: center;
-    Font-color: #5A737F;
+  text-align: center;
+  color: #5A737F;
 }
 
   /* Hide the carousel text when the screen is less than 600 pixels wide */
