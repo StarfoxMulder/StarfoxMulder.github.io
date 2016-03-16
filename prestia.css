@@ -6,16 +6,8 @@
   color: #5A737F;
   text-align: center;
   text-decoration: none;
-  font-size: ;
-}
-footer {
-  background-color: #68CCFF;
-  padding: 25px;
-}
-.carousel-inner img {
-  width: 100%; /* Set width to 100% */
-  margin: auto;
-  min-height:200px;
+  font-size: 2vh;
+  font-family: 'Oswald', sans-serif;
 }
 
 #header {
@@ -23,7 +15,7 @@ footer {
   background-image: url("https://photos-4.dropbox.com/t/2/AADyb4zJuq-bJRAu964i_AbTShr7Ook1MBMUriRiHjDuOA/12/203727679/jpeg/32x32/1/_/1/2/slothsHDcropII.jpg/EKW5x6MEGGQgAigC/VS5nHmXYtNXxl2HJtjKHsfzVLgOCrBhCVTZ3dNi-B04%2ClXxuq57gs8s57MQTYeHRotDmkY66jhGDhen4aa9Hvio?size=800x600&size_mode=3");
   background-size: cover;
   overflow: hidden;
-  margin: -50vh 0 0 0;
+  margin: -100vh 0 0 0;
 }
 #intro {
   opacity: 0.4;
@@ -35,6 +27,20 @@ footer {
   color: #5A737F;
   background-color: rgba(181, 230, 255, .8);
   opacity: 0;
+}
+#spacer {
+  height: 10vh;
+  background-color: ;
+}
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+}
+
+footer {
+  background-color: #68CCFF;
+  padding: 25px;
 }
 
   /* Hide the carousel text when the screen is less than 600 pixels wide */
