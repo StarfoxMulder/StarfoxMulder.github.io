@@ -26,7 +26,7 @@
   text-align: center;
   color: #5A737F;
   background-color: rgba(181, 230, 255, .8);
-  opacity: 0;
+  opacity: 1;
 }
 #spacer {
   height: 10vh;
