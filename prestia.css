@@ -39,12 +39,21 @@
 }
 #spacer {
   height: 10vh;
-  background-color: ;
+  background-color: white ;
+}
+.carousel-caption h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4vh;
+}
+.carousel-caption p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.2vh;
 }
 .carousel-inner img {
-  width: 100%; /* Set width to 100% */
+  width: 60%; /* Set width to 100% */
   margin: auto;
-  min-height:200px;
+  min-height: 200px;
+  max-height: 200px;
 }
 
 footer {
