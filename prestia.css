@@ -30,10 +30,15 @@
   color: #5A737F;
   /*background-color: rgba(181, 230, 255, .8);*/
   opacity: 1;
+  font-family: 'Montserrat', sans-serif;
 }
 #spacer {
   height: 10vh;
   background-color: white ;
+}
+#myCarousel{
+  min-height: 200px;
+  max-height: 200px;
 }
 .carousel-caption h3 {
   font-family: 'Oswald', sans-serif;
