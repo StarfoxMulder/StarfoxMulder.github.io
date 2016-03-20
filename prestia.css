@@ -60,6 +60,9 @@ footer {
   font-family: 'Oswald', sans-serif;
   color: #5A737F;
 }
+footer p {
+  padding: 0 3vw 0 0;
+}
 footer a {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
