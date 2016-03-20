@@ -39,8 +39,8 @@
   background-color: white ;
 }
 #myCarousel{
-  min-height: 200px;
-  max-height: 200px;
+  min-height: 60vh;
+  max-height: 60vh;
 }
 .carousel-caption h3 {
   font-family: 'Oswald', sans-serif;
@@ -53,8 +53,8 @@
 .carousel-inner img {
   width: 60%; /* Set width to 100% */
   margin: auto;
-  min-height: 40vh;
-  max-height: 40vh;
+  min-height: 60vh;
+  max-height: 60vh;
 }
 #morestuff {
   border-bottom: 1px solid #5A737F;
