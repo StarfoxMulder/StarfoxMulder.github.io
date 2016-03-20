@@ -53,8 +53,8 @@
 .carousel-inner img {
   width: 60%; /* Set width to 100% */
   margin: auto;
-  min-height: 200px;
-  max-height: 200px;
+  min-height: 40vh;
+  max-height: 40vh;
 }
 #morestuff {
   border-bottom: 1px solid #5A737F;
