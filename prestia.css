@@ -19,17 +19,14 @@
 }
 
 .jumbotron {
-  height: 55vh;
   background-image: url("https://photos-6.dropbox.com/t/2/AABsUErsy20-_up6Tp458u5lsPXh2QVNcpfBFJHacgK1ig/12/203727679/jpeg/32x32/1/_/1/2/slothsHDcropVIII.jpg/EKW5x6MEGH4gAigC/jauRR66v7OlufJvrctEAD0BCTKXDatL4kIsZ49wOo2w?size_mode=5");
   background-size: cover;
   overflow: hidden;
-  margin: -150vh 0 0 0;
 }
 .jumbotron h2 {
   text-align: center;
   color: #5A737F;
   /*background-color: rgba(181, 230, 255, .8);*/
-  opacity: 1;
   font-family: 'Montserrat', sans-serif;
 }
 #spacer {
