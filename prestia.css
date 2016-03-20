@@ -70,6 +70,10 @@ footer a {
   padding: .2vh 0 0 0;
   color: #0AAAD9;
 }
+footer a:hover {
+  opacity: 0.4;
+  transition-duration: 0.3s;
+}
 
   /* Hide the carousel text when the screen is less than 600 pixels wide */
   @media (max-width: 600px) {
