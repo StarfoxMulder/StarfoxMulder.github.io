@@ -41,6 +41,7 @@
 #myCarousel{
   min-height: 60vh;
   max-height: 60vh;
+  Margin: 0 15vw 0 15vw;
 }
 .carousel-caption h3 {
   font-family: 'Oswald', sans-serif;
