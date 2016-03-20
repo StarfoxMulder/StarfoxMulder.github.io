@@ -10,7 +10,10 @@
   font-size: 4vh;
   font-family: 'Oswald', sans-serif;
 }
-#cjp {
+.icon-bar {
+ color: #5A737F;
+}
+.navbar-brand {
   color: #5A737F;
   text-align: center;
   text-decoration: none;
