@@ -1,3 +1,6 @@
+body {
+  background-color: #A5BFCB;
+}
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
@@ -36,7 +39,7 @@
 }
 #spacer {
   height: 5vh;
-  background-color: white ;
+  background-color: #A5BFCB;
 }
 #myCarousel{
   min-height: 65vh;
