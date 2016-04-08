@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="js/vendor/angular.min.js"></script>
+  </head>
+  <body ng-app="MoveLogApp">
+    <div class="header">
+      <div class="container">
+        <img style="float:left" src="http://31.media.tumblr.com/avatar_74d073eb96fc_128.png">
+        <p style="margin: 3% 0 2% 0;">Sound Board</p>
+      </div>
+    </div>
+
+    <div class="main" ng-controller="MainController">
+      <div class="container">
+        
+        <div class="exercises row" ng-repeat="exercises in exercises">
+               <div class="exercise-icon col-xs-2"><img ng-src="{{ exercises.icon }}"> </div>
+            
+          <div class="col-xs-6">
+            <p class="exercise-name"> {{ exercises.name }} </p>
+          </div>
+          
+          <div class="col-xs-4 counters">
+            <span class="decrease" ng-click="decrease($index)">-</span><span class="count"> {{ exercises.count }} </span><span class="increase" ng-click="increase($index)">+</span>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+      </div>
+    </div>
+    
+    <!-- Modules -->
+    <script src="https://github.com/StarfoxMulder/StarfoxMulder.github.io/blob/c3c24bd7bc1588448b8f176f8d6936cfeb74a17a/angularapp/app.js"></script>
+
+    <!-- Controllers -->
+    <script src="https://github.com/StarfoxMulder/StarfoxMulder.github.io/blob/c3c24bd7bc1588448b8f176f8d6936cfeb74a17a/angularapp/MainController.js"></script>
+
+  </body>
+</html>
