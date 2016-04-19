@@ -4,6 +4,6 @@ app.directive('sound', function() {
    scope: {
    info:'='
    },
-   templateUrl:"js/directive/sound.html
+   templateUrl:"js/directive/sound.html",
   };
 });
