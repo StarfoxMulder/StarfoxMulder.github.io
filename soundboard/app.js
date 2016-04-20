@@ -1,1 +1,1 @@
-var app = angular.module("SoundBoardApp", []);
+var app = angular.module("SoundboardApp", []);
