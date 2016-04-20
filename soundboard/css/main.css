@@ -55,8 +55,8 @@ li:hover {
   text-transform: uppercase;
 }
 
-/* Scorecard row */
-.scorecard,
+/* Soundcard row */
+.soundcard,
 .more {
   background: rgba(255,255,255,0.1);
   border-bottom: 1px solid rgba(0,0,0,0.25);
@@ -66,31 +66,32 @@ li:hover {
   padding: 10px 15px;
 }
 
-.scorecard p {
+.soundcard p {
   font-weight: 100;
   text-align:center;
   text-transform: uppercase;
 }
 
-.scorecard div h2 {
+/*
+.soundcard div h2 {
   color: #00ffbc;
   font-family: 'Oswald', sans-serif;
   font-size: 60px;
   margin: 0;
 }
 
-.scorecard .dash h2 {
+.soundcard .dash h2 {
   color: #fff;
   text-align: center;
 }
 
-.scorecard div h3 {
+.soundcard div h3 {
   font-size: 18px;
   font-weight: 100;
   margin: 10px 0;
 }
-
-.scorecard .home {
+*/
+.soundcard .home {
   text-align: right;
 }
 
