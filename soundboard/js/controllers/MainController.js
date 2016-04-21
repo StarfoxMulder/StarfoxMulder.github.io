@@ -1,5 +1,6 @@
 app.controller('MainController', ['$scope', function($scope) {
-  $scope.clips = [{
+  $scope.clips = [
+  {
     icon: 'https://photos-6.dropbox.com/t/2/AABkwYuvYIYK8o2kdWkdOJBVQUTTPpKG0s9DvQOWkXZjTw/12/203727679/jpeg/32x32/1/_/1/2/tUP%20Props.gif/EKW5x6MEGJIBIAIoAg/o3X6BzFKRq-DM3ASbXOfBDSL1rxFuClwF5xAdUkJoFE?size_mode=5',
     name: 'Props Bell',
   }, {
@@ -29,6 +30,7 @@ app.controller('MainController', ['$scope', function($scope) {
   }, {
     icon: 'https://photos-3.dropbox.com/t/2/AABL2Kar5TDXz0Mbjhl2ERGGKjFizMDdCDwakZZD-ls3gg/12/203727679/jpeg/32x32/1/_/1/2/tUP%20Cactus.jpg/EKW5x6MEGI4BIAIoAg/8rEjucHZAMIFVlSgIlMJXAPcfCLpfK6NnB5BSSp-fj8?size=800x600&size_mode=3',
     name: 'Japanese Cactus',
-  }];
+  }
+  ]
 
 }]);
