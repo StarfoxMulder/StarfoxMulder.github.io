@@ -22,6 +22,9 @@ app.controller('MainController', ['$scope', function($scope) {
     name: 'We Don\'t Know',
   }, {
     icon: 'https://photos-3.dropbox.com/t/2/AABL2Kar5TDXz0Mbjhl2ERGGKjFizMDdCDwakZZD-ls3gg/12/203727679/jpeg/32x32/1/_/1/2/tUP%20Cactus.jpg/EKW5x6MEGI4BIAIoAg/8rEjucHZAMIFVlSgIlMJXAPcfCLpfK6NnB5BSSp-fj8?size=800x600&size_mode=3',
+    name: 'Peacefully Getting A Hamburger',
+  }, {
+    icon: 'https://photos-3.dropbox.com/t/2/AABL2Kar5TDXz0Mbjhl2ERGGKjFizMDdCDwakZZD-ls3gg/12/203727679/jpeg/32x32/1/_/1/2/tUP%20Cactus.jpg/EKW5x6MEGI4BIAIoAg/8rEjucHZAMIFVlSgIlMJXAPcfCLpfK6NnB5BSSp-fj8?size=800x600&size_mode=3',
     name: 'Japanese Cactus',
   }];
 
