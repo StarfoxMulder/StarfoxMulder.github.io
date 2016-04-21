@@ -13,15 +13,15 @@ body {
   max-width: 980px;
 }
 
-.container .row .col-sm-4 {
+.container .row .col-sm-6 {
   margin: 0 0 30px;
 }
 
-.col-xs-4 {
+.col-xs-5 {
   width: 37.5%;
 }
 
-.col-xs-4, .col-xs-3 {
+.col-xs-5, .col-xs-3 {
   padding: 0;
 }
 
@@ -100,7 +100,7 @@ li:hover {
     width: 350px;
   }
 
-  .col-sm-4 {
+  .col-sm-6 {
     width: 100%;
   }
 }
