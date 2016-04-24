@@ -2,8 +2,8 @@ app.directive('sound', function() {
   return {
    restrict: 'E',
    scope: {
-   info:'='
-   },
-   templateUrl:"js/directive/sound.html",
+    info:"="
+    },
+   templateUrl:'js/directives/sound.html',
   };
 });
