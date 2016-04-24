@@ -14,11 +14,11 @@ app.controller('MainController', ['$scope', function($scope) {
    },},
   { name: 'Pick Up Your Brain', {
     icon: 'https://photos-6.dropbox.com/t/2/AACxik6JZAH85Qbn-vruHUpdirbyl_nk5PSS38tEuDmbcg/12/203727679/jpeg/32x32/1/_/1/2/tUP%20PUY%20Brain.jpg/EKW5x6MEGI4BIAIoAg/ut5kZy9ByQFO47VMrJls6eseVSq9QR7MsvVpo2TfaU4?size=800x600&size_mode=3',
-    audio: 'http://www.drpetter.se/files/sfxdemo.mp3'
+    audio: 'https://www.dropbox.com/s/6p7ph6ifdzl1lb5/PickUpYourBrain%20-%20Jude.wav?dl=0'
    },}, 
   { name: 'Pick Up Your Mouth', {
     icon: 'https://photos-5.dropbox.com/t/2/AADsHck-CV7SWVuBitBeaHTEnhbq3aAcjDTLdSaLYgss-A/12/203727679/jpeg/32x32/1/_/1/2/tUP%20PUY%20Mouth.jpg/EKW5x6MEGI4BIAIoAg/6GP-j2ZMzB3CKVYKQQaKaAHtGbfBLCtXlPtamoN7CJc?size=800x600&size_mode=3',
-    audio: 'http://www.drpetter.se/files/sfxdemo.mp3'
+    audio: 'https://www.dropbox.com/s/qp4qhumbsqza8kb/PickUpYourMouth%20-%20Jude.wav?dl=0'
    },},
   { name: 'Crispy Critter\'d My Left Foot', {
     icon: 'https://photos-3.dropbox.com/t/2/AADPZcW-qbDCbKNmxVBQmFFm5d9nMTQcRHpYbcqRDAVN1Q/12/203727679/jpeg/32x32/1/_/1/2/tUP%20Blue%20Beam.jpg/EKW5x6MEGI4BIAIoAg/hCmD_dCXS08Fq012qTSIhyfdxbCeHQXRUHq6Fzama7Y?size=800x600&size_mode=3',
