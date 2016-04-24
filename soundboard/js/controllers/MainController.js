@@ -1,7 +1,7 @@
 app.controller('MainController', ['$scope', function($scope) {
   $scope.clips = [
   { name: 'Props Bell', {
-    src: 'https://photos-6.dropbox.com/t/2/AABkwYuvYIYK8o2kdWkdOJBVQUTTPpKG0s9DvQOWkXZjTw/12/203727679/jpeg/32x32/1/_/1/2/tUP%20Props.gif/EKW5x6MEGJIBIAIoAg/o3X6BzFKRq-DM3ASbXOfBDSL1rxFuClwF5xAdUkJoFE?size_mode=5',
+    icon: 'https://photos-6.dropbox.com/t/2/AABkwYuvYIYK8o2kdWkdOJBVQUTTPpKG0s9DvQOWkXZjTw/12/203727679/jpeg/32x32/1/_/1/2/tUP%20Props.gif/EKW5x6MEGJIBIAIoAg/o3X6BzFKRq-DM3ASbXOfBDSL1rxFuClwF5xAdUkJoFE?size_mode=5',
     audio: 'https://www.dropbox.com/s/vvegp41wybvk3z6/PropsBell.wav?dl=0'
    },},
   { name: 'Filling My Pants', {
