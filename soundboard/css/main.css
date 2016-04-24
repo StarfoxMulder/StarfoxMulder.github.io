@@ -72,25 +72,6 @@ li:hover {
   text-transform: uppercase;
 }
 
-/*
-.soundcard div h2 {
-  color: #00ffbc;
-  font-family: 'Oswald', sans-serif;
-  font-size: 60px;
-  margin: 0;
-}
-
-.soundcard .dash h2 {
-  color: #fff;
-  text-align: center;
-}
-
-.soundcard div h3 {
-  font-size: 18px;
-  font-weight: 100;
-  margin: 10px 0;
-}
-*/
 .soundcard .home {
   text-align: right;
 }
