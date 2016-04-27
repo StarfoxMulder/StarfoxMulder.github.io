@@ -54,17 +54,6 @@ li:hover {
   text-transform: uppercase;
 }
 
-.header h1 .unbel{
-  color: #54acd6;
-  font-family: 'Oswald', sans-serif;
-  font-size: 24px;
-  letter-spacing: 0.5em;
-  margin: 0;
-  padding: 40px 0;
-  text-align: center;
-  text-transform: uppercase;
-}
-
 /* Soundcard row */
 .soundcard,
 .more {
