@@ -12,12 +12,16 @@
       <h1 class="logo"><b>The <span style="color:#45b9d9;">Unbelievable</span> SoundBoard</b></h1>
     </div>
 
-    <div class="main" ng-controller="MainController">
-      <div class="container">
+    <div class="main">
+      <div class="clips" ng-controller="MainController">
+       <div class="container">
         <div class="row">
-          <sound info="clip" ng-repeat="clip in clips"></sound>
+          <div class="clip" ng-repeat="clip in clips">
+          <sound info="clip"></sound>
+          </div>
         </div>
       </div>
+     </div>
     </div>
     
     <!-- Modules -->
