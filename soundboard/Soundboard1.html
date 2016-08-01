@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head>
+    <title>The Unbelievable Soundboard</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="assets/icons/tUPLogoIconQ.ico"/>
+  </head>
+  
+  <body ng-app="SoundboardApp">
+  
+    <header class="header">
+      <h1 class="logo"><b>The <span style="color:#45b9d9;">Unbelievable</span> SoundBoard</b></h1>
+    </header>
+<!--
+    <main>
+      <div class="clips" ng-controller="MainController">
+       <div class="container">
+         <div class="row">
+          <div class="clip" ng-repeat="clip in clips">
+           <sound info="clip"></sound>
+          </div>
+         </div>
+       </div>
+     </div>
+    </main>
+-->
+
+    <main>
+       <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="soundCard">
+              <a href="assets/mp3/NowSomethingsWrongHere.mp3"><img class="img-responsive img-rounded" alt="Responsive image" src="assets/images/tUPSomethingWrongHere.jpg">
+              <h2>Something is wrong here</h2></a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="soundCard">
+              <a href="assets/mp3/XFX_MONKEYS.mp3"><img class="img-responsive img-rounded" alt="Responsive image" src="assets/images/tUPMonkeys2.jpg">
+              <h2>The idea that monkeys was responsible for this....</h2></a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="soundCard">
+              <a href="assets/mp3/XFX_OBAMA_ALIENS.mp3"><img class="img-responsive img-rounded" alt="Responsive image" src="assets/images/tUPObamaAliens2.jpg">
+              <h2>Obama Aliens</h2></a>
+              </div>
+            <div class="col-md-3">
+              <div class="soundCard">
+              <a href="assets/mp3/XFX_IMNOSHEEPGUY.mp3"><img class="img-responsive img-rounded" alt="Responsive image" src="assets/images/tUPSheepGuy.jpg">
+              <h2>I'm no sheep guy</h2></a>
+              <div class="soundCard">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="soundCard">
+              <a>
+              <img >
+              <h2></h2></a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <img >
+              <h2></h2>
+            </div>
+            <div class="col-md-3">
+              <img >
+              <h2></h2>
+            </div>
+            <div class="col-md-3">
+              <img >
+              <h2></h2>
+            </div>
+          </div>
+          </div>
+       </div>
+    </main>
+
+
+    <!-- Modules -->
+    <script src="js/app.js"></script>
+
+    <!-- Controllers -->
+    <script src="js/controllers/MainController.js"></script>
+
+    <!-- Directives -->
+    <script src="js/directives/sound.js"></script>
+
+  </body>
+</html>
