@@ -2,14 +2,14 @@
 <html>
   <head>
     <title>The Unbelievable Soundboard</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/main2.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="assets/icons/tUPLogoIconQ.ico"/>
     <script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
-    <script type="text/javascript" src="assets/js/Temp.js"></script> 
+    <script src="js/TempJS.js" type="text/javascript"></script> 
   <!--
         <script>
         var NowSomethingsWrongHere = new Audio();
@@ -52,180 +52,190 @@
 
   </head>
   
-  <body ng-app="SoundboardApp">
+  <body>
   
-    <header class="header">
+    <header class="container-fluid header">
       <h1 class="logo"><b>The <span style="color:#45b9d9;">Unbelievable</span> SoundBoard</b></h1>
 
     </header>
 
-    <main class="container-fluid">
+    <main class="container">
+
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="0"></div>
-        <div class="col-md-2 col-xs-4" id="1"></div>
-        <div class="col-md-2 col-xs-4" id="2"></div>
-        <div class="col-md-2 col-xs-4" id="3"></div>
+        <div class="col-md-2 col-md-offset-2" id="0"></div>
+        <div class="col-md-2" id="1"></div>
+        <div class="col-md-2" id="2"></div>
+        <div class="col-md-2" id="3"></div>
       </div>
       
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="4"></div>
-        <div class="col-md-2 col-xs-4" id="5"></div>
-        <div class="col-md-2 col-xs-4" id="6"></div>
-        <div class="col-md-2 col-xs-4" id="7"></div>
+        <div class="col-md-2 col-md-offset-2" id="4"></div>
+        <div class="col-md-2" id="5"></div>
+        <div class="col-md-2" id="6"></div>
+        <div class="col-md-2" id="7"></div>
       </div>
 
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="8"></div>
-        <div class="col-md-2 col-xs-4" id="9"></div>
-        <div class="col-md-2 col-xs-4" id="10"></div>
-        <div class="col-md-2 col-xs-4" id="11"></div>
+        <div class="col-md-2 col-md-offset-2" id="8"></div>
+        <div class="col-md-2" id="9"></div>
+        <div class="col-md-2" id="10"></div>
+        <div class="col-md-2" id="11"></div>
       </div>
 
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="12"></div>
-        <div class="col-md-2 col-xs-4" id="13"></div>
-        <div class="col-md-2 col-xs-4" id="14"></div>
-        <div class="col-md-2 col-xs-4" id="15"></div>
+        <div class="col-md-2 col-md-offset-2" id="12"></div>
+        <div class="col-md-2" id="13"></div>
+        <div class="col-md-2" id="14"></div>
+        <div class="col-md-2" id="15"></div>
       </div>
 
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="16"></div>
-        <div class="col-md-2 col-xs-4" id="17"></div>
-        <div class="col-md-2 col-xs-4" id="18"></div>
-        <div class="col-md-2 col-xs-4" id="19"></div>
+        <div class="col-md-2 col-md-offset-2" id="16"></div>
+        <div class="col-md-2" id="17"></div>
+        <div class="col-md-2" id="18"></div>
+        <div class="col-md-2" id="19"></div>
       </div>
 
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="20"></div>
-        <div class="col-md-2 col-xs-4" id="21"></div>
-        <div class="col-md-2 col-xs-4" id="22"></div>
-        <div class="col-md-2 col-xs-4" id="23"></div>
+        <div class="col-md-2 col-md-offset-2" id="20"></div>
+        <div class="col-md-2" id="21"></div>
+        <div class="col-md-2" id="22"></div>
+        <div class="col-md-2" id="23"></div>
       </div>
       
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="24"></div>
-        <div class="col-md-2 col-xs-4" id="25"></div>
-        <div class="col-md-2 col-xs-4" id="26"></div>
-        <div class="col-md-2 col-xs-4" id="27"></div>
+        <div class="col-md-2 col-md-offset-2" id="24"></div>
+        <div class="col-md-2" id="25"></div>
+        <div class="col-md-2" id="26"></div>
+        <div class="col-md-2" id="27"></div>
       </div>
 
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="28"></div>
-        <div class="col-md-2 col-xs-4" id="29"></div>
-        <div class="col-md-2 col-xs-4" id="30"></div>
-        <div class="col-md-2 col-xs-4" id="31"></div>
+        <div class="col-md-2 col-md-offset-2" id="28"></div>
+        <div class="col-md-2" id="29"></div>
+        <div class="col-md-2" id="30"></div>
+        <div class="col-md-2" id="31"></div>
       </div>
 
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="32"></div>
-        <div class="col-md-2 col-xs-4" id="33"></div>
-        <div class="col-md-2 col-xs-4" id="34"></div>
-        <div class="col-md-2 col-xs-4" id="35"></div>
+        <div class="col-md-2 col-md-offset-2" id="32"></div>
+        <div class="col-md-2" id="33"></div>
+        <div class="col-md-2" id="34"></div>
+        <div class="col-md-2" id="35"></div>
       </div>
 
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="36"></div>
-        <div class="col-md-2 col-xs-4" id="37"></div>
-        <div class="col-md-2 col-xs-4" id="38"></div>
-        <div class="col-md-2 col-xs-4" id="39"></div>
+        <div class="col-md-2 col-md-offset-2" id="36"></div>
+        <div class="col-md-2" id="37"></div>
+        <div class="col-md-2" id="38"></div>
+        <div class="col-md-2" id="39"></div>
       </div>
 
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="40"></div>
-        <div class="col-md-2 col-xs-4" id="41"></div>
-        <div class="col-md-2 col-xs-4" id="42"></div>
-        <div class="col-md-2 col-xs-4" id="43"></div>
+        <div class="col-md-2 col-md-offset-2" id="40"></div>
+        <div class="col-md-2" id="41"></div>
+        <div class="col-md-2" id="42"></div>
+        <div class="col-md-2" id="43"></div>
       </div>
       
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="44"></div>
-        <div class="col-md-2 col-xs-4" id="45"></div>
-        <div class="col-md-2 col-xs-4" id="46"></div>
-        <div class="col-md-2 col-xs-4" id="47"></div>
+        <div class="col-md-2 col-md-offset-2" id="44"></div>
+        <div class="col-md-2" id="45"></div>
+        <div class="col-md-2" id="46"></div>
+        <div class="col-md-2" id="47"></div>
       </div>
 
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="48"></div>
-        <div class="col-md-2 col-xs-4" id="49"></div>
-        <div class="col-md-2 col-xs-4" id="50"></div>
-        <div class="col-md-2 col-xs-4" id="51"></div>
+        <div class="col-md-2 col-md-offset-2" id="48"></div>
+        <div class="col-md-2" id="49"></div>
+        <div class="col-md-2" id="50"></div>
+        <div class="col-md-2" id="51"></div>
       </div>
 
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="52"></div>
-        <div class="col-md-2 col-xs-4" id="53"></div>
-        <div class="col-md-2 col-xs-4" id="54"></div>
-        <div class="col-md-2 col-xs-4" id="55"></div>
+        <div class="col-md-2 col-md-offset-2" id="52"></div>
+        <div class="col-md-2" id="53"></div>
+        <div class="col-md-2" id="54"></div>
+        <div class="col-md-2" id="55"></div>
       </div>
 
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="56"></div>
-        <div class="col-md-2 col-xs-4" id="57"></div>
-        <div class="col-md-2 col-xs-4" id="58"></div>
-        <div class="col-md-2 col-xs-4" id="59"></div>
+        <div class="col-md-2 col-md-offset-2" id="56"></div>
+        <div class="col-md-2" id="57"></div>
+        <div class="col-md-2" id="58"></div>
+        <div class="col-md-2" id="59"></div>
       </div>
 
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="60"></div>
-        <div class="col-md-2 col-xs-4" id="61"></div>
-        <div class="col-md-2 col-xs-4" id="62"></div>
-        <div class="col-md-2 col-xs-4" id="63"></div>
+        <div class="col-md-2 col-md-offset-2" id="60"></div>
+        <div class="col-md-2" id="61"></div>
+        <div class="col-md-2" id="62"></div>
+        <div class="col-md-2" id="63"></div>
       </div>
       
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="64"></div>
-        <div class="col-md-2 col-xs-4" id="65"></div>
-        <div class="col-md-2 col-xs-4" id="66"></div>
-        <div class="col-md-2 col-xs-4" id="67"></div>
+        <div class="col-md-2 col-md-offset-2" id="64"></div>
+        <div class="col-md-2" id="65"></div>
+        <div class="col-md-2" id="66"></div>
+        <div class="col-md-2" id="67"></div>
       </div>
 
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="68"></div>
-        <div class="col-md-2 col-xs-4" id="69"></div>
-        <div class="col-md-2 col-xs-4" id="70"></div>
-        <div class="col-md-2 col-xs-4" id="71"></div>
+        <div class="col-md-2 col-md-offset-2" id="68"></div>
+        <div class="col-md-2" id="69"></div>
+        <div class="col-md-2" id="70"></div>
+        <div class="col-md-2" id="71"></div>
       </div>
 
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="72"></div>
-        <div class="col-md-2 col-xs-4" id="73"></div>
-        <div class="col-md-2 col-xs-4" id="74"></div>
-        <div class="col-md-2 col-xs-4" id="75"></div>
+        <div class="col-md-2 col-md-offset-2" id="72"></div>
+        <div class="col-md-2" id="73"></div>
+        <div class="col-md-2" id="74"></div>
+        <div class="col-md-2" id="75"></div>
       </div>
 
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="76"></div>
-        <div class="col-md-2 col-xs-4" id="77"></div>
-        <div class="col-md-2 col-xs-4" id="78"></div>
-        <div class="col-md-2 col-xs-4" id="79"></div>
+        <div class="col-md-2 col-md-offset-2" id="76"></div>
+        <div class="col-md-2" id="77"></div>
+        <div class="col-md-2" id="78"></div>
+        <div class="col-md-2" id="79"></div>
       </div>
 
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="80"></div>
-        <div class="col-md-2 col-xs-4" id="81"></div>
-        <div class="col-md-2 col-xs-4" id="82"></div>
-        <div class="col-md-2 col-xs-4" id="83"></div>
+        <div class="col-md-2 col-md-offset-2" id="80"></div>
+        <div class="col-md-2" id="81"></div>
+        <div class="col-md-2" id="82"></div>
+        <div class="col-md-2" id="83"></div>
       </div>
       
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="84"></div>
-        <div class="col-md-2 col-xs-4" id="85"></div>
-        <div class="col-md-2 col-xs-4" id="86"></div>
-        <div class="col-md-2 col-xs-4" id="87"></div>
+        <div class="col-md-2 col-md-offset-2" id="84"></div>
+        <div class="col-md-2" id="85"></div>
+        <div class="col-md-2" id="86"></div>
+        <div class="col-md-2" id="87"></div>
       </div>
 
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="88"></div>
-        <div class="col-md-2 col-xs-4" id="89"></div>
-        <div class="col-md-2 col-xs-4" id="90"></div>
-        <div class="col-md-2 col-xs-4" id="91"></div>
+        <div class="col-md-2 col-md-offset-2" id="88"></div>
+        <div class="col-md-2" id="89"></div>
+        <div class="col-md-2" id="90"></div>
+        <div class="col-md-2" id="91"></div>
       </div>
 
       <div class="row">
-        <div class="col-md-2 col-md-offset-2 col-xs-4" id="92"></div>
-        <div class="col-md-2 col-xs-4" id="93"></div>
-        <div class="col-md-2 col-xs-4" id="94"></div>
-        <div class="col-md-2 col-xs-4" id="95"></div>
+        <div class="col-md-2 col-md-offset-2" id="92"></div>
+        <div class="col-md-2" id="93"></div>
+        <div class="col-md-2" id="94"></div>
+        <div class="col-md-2" id="95"></div>
+      </div>
+
+      <div class="row">
+        <h1>bonus</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-4" id="mm"></div>
+        <div class="col-md-4" id="lms"></div>
+        <div class="col-md-4" id="ps"></div>
       </div>
 
 </main>
@@ -321,15 +331,15 @@
        </div>
     </main> -->
 
-
     <!-- Modules -->
-    <script src="js/app.js"></script>
+<!--    <script src="js/app.js"></script> -->
 
     <!-- Controllers -->
-    <script src="js/controllers/MainController.js"></script>
+<!--    <script src="js/controllers/MainController.js"></script> -->
 
     <!-- Directives -->
-    <script src="js/directives/sound.js"></script>
+<!--    <script src="js/directives/sound.js"></script> -->
+
 
   </body>
 </html>
