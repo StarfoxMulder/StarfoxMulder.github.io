@@ -37,7 +37,7 @@ li:hover {
 }
 */
 
-.col-md-2 {
+.col-xs-2 {
   height: 170px;
   overflow: hidden;
   margin-top: 10px;
@@ -74,16 +74,20 @@ h2 {
   text-transform: uppercase;
 }
 
+footer {
+  height: 55px;
+  margin-bottom: 0px;
+  background-color: black;
+}
 
 #copyright {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   background: #000;
   color: white;
-  text-align: center;
+  text-align: right;
   font-size: 10.5px;
-  bottom: 0px;
-  margin-bottom: 35px;
+  margin-top: 30px;
 }
 /*
 a:link {
