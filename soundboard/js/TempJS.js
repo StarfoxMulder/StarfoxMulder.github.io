@@ -61,7 +61,7 @@ window.onload = function() {
 		'soundLink': 'assets/mp3/FillingMyPants.mp3'
 	},
 	{	'soundImage': 'assets/images/tUP Mortal KC2.jpg',
-		'soundTitle': 'Mortal K-conflict',
+		'soundTitle': 'Mortal Kom-conflict',
 		'soundLink': 'assets/mp3/MortalConflict.mp3'
 	},
 	{	'soundImage': 'assets/images/tUPSomethingWrongHere.jpg',
@@ -216,128 +216,124 @@ window.onload = function() {
 		'soundTitle': 'pick up your mouth',
 		'soundLink': 'assets/mp3/XFX_PICK UP MOUTH.mp3'
 	},
-	{	'soundImage': 'assets/images/tUPPUYBraindd.jpg',
+	{	'soundImage': 'assets/images/tUPPUYBrain.jpg',
 		'soundTitle': 'pick up your brain',
 		'soundLink': 'assets/mp3/XFX_PICK UP BRAIN.mp3'
 	},
-	{	'soundImage': 'assets/images/Gameshow1.jpg',
+	{	'soundImage': 'assets/images/tUPSomethingWrongHere.jpg',
 		'soundTitle': 'something\'s wrong',
-		'soundLink': 'assets/mp3/222_GameShow.mp3'
+		'soundLink': 'assets/mp3/XFX_SOMETHINGSWRONG HERE.mp3'
 	},
-	{	'soundImage': 'assets/images/FiveStarReview2.jpg',
+--	{	'soundImage': 'assets/images/ReadMyLipsAbducted1.jpg',
 		'soundTitle': 'read my lips',
-		'soundLink': 'assets/mp3/888_5STAR.mp3'
+		'soundLink': 'assets/mp3/XFX_READMYLIPSABDUCTED.mp3'
 	},
-	{	'soundImage': 'assets/images/tUP Propsgif.gif',
+	{	'soundImage': 'assets/images/ScamOfTheCentury1.jpg',
 		'soundTitle': 'scam of the century',
-		'soundLink': 'assets/mp3/888_BELL.mp3'
+		'soundLink': 'assets/mp3/XFX_SCAM OF THE CENTURY.mp3'
 	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
+	{	'soundImage': 'assets/images/Obviously2.jpg',
 		'soundTitle': 'obviously',
-		'soundLink': 'assets/mp3/111_COUNTDOWN.mp3'
+		'soundLink': 'assets/mp3/XFX_OBVIOUSLY.mp3'
 	},
-	{	'soundImage': 'assets/images/DebutConspiracy2.jpg',
+--	{	'soundImage': 'assets/images/SettlesInTheAnus1.jpeg',
 		'soundTitle': 'anus',
-		'soundLink': 'assets/mp3/222_DebutConspiracy.mp3'
+		'soundLink': 'assets/mp3/XFX_SETTLES IN THE ANUS.mp3'
 	},
-	{	'soundImage': 'assets/images/Gameshow1.jpg',
+	{	'soundImage': 'assets/images/ReallyGoodAtIt2.jpg',
 		'soundTitle': 'really good at it',
-		'soundLink': 'assets/mp3/222_GameShow.mp3'
+		'soundLink': 'assets/mp3/XFX_REALLYGOODATIT.mp3'
 	},
-	{	'soundImage': 'assets/images/FiveStarReview2.jpg',
+	{	'soundImage': 'assets/images/skull.gif',
 		'soundTitle': 's-skull',
-		'soundLink': 'assets/mp3/888_5STAR.mp3'
+		'soundLink': 'assets/mp3/XFX_SCREAMINGSKULL.mp3'
 	},
-	{	'soundImage': 'assets/images/tUP Propsgif.gif',
+	{	'soundImage': 'assets/images/Rand4.gif',
 		'soundTitle': 'fought it off',
-		'soundLink': 'assets/mp3/888_BELL.mp3'
+		'soundLink': 'assets/mp3/XFX_SODOMY_FOUGHTITOFF.mp3'
 	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
+	{	'soundImage': 'assets/images/ThatsWhyItWorks1.jpg',
 		'soundTitle': 'why it works',
-		'soundLink': 'assets/mp3/111_COUNTDOWN.mp3'
+		'soundLink': 'assets/mp3/XFX_THATS WHY IT WORKS 1.mp3'
 	},
-	{	'soundImage': 'assets/images/DebutConspiracy2.jpg',
+	{	'soundImage': 'assets/images/TruthersBonkers1.jpg',
 		'soundTitle': 'truthers',
-		'soundLink': 'assets/mp3/222_DebutConspiracy.mp3'
+		'soundLink': 'assets/mp3/XFX_TRUTHERS BONKERS.mp3'
 	},
-	{	'soundImage': 'assets/images/Gameshow1.jpg',
+	{	'soundImage': 'assets/images/RealShow1.jpg',
 		'soundTitle': 'real show',
-		'soundLink': 'assets/mp3/222_GameShow.mp3'
+		'soundLink': 'assets/mp3/XFX_REALSHOW.mp3'
 	},
-	{	'soundImage': 'assets/images/FiveStarReview2.jpg',
+	{	'soundImage': 'assets/images/Thundercats1.jpg',
 		'soundTitle': 'handle this',
-		'soundLink': 'assets/mp3/888_5STAR.mp3'
+		'soundLink': 'assets/mp3/XFX_THUNDERCATS.mp3'
 	},
-	{	'soundImage': 'assets/images/tUP Propsgif.gif',
+	{	'soundImage': 'assets/images/TalkingCactus2.jpg',
 		'soundTitle': 'cactus',
-		'soundLink': 'assets/mp3/888_BELL.mp3'
+		'soundLink': 'assets/mp3/XFX_TALKINGCACTUS.mp3'
 	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
+	{	'soundImage': 'assets/images/WarpDrive1.jpg',
 		'soundTitle': 'warp drive',
-		'soundLink': 'assets/mp3/111_COUNTDOWN.mp3'
+		'soundLink': 'assets/mp3/XFX_WARPDRIVE.mp3'
 	},
-	{	'soundImage': 'assets/images/DebutConspiracy2.jpg',
+	{	'soundImage': 'assets/images/MyFeet2.jpg',
 		'soundTitle': 'feet',
-		'soundLink': 'assets/mp3/222_DebutConspiracy.mp3'
+		'soundLink': 'assets/mp3/XFX_WHAT FEET.mp3'
 	},
-	{	'soundImage': 'assets/images/Gameshow1.jpg',
+	{	'soundImage': 'assets/images/whatbroughtmehere2jpeg.jpeg',
 		'soundTitle': 'What brought me here',
-		'soundLink': 'assets/mp3/222_GameShow.mp3'
+		'soundLink': 'assets/mp3/XFX_WHATBROUGHTMEHERE.mp3'
 	},
-	{	'soundImage': 'assets/images/FiveStarReview2.jpg',
-		'soundTitle': 'Five Star Reviews',
-		'soundLink': 'assets/mp3/888_5STAR.mp3'
-	},
-	{	'soundImage': 'assets/images/tUP Propsgif.gif',
+	{	'soundImage': 'assets/images/LMS2.jpg',
 		'soundTitle': 'washtar',
-		'soundLink': 'assets/mp3/888_BELL.mp3'
+		'soundLink': 'assets/mp3/XFX_WASHTAR.mp3'
 	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
+	{	'soundImage': 'assets/images/RememberNothing1.jpg',
 		'soundTitle': 'remember nothing',
-		'soundLink': 'assets/mp3/111_COUNTDOWN.mp3'
+		'soundLink': 'assets/mp3/XFX_REMEMBERNOTHING.mp3'
 	},
-	{	'soundImage': 'assets/images/DebutConspiracy2.jpg',
+	{	'soundImage': 'assets/images/SmellyFarts1.jpg',
 		'soundTitle': 'farts',
-		'soundLink': 'assets/mp3/222_DebutConspiracy.mp3'
+		'soundLink': 'assets/mp3/XFX_SMELLYFARTS.mp3'
 	},
-	{	'soundImage': 'assets/images/Gameshow1.jpg',
+	{	'soundImage': 'assets/images/WhyWouldILie1.jpg',
 		'soundTitle': 'why would I lie',
-		'soundLink': 'assets/mp3/222_GameShow.mp3'
+		'soundLink': 'assets/mp3/XFX_WHYWOULDILIE.mp3'
 	},
-	{	'soundImage': 'assets/images/FiveStarReview2.jpg',
+	{	'soundImage': 'assets/images/WillSmithCumming1.jpg',
 		'soundTitle': 'cumming',
-		'soundLink': 'assets/mp3/888_5STAR.mp3'
+		'soundLink': 'assets/mp3/XFX_WILLSMITHCUMMING.mp3'
 	},
-	{	'soundImage': 'assets/images/tUP Propsgif.gif',
+	{	'soundImage': 'assets/images/Rand3.gif',
 		'soundTitle': 'v-witch',
-		'soundLink': 'assets/mp3/888_BELL.mp3'
+		'soundLink': 'assets/mp3/XFX_WITCH.mp3'
 	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
+	{	'soundImage': 'assets/images/doingthatagain2.png',
 		'soundTitle': 'doing that again',
-		'soundLink': 'assets/mp3/111_COUNTDOWN.mp3'
+		'soundLink': 'assets/mp3/XFX_WONTBEDOING.mp3'
 	},
-	{	'soundImage': 'assets/images/DebutConspiracy2.jpg',
-		'soundTitle': 'just to clarify',
-		'soundLink': 'assets/mp3/222_DebutConspiracy.mp3'
+	{	'soundImage': 'assets/images/Rand11.jpg',
+		'soundTitle': 'put it on your face',
+		'soundLink': 'assets/mp3/XFX_YOUR_FACE.mp3'
 	},
-	{	'soundImage': 'assets/images/FiveStarReview2.jpg',
+	{	'soundImage': 'assets/images/ShootAMonkey2.jpg',
 		'soundTitle': 'shoot a monkey',
-		'soundLink': 'assets/mp3/888_5STAR.mp3'
+		'soundLink': 'assets/mp3/XFX_SHOOTAMONKEY.mp3'
 	}
 	];
 
 	var bonusTracks = [
-	{	'soundImage': 'assets/images/DebutConspiracy2.jpg',
+	{	'soundImage': 'assets/images/Mothman1.jpg',
 		'soundTitle': 'true story',
-		'soundLink': 'assets/mp3/222_DebutConspiracy.mp3'
+		'soundLink': 'assets/mp3/zMothman (true story, 1966-1967).mp3'
 	},
-	{	'soundImage': 'assets/images/Gameshow1.jpg',
+	{	'soundImage': 'assets/images/LMS1.jpg',
 		'soundTitle': 'lizardman stomp',
-		'soundLink': 'assets/mp3/222_GameShow.mp3'
+		'soundLink': 'assets/mp3/zThe Lizard Man Stomp by Roy Atkinson.mp3'
 	},
-	{	'soundImage': 'assets/images/FiveStarReview2.jpg',
+	{	'soundImage': 'assets/images/puppysong2.jpg',
 		'soundTitle': 'puppy song',
-		'soundLink': 'assets/mp3/888_5STAR.mp3'
+		'soundLink': 'assets/mp3/zThe Puppy Song.mp3'
 	},
 /*	{	'soundImage': 'assets/images/tUP Propsgif.gif',
 		'soundTitle': 'starfox mulder',
@@ -375,5 +371,11 @@ window.onload = function() {
 	$('#ps').click(function() {
 		new Audio(bonusTracks[2].soundLink).play();
 	});
+
+//Making the header a random sound player
+	$('header').click(function() {
+		var j = Math.floor(Math.random() * (soundArray.length+1));
+		new Audio(soundArray[j].soundLink).play();
+	});	
 
 };
