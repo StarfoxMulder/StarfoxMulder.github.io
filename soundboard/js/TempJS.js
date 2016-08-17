@@ -20,7 +20,7 @@ window.onload = function() {
 		'soundTitle': 'Five Star Reviews',
 		'soundLink': 'assets/mp3/888_5STAR.mp3'
 	},
-	{	'soundImage': 'assets/images/tUP Propsgif.gif',
+	{	'soundImage': 'assets/images/tUP_Propsgif2.png',
 		'soundTitle': 'Props',
 		'soundLink': 'assets/mp3/888_BELL.mp3'
 	},
@@ -40,15 +40,15 @@ window.onload = function() {
 		'soundTitle': 'Poll Results',
 		'soundLink': 'assets/mp3/999_PollResults.mp3'
 	},
-	{	'soundImage': 'assets/images/Intro1.gif',
+	{	'soundImage': 'assets/images/Intro2.jpg',
 		'soundTitle': 'Intro',
 		'soundLink': 'assets/mp3/BBB_TRUE VAMPER THIS IS IntroMusic.mp3'
 	},
-	{	'soundImage': 'assets/images/Rand6.jpg',
+	{	'soundImage': 'assets/images/Rand8.jpg',
 		'soundTitle': 'alert',
 		'soundLink': 'assets/mp3/XFX_SPOILER.mp3'
 	},
---	{	'soundImage': 'assets/images/Rimshot1.jpg',
+	{	'soundImage': 'assets/images/Rimshot1.jpg',
 		'soundTitle': 'rimshot',
 		'soundLink': 'assets/mp3/XFX_RIM SHOT.mp3'
 	},
@@ -56,11 +56,11 @@ window.onload = function() {
 		'soundTitle': 'Crispy Critter\'d',
 		'soundLink': 'assets/mp3/CrispyCrittered.mp3'
 	},
-	{	'soundImage': 'assets/images/tUP FMP II.jpg',
+	{	'soundImage': 'assets/images/tUP_FMP_II.jpg',
 		'soundTitle': 'Filling my pants',
 		'soundLink': 'assets/mp3/FillingMyPants.mp3'
 	},
-	{	'soundImage': 'assets/images/tUP Mortal KC2.jpg',
+	{	'soundImage': 'assets/images/tUP_Mortal_KC2.jpg',
 		'soundTitle': 'Mortal Kom-conflict',
 		'soundLink': 'assets/mp3/MortalConflict.mp3'
 	},
@@ -84,11 +84,11 @@ window.onload = function() {
 		'soundTitle': '6 hour erection',
 		'soundLink': 'assets/mp3/XFX_6HR ERECTION.mp3'
 	},
-	{	'soundImage': 'assets/images/7Adults1jpeg.jpg',
+	{	'soundImage': 'assets/images/7Adults1jpeg.jpeg',
 		'soundTitle': 'seven adults',
 		'soundLink': 'assets/mp3/XFX_7ADULTS.mp3'
 	},
-	{	'soundImage': 'assets/images/AboutThatHole1.gif',
+	{	'soundImage': 'assets/images/AboutThatHole1.jpg',
 		'soundTitle': 'about that hole',
 		'soundLink': 'assets/mp3/XFX_ABOUTTHATHOLE.mp3'
 	},
@@ -108,7 +108,7 @@ window.onload = function() {
 		'soundTitle': 'baskin robbins',
 		'soundLink': 'assets/mp3/XFX_BASKIN ROBBINS.mp3'
 	},
-	{	'soundImage': 'assets/images/BehindABush1.gif',
+	{	'soundImage': 'assets/images/BehindABush1.jpg',
 		'soundTitle': 'behind a bush',
 		'soundLink': 'assets/mp3/XFX_BEHIND_A_BUSH.mp3'
 	},
@@ -132,7 +132,7 @@ window.onload = function() {
 		'soundTitle': 'free will',
 		'soundLink': 'assets/mp3/XFX_COLLIER_NO NOT.mp3'
 	},
-	{	'soundImage': 'assets/images/CollierNo1gif.gif',
+	{	'soundImage': 'assets/images/CollierNo1gif2.png',
 		'soundTitle': 'stand in your truth',
 		'soundLink': 'assets/mp3/XFX_COLLIER_NO.mp3'
 	},
@@ -144,7 +144,7 @@ window.onload = function() {
 		'soundTitle': 'died in prison',
 		'soundLink': 'assets/mp3/XFX_DIED IN PRISON.mp3'
 	},
-	{	'soundImage': 'assets/images/DjinnHowLong2.gif',
+	{	'soundImage': 'assets/images/DjinnHowLong2.jpg',
 		'soundTitle': 'how long',
 		'soundLink': 'assets/mp3/XFX_DJINNHOWLONG35.mp3'
 	},
@@ -164,7 +164,7 @@ window.onload = function() {
 		'soundTitle': 'observing us',
 		'soundLink': 'assets/mp3/XFX_GREY ON THE ROOF.mp3'
 	},
-	{	'soundImage': 'assets/images/BedWithReptilian2.gif',
+	{	'soundImage': 'assets/images/BedWithReptilian2.jpg',
 		'soundTitle': 'we don\'t do that',
 		'soundLink': 'assets/mp3/XFX_GROWL.mp3'
 	},
@@ -184,7 +184,7 @@ window.onload = function() {
 		'soundTitle': 'sheep guy',
 		'soundLink': 'assets/mp3/XFX_IMNOSHEEPGUY.mp3'
 	},
-	{	'soundImage': 'assets/images/ScamOfTheCentury1.gif',
+	{	'soundImage': 'assets/images/JoshuaPWarrenImg2.jpg',
 		'soundTitle': 'stroke it',
 		'soundLink': 'assets/mp3/XFX_JOSHUA STROKE IT.mp3'
 	},
@@ -192,7 +192,7 @@ window.onload = function() {
 		'soundTitle': 'on a van',
 		'soundLink': 'assets/mp3/XFX_HILLARYS ON A VAN.mp3'
 	},
-	{	'soundImage': 'assets/images/tUPMonkeys2.jpg',
+	{	'soundImage': 'assets/images/tUPMonkeys3.jpg',
 		'soundTitle': 'monkeys',
 		'soundLink': 'assets/mp3/XFX_MONKEYS.mp3'
 	},
@@ -204,7 +204,7 @@ window.onload = function() {
 		'soundTitle': 'control',
 		'soundLink': 'assets/mp3/XFX_OBAMACONTROL.mp3'
 	},
-	{	'soundImage': 'assets/images/Rand12.gif',
+	{	'soundImage': 'assets/images/Rand12.jpg',
 		'soundTitle': 'flat earth society',
 		'soundLink': 'assets/mp3/XFX_OBAMAFLATEARTH 1.mp3'
 	},
@@ -224,7 +224,7 @@ window.onload = function() {
 		'soundTitle': 'something\'s wrong',
 		'soundLink': 'assets/mp3/XFX_SOMETHINGSWRONG HERE.mp3'
 	},
---	{	'soundImage': 'assets/images/ReadMyLipsAbducted1.jpg',
+	{	'soundImage': 'assets/images/ReadMyLipsAbducted1.jpg',
 		'soundTitle': 'read my lips',
 		'soundLink': 'assets/mp3/XFX_READMYLIPSABDUCTED.mp3'
 	},
@@ -236,7 +236,7 @@ window.onload = function() {
 		'soundTitle': 'obviously',
 		'soundLink': 'assets/mp3/XFX_OBVIOUSLY.mp3'
 	},
---	{	'soundImage': 'assets/images/SettlesInTheAnus1.jpeg',
+	{	'soundImage': 'assets/images/SettlesInTheAnus1jpeg.jpeg',
 		'soundTitle': 'anus',
 		'soundLink': 'assets/mp3/XFX_SETTLES IN THE ANUS.mp3'
 	},
@@ -248,7 +248,7 @@ window.onload = function() {
 		'soundTitle': 's-skull',
 		'soundLink': 'assets/mp3/XFX_SCREAMINGSKULL.mp3'
 	},
-	{	'soundImage': 'assets/images/Rand4.gif',
+	{	'soundImage': 'assets/images/Rand6.jpg',
 		'soundTitle': 'fought it off',
 		'soundLink': 'assets/mp3/XFX_SODOMY_FOUGHTITOFF.mp3'
 	},
@@ -280,8 +280,8 @@ window.onload = function() {
 		'soundTitle': 'feet',
 		'soundLink': 'assets/mp3/XFX_WHAT FEET.mp3'
 	},
-	{	'soundImage': 'assets/images/whatbroughtmehere2jpeg.jpeg',
-		'soundTitle': 'What brought me here',
+	{	'soundImage': 'assets/images/whatbroughtmehere2.jpg',
+		'soundTitle': 'I dont understand',
 		'soundLink': 'assets/mp3/XFX_WHATBROUGHTMEHERE.mp3'
 	},
 	{	'soundImage': 'assets/images/LMS2.jpg',
@@ -304,7 +304,7 @@ window.onload = function() {
 		'soundTitle': 'cumming',
 		'soundLink': 'assets/mp3/XFX_WILLSMITHCUMMING.mp3'
 	},
-	{	'soundImage': 'assets/images/Rand3.gif',
+	{	'soundImage': 'assets/images/Rand3.jpg',
 		'soundTitle': 'v-witch',
 		'soundLink': 'assets/mp3/XFX_WITCH.mp3'
 	},
@@ -355,20 +355,20 @@ window.onload = function() {
 	});
 
 // BONUS TRACKS bc I made this shit yo
-	for(var i = 0; i < bonusTracks.length; i++) {
-		$('#'+i+'').html("<img class='img-rounded' alt='Responsive image' src="+bonusTracks[i].soundImage+"><h2>"+bonusTracks[i].soundTitle+"</h2>");
+	for(var b = 0; b < bonusTracks.length; b++) {
+		$('#b'+b+'').html("<img class='img-rounded' alt='Responsive image' src="+bonusTracks[b].soundImage+"><h2>"+bonusTracks[b].soundTitle+"</h2>");
 	};
 
 
-	$('#mm').click(function() {
+	$('#b0').click(function() {
 		new Audio(bonusTracks[0].soundLink).play();
 	});
 
-	$('#lms').click(function() {
+	$('#b1').click(function() {
 		new Audio(bonusTracks[1].soundLink).play();
 	});
 
-	$('#ps').click(function() {
+	$('#b2').click(function() {
 		new Audio(bonusTracks[2].soundLink).play();
 	});
 

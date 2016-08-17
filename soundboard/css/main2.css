@@ -10,11 +10,11 @@ header {
   margin: 0 0 40px 0;
 }
 
-header > h1 {
+.logo {
   font-family: 'Oswald', sans-serif;
-  font-size: 24px;
+  font-size: 28px;
   letter-spacing: 0.5em;
-  margin: 0;
+  margin-right: 0;
   padding: 40px 0;
   text-align: center;
   text-transform: uppercase;
@@ -45,7 +45,7 @@ li:hover {
 
 img {
   height: 150px;
-  width: 200px;
+  width: 180px;
   position: absolute;
   background-color: #45b9d9;
 }
@@ -59,10 +59,32 @@ h2 {
   text-align: center;
   font-size: 18.5px;
   bottom: 0px;
-  width: 100%;
+  width: 94%;
   margin-bottom: 35px;
 }
 
+#bonus {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.5em;
+  margin: 0;
+  padding: 40px 0;
+  width: 94%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+#copyright {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  background: #000;
+  color: white;
+  text-align: center;
+  font-size: 10.5px;
+  bottom: 0px;
+  margin-bottom: 35px;
+}
 /*
 a:link {
   text-decoration: none
