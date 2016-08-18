@@ -334,7 +334,7 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/puppysong2.jpg',
 		'soundTitle': 'puppy song',
 		'soundLink': 'assets/mp3/PuppySong.mp3'
-	},
+	}
 /*	{	'soundImage': 'assets/images/tUP Propsgif.gif',
 		'soundTitle': 'starfox mulder',
 		'soundLink': 'assets/mp3/888_BELL.mp3'
@@ -350,8 +350,17 @@ window.onload = function() {
 	};
 
 	$('div').click(function() {
-		var j = $(this).attr('id');
-		new Audio(soundArray[j].soundLink).play();
+		
+		if ($(this).attr('id') == 'b0') {
+			new Audio(bonusTracks[0].soundLink).play();
+		} else if ($(this).attr('id') == 'b1') {
+			new Audio(bonusTracks[1].soundLink).play();
+		} else if ($(this).attr('id') == 'b2') {
+			new Audio(bonusTracks[2].soundLink).play();
+		} else {
+			var j = $(this).attr('id');
+			new Audio(soundArray[j].soundLink).play();
+		}
 	});
 
 // BONUS TRACKS bc I made this shit yo
