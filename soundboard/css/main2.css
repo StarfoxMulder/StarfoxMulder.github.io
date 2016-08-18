@@ -68,8 +68,8 @@ h2 {
   font-size: 24px;
   letter-spacing: 0.5em;
   margin: 0;
-  padding: 40px 0;
-  width: 94%;
+  padding: 40px 0 40px 38px;
+  width: 100%;
   text-align: center;
   text-transform: uppercase;
 }
