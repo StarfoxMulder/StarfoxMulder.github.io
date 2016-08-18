@@ -28,7 +28,7 @@ window.onload = function() {
 		'soundTitle': 'Mailbag',
 		'soundLink': 'assets/mp3/888_MAIL.mp3'
 	},
-	{	'soundImage': 'assets/images/Wikia1.jpg',
+	{	'soundImage': 'assets/images/Wikia1.JPG',
 		'soundTitle': 'Wikia',
 		'soundLink': 'assets/mp3/888_WIKIA.mp3'
 	},
@@ -96,7 +96,7 @@ window.onload = function() {
 		'soundTitle': 'Apple story',
 		'soundLink': 'assets/mp3/XFX_APPLE STORY.mp3'
 	},
-	{	'soundImage': 'assets/images/Arrrrrgh1.jpg',
+	{	'soundImage': 'assets/images/Arrrrrgh1.JPG',
 		'soundTitle': 'argghhhhhhh',
 		'soundLink': 'assets/mp3/XFX_ARGHHHHH.mp3'
 	},
@@ -116,7 +116,7 @@ window.onload = function() {
 		'soundTitle': 'junior',
 		'soundLink': 'assets/mp3/XFX_BITES OUT OF BUILDINGS.mp3'
 	},
-	{	'soundImage': 'assets/images/YourBrainIsAShootingStar1.jpg',
+	{	'soundImage': 'assets/images/YourBrainIsAShootingStar1.JPG',
 		'soundTitle': 'shooting star',
 		'soundLink': 'assets/mp3/XFX_BRAINSHOOTINGSTAR.mp3'
 	},
@@ -184,7 +184,7 @@ window.onload = function() {
 		'soundTitle': 'sheep guy',
 		'soundLink': 'assets/mp3/XFX_IMNOSHEEPGUY.mp3'
 	},
-	{	'soundImage': 'assets/images/JoshuaPWarrenImg2.jpg',
+	{	'soundImage': 'assets/images/JoshuaPWarrenImg2.JPG',
 		'soundTitle': 'stroke it',
 		'soundLink': 'assets/mp3/XFX_JOSHUA STROKE IT.mp3'
 	},
@@ -212,7 +212,7 @@ window.onload = function() {
 		'soundTitle': 'flat head',
 		'soundLink': 'assets/mp3/XFX_SAVEDBYTHEBELLFLAT.mp3'
 	},
-	{	'soundImage': 'assets/images/PhilSchneider.jpg',
+	{	'soundImage': 'assets/images/PhilSchneider.JPG',
 		'soundTitle': 'pick up your mouth',
 		'soundLink': 'assets/mp3/XFX_PICK UP MOUTH.mp3'
 	},
@@ -228,7 +228,7 @@ window.onload = function() {
 		'soundTitle': 'read my lips',
 		'soundLink': 'assets/mp3/XFX_READMYLIPSABDUCTED.mp3'
 	},
-	{	'soundImage': 'assets/images/ScamOfTheCentury1.jpg',
+	{	'soundImage': 'assets/images/ScamOfTheCentury1.JPG',
 		'soundTitle': 'scam of the century',
 		'soundLink': 'assets/mp3/XFX_SCAM OF THE CENTURY.mp3'
 	},
@@ -268,7 +268,7 @@ window.onload = function() {
 		'soundTitle': 'handle this',
 		'soundLink': 'assets/mp3/XFX_THUNDERCATS.mp3'
 	},
-	{	'soundImage': 'assets/images/TalkingCactus2.jpg',
+	{	'soundImage': 'assets/images/TalkingCactus2.JPG',
 		'soundTitle': 'cactus',
 		'soundLink': 'assets/mp3/XFX_TALKINGCACTUS.mp3'
 	},
@@ -296,7 +296,7 @@ window.onload = function() {
 		'soundTitle': 'farts',
 		'soundLink': 'assets/mp3/XFX_SMELLYFARTS.mp3'
 	},
-	{	'soundImage': 'assets/images/WhyWouldILie1.jpg',
+	{	'soundImage': 'assets/images/WhyWouldILie1.JPG',
 		'soundTitle': 'why would I lie',
 		'soundLink': 'assets/mp3/XFX_WHYWOULDILIE.mp3'
 	},
@@ -325,15 +325,15 @@ window.onload = function() {
 	var bonusTracks = [
 	{	'soundImage': 'assets/images/Mothman1.jpg',
 		'soundTitle': 'true story',
-		'soundLink': 'assets/mp3/zMothman (true story, 1966-1967).mp3'
+		'soundLink': 'assets/mp3/mothman.mp3'
 	},
 	{	'soundImage': 'assets/images/LMS1.jpg',
 		'soundTitle': 'lizardman stomp',
-		'soundLink': 'assets/mp3/zThe Lizard Man Stomp by Roy Atkinson.mp3'
+		'soundLink': 'assets/mp3/LizardmanStomp.mp3'
 	},
 	{	'soundImage': 'assets/images/puppysong2.jpg',
 		'soundTitle': 'puppy song',
-		'soundLink': 'assets/mp3/zThe Puppy Song.mp3'
+		'soundLink': 'assets/mp3/PuppySong.mp3'
 	},
 /*	{	'soundImage': 'assets/images/tUP Propsgif.gif',
 		'soundTitle': 'starfox mulder',
