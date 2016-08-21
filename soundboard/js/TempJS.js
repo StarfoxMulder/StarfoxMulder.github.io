@@ -40,18 +40,6 @@ window.onload = function() {
 		'soundTitle': 'Poll Results',
 		'soundLink': 'assets/mp3/999_PollResults.mp3'
 	},
-	{	'soundImage': 'assets/images/Intro2.jpg',
-		'soundTitle': 'Intro',
-		'soundLink': 'assets/mp3/BBB_TRUE VAMPER THIS IS IntroMusic.mp3'
-	},
-	{	'soundImage': 'assets/images/Rand8.jpg',
-		'soundTitle': 'alert',
-		'soundLink': 'assets/mp3/XFX_SPOILER.mp3'
-	},
-	{	'soundImage': 'assets/images/Rimshot1.jpg',
-		'soundTitle': 'rimshot',
-		'soundLink': 'assets/mp3/XFX_RIM SHOT.mp3'
-	},
 	{	'soundImage': 'assets/images/tUPCrispyCritter.jpg',
 		'soundTitle': 'Crispy Critter\'d',
 		'soundLink': 'assets/mp3/CrispyCrittered.mp3'
@@ -308,7 +296,7 @@ window.onload = function() {
 		'soundTitle': 'v-witch',
 		'soundLink': 'assets/mp3/XFX_WITCH.mp3'
 	},
-	{	'soundImage': 'assets/images/doingthatagain2.png',
+	{	'soundImage': 'assets/images/doingthatagain3.png',
 		'soundTitle': 'doing that again',
 		'soundLink': 'assets/mp3/XFX_WONTBEDOING.mp3'
 	},
@@ -334,15 +322,11 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/puppysong2.jpg',
 		'soundTitle': 'puppy song',
 		'soundLink': 'assets/mp3/PuppySong.mp3'
+	},
+	{	'soundImage': 'assets/images/bigfootStomp.jpg',
+		'soundTitle': 'bigfoot stomp',
+		'soundLink': 'assets/mp3/BigfootStomp.mp3'
 	}
-/*	{	'soundImage': 'assets/images/tUP Propsgif.gif',
-		'soundTitle': 'starfox mulder',
-		'soundLink': 'assets/mp3/888_BELL.mp3'
-	{I'm considering picking my ghost story, 'starfoc mulder - that's a dog!',
-		 SFM birthday shouthout, and "starfox mulder.... you have a tulpa?"
-		 clips and setting up a math.floor(math.random) for which one populates
-	}
-	} */
 	];
 
 	for(var i = 0; i < soundArray.length; i++) {
@@ -357,7 +341,10 @@ window.onload = function() {
 			new Audio(bonusTracks[1].soundLink).play();
 		} else if ($(this).attr('id') == 'b2') {
 			new Audio(bonusTracks[2].soundLink).play();
-		} else {
+		} else if ($(this).attr('id') == 'b3') {
+			new Audio(bonusTracks[3].soundLink).play();
+		}
+		else {
 			var j = $(this).attr('id');
 			new Audio(soundArray[j].soundLink).play();
 		}
