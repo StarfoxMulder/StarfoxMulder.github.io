@@ -20,7 +20,7 @@ window.onload = function() {
 		'soundTitle': 'Five Star Reviews',
 		'soundLink': 'assets/mp3/888_5STAR.mp3'
 	},
-	{	'soundImage': 'assets/images/tUP_Propsgif2.png',
+	{	'soundImage': 'assets/images/tUP_Propsgif3.jpg',
 		'soundTitle': 'Props',
 		'soundLink': 'assets/mp3/888_BELL.mp3'
 	},
@@ -51,10 +51,6 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/tUP_Mortal_KC2.jpg',
 		'soundTitle': 'Mortal Kom-conflict',
 		'soundLink': 'assets/mp3/MortalConflict.mp3'
-	},
-	{	'soundImage': 'assets/images/tUPSomethingWrongHere.jpg',
-		'soundTitle': 'Something\'s Wrong',
-		'soundLink': 'assets/mp3/NowSomethingsWrongHere.mp3'
 	},
 	{	'soundImage': 'assets/images/tUPHamburger.jpg',
 		'soundTitle': 'Hamburger',
@@ -329,9 +325,40 @@ window.onload = function() {
 	}
 	];
 
-	for(var i = 0; i < soundArray.length; i++) {
-		$('#'+i+'').html("<img class='img-rounded' alt='Responsive image' src="+soundArray[i].soundImage+"><h2>"+soundArray[i].soundTitle+"</h2>");
-	};
+	var row = "<div class='row arrayRow'></div>";
+	var rowNum = soundArray.length / 5;
+	var counter = 0;
+	var soundCol = "<div class='col-xs-2'></div>";
+	var leftSoundCol = "<div class='col-xs-2 col-xs-offset-1'></div>";
+
+	rowColMaker();
+	soundPopulator();
+
+  function rowColMaker() {
+
+	for(var i = 0; i < rowNum; i++) {
+		$('#anchor').append(row);
+		$('.arrayRow').last().addClass('row'+i+'');
+
+		var stopCounter = counter + 4;
+
+		for(var k = counter; k < (stopCounter+1); k++) {
+			if(k % 5 == 0) {
+				$(leftSoundCol).attr('id', k).appendTo($('.row'+i+'')).last();
+			} else {
+				$(soundCol).attr('id', k).appendTo($('.row'+i+'')).last();
+			}
+		};
+		counter = counter + 5;
+	}
+  };
+
+  function soundPopulator() {
+
+	for(var c = 0; c < soundArray.length; c++) {
+		$('#'+c+'').html("<img class='img-rounded' alt='Responsive image' src="+soundArray[c].soundImage+"><h2>"+soundArray[c].soundTitle+"</h2>");
+	}
+  };
 
 	$('div').click(function() {
 		
@@ -343,7 +370,25 @@ window.onload = function() {
 			new Audio(bonusTracks[2].soundLink).play();
 		} else if ($(this).attr('id') == 'b3') {
 			new Audio(bonusTracks[3].soundLink).play();
-		}
+		} 
+
+		/* 
+			 BRIAN -- if you want to add something to the BONUS section, reach out to me and I'll either explain what to do
+				or I'd be happy to reach in and tweak the code myself.  If you feel brave enough to try on your own,
+				you'll have to follow these steps:
+				1) Add the image, title, and sound to the server folders with the rest of those items
+				2) Add the image, title, and sound locations to the BONUS array following the example laid out by the current array items
+				3) Add a NEW 'else if' right above where these comments are, follwoing the example of the previous three 'else if's
+				4) That new 'else if' array index will be 1 greater than the 'else if' preceeding it (the index is the number inside these [] brackets)
+				5) If there are more BONUS sounds than will fit on the HTML 'row', you'll need to add another 'row' in the HTML.
+					That new 'row' can be copy/pasted from the existing BONUS content row (lines 38-43 in HTML), just updating each 
+					of the <div> id's with the number corresponding to the the number you added to the 'else if' in Step 4, following the id="b*" format
+					already laid out, where * is the index number of that sound in the bonusTracks array (starting at line 309 in this js file).
+
+			 I coded myself into a bit of a corner here and couldn't figure out a sustainable way to give you a more simple way of adding BONUS 
+					content.  Sorry :(  But I guess that's the main trade-off of making it so easy to add new sounds to the regular soundboard area.
+		*/
+
 		else {
 			var j = $(this).attr('id');
 			new Audio(soundArray[j].soundLink).play();
@@ -359,8 +404,8 @@ window.onload = function() {
 
 //Making the header a random sound player
 	$('header').click(function() {
-		var j = Math.floor(Math.random() * (soundArray.length+1));
-		new Audio(soundArray[j].soundLink).play();
+		var r = Math.floor(Math.random() * (soundArray.length));
+		new Audio(soundArray[r].soundLink).play();
 	});	
 
 };

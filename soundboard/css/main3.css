@@ -14,11 +14,14 @@ header {
   font-family: 'Oswald', sans-serif;
   font-size: 28px;
   letter-spacing: 0.5em;
+  margin-right: 0;
   padding: 40px 0;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 10px;
 }
+ main {
+    padding-left: 5%;
+ }
 
 /*main content*/
 
@@ -37,12 +40,17 @@ li:hover {
 }
 */
 
-.col-xs-2 {
-  height: 170px;
-  overflow: hidden;
-  margin-top: 10px;
+#anchor {
+  height: 0px;
+
 }
 
+.col-xs-2:nth-child(1n+1) {
+  height: 170px;
+  overflow: hidden;
+  margin: 10px;
+  padding: 0px;
+}
 
 img {
   height: 150px;
@@ -69,8 +77,7 @@ h2 {
   font-size: 24px;
   letter-spacing: 0.5em;
   margin: 0;
-  padding: 40px 0 40px 38px;
-  width: 100%;
+  padding: 40px 0;
   text-align: center;
   text-transform: uppercase;
 }
@@ -87,7 +94,7 @@ footer {
   background: #000;
   color: white;
   text-align: right;
-  font-size: 10.5px;
+  font-size: 14.5px;
   margin-top: 30px;
 }
 /*
@@ -131,8 +138,8 @@ a:active {
 
 /*sm laptop */ /*
 @media only screen and (max-width: 980px) {
-  .container {
-    width: 770px;
+  .col-xs-2 {
+    width: auto;
   }
 } */
 
