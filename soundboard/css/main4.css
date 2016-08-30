@@ -218,7 +218,7 @@ a:active {
 
 
 /*smartphone landscape */
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 440px) {
   h2 {
   position: absolute;
   text-transform: uppercase;
@@ -234,6 +234,16 @@ a:active {
   padding-left: 5px;
   padding-right: 15px;
   }
+
+  .logo {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  letter-spacing: 0.5em;
+  margin-right: 0;
+  padding: 40px 0px 40px 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 
 }
