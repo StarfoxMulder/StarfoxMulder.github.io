@@ -1,3 +1,10 @@
+/* Notes on potential image fix
+  - set the images as background-image and centered within
+    the sound container div.  Set width and height to 100%.
+    This should center and have the image completely fill
+    the container 
+*/
+
 body {
   background-color: #171717;
   color: #fff;
@@ -68,7 +75,7 @@ h2 {
   text-align: center;
   font-size: 18.5px;
   bottom: 0px;
-  width: 180px;
+  width: 94%;
   margin-bottom: 35px;
 }
 
@@ -83,7 +90,7 @@ h2 {
 }
 
 footer {
-  height: 55px;
+  height: 65px;
   margin-bottom: 0px;
   background-color: black;
 }
@@ -94,9 +101,45 @@ footer {
   background: #000;
   color: white;
   text-align: right;
-  font-size: 14.5px;
-  margin-top: 30px;
+  font-size: 16px;
+  margin-top: 10px;
 }
+
+#options > i {
+  margin-top: 15px;
+  color: white;
+  background-color: black;
+}
+
+.optionCol {
+  height: 55px;
+}
+
+#playOpt {
+  padding-right: 25px;
+  padding-top: 2px;
+  color: #45b9d9;
+}
+#oneOff, #multiOff {
+  margin-top: 5px;
+  border: solid 3px white;
+  color: white;
+  font-size: 14.5px;
+  font-family: 'Oswald', sans-serif;
+  padding-left: 5px;
+  padding-right: 0px;
+  height: 50px;
+  visibility: hidden;
+}
+
+.playback {
+  font-size: 21px;
+  margin: 0px 0px 0px 0px;
+  max-width: 80%;
+
+}
+
+
 /*
 a:link {
   text-decoration: none

@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="css/main3.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="assets/icons/tUPLogoIconQ.ico"/>
+    <script src="https://use.fontawesome.com/a61d82420f.js"></script>
     <script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
-    <script src="js/TempJS2.js" type="text/javascript"></script> 
+    <script src="js/TempJS3.js" type="text/javascript"></script> 
   </head>
   
   <body>
@@ -47,8 +48,16 @@
     <footer class="container-fluid">
 
       <div class="row">
-        <div class="col-xs-12" id="copyright">
-          <p>&copy; 2016 The unbelievable podcast --- created by <a href="mailto:UnbelieverJude@gmail.com">StarFox_Mulder</a></p>
+          <button class="btn btn-default dropdown-toggle" type="button" id="options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             <i class="fa fa-cog fa-3x" aria-hidden="true"></i>
+          </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <li id="oneOff"><p class="playback"><i class="fa fa-play-circle-o fa-2x" aria-hidden="true" id="playOpt"></i>Single Sound Playback</p></li>
+                  <li id="multiOff"><p class="playback"><i class="fa fa-play-circle fa-2x" aria-hidden="true" id="playOpt"></i>Layered Playback</p></li>
+                </ul>
+        </div>
+        <div class="col-xs-4 col-xs-offset-7" id="copyright">
+          <p>&copy; 2016 The unbelievable podcast<br>--- created by <a href="mailto:UnbelieverJude@gmail.com">StarFox_Mulder</a></p>
         </div>
       </div>
 

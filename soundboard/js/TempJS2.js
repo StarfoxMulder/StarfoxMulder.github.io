@@ -1,8 +1,5 @@
 window.onload = function() {
 
-	var baseAudio = "assets/mp3/";
-	var baseImg = "assets/images/";
-
 	var soundArray = [
 	{	'soundImage': 'assets/images/Countdown1.jpg',
 		'soundTitle': 'Countdown',
@@ -325,6 +322,10 @@ window.onload = function() {
 	}
 	];
 
+	var baseAudio = "assets/mp3/";
+	var baseImg = "assets/images/";
+	var oneOffPlay = 1;
+	var optionsHidden = 1;
 	var row = "<div class='row arrayRow'></div>";
 	var rowNum = soundArray.length / 5;
 	var counter = 0;
@@ -360,9 +361,38 @@ window.onload = function() {
 	}
   };
 
-	$('div').click(function() {
+
+  $('div').click(function() {
+
+  	//buttons for toggling playback option of layered vs one-off sound play
 		
-		if ($(this).attr('id') == 'b0') {
+	if ($(this).attr('id') == 'options'){
+		if(optionsHidden == 1) {
+			$('#oneOff').removeAttr('visibility', 'hidden');
+			$('#multiOff').removeAttr('visibility', 'hidden');
+			$('#oneOff').attr('visibility', 'visible');
+			$('#multiOff').attr('visibility', 'visible');
+			optionsHidden = 0;
+		} else if (optionsHidden == 0) {
+			$('#oneOff').removeAttr('visibility', 'visible');
+			$('#multiOff').removeAttr('visibility', 'visible');
+			$('#oneOff').attr('visibility', 'hidden');
+			$('#multiOff').attr('visibility', 'hidden');
+			optionsHidden = 1;
+		} else if ($(this).attr('id') == 'oneOff') {
+				if(optionsHidden == 0) {
+					oneOffPlay = 1;
+				} else {}
+		} else if ($(this).attr('id') == 'multiOff') {
+				if(optionsHidden == 0) {
+					oneOffPlay = 0;
+				} else {}
+		} else {
+
+			if (oneOffPlay == 1) {
+		  		Audio.pause();
+		  	}
+		  else if ($(this).attr('id') == 'b0') {
 			new Audio(bonusTracks[0].soundLink).play();
 		} else if ($(this).attr('id') == 'b1') {
 			new Audio(bonusTracks[1].soundLink).play();
@@ -370,7 +400,7 @@ window.onload = function() {
 			new Audio(bonusTracks[2].soundLink).play();
 		} else if ($(this).attr('id') == 'b3') {
 			new Audio(bonusTracks[3].soundLink).play();
-		} 
+		}
 
 		/* 
 			 BRIAN -- if you want to add something to the BONUS section, reach out to me and I'll either explain what to do
@@ -393,14 +423,45 @@ window.onload = function() {
 			var j = $(this).attr('id');
 			new Audio(soundArray[j].soundLink).play();
 		}
-	});
+	}
+   }
+  });
 
 // BONUS TRACKS bc I made this shit yo
 	for(var b = 0; b < bonusTracks.length; b++) {
 		$('#b'+b+'').html("<img class='img-rounded' alt='Responsive image' src="+bonusTracks[b].soundImage+"><h2>"+bonusTracks[b].soundTitle+"</h2>");
 	};
 
+// For the Option-gear to give users ability over one-off or multi-off sound playback
+/*
+$('#options').click(function() {
+	if(optionsHidden == 1) {
+		$('#oneOff').removeAttr('visibility', 'hidden');
+		$('#multiOff').removeAttr('visibility', 'hidden');
+		$('#oneOff').attr('visibility', 'visible');
+		$('#multiOff').attr('visibility', 'visible');
+		optionsHidden = 0;
+	} else if (optionsHidden == 0) {
+		$('#oneOff').removeAttr('visibility', 'visible');
+		$('#multiOff').removeAttr('visibility', 'visible');
+		$('#oneOff').attr('visibility', 'hidden');
+		$('#multiOff').attr('visibility', 'hidden');
+		optionsHidden = 1;
+	}
+});
 
+$('#oneOff').click(function() {
+	if(optionsHidden == 0) {
+		oneOff = 1;
+	} else {}
+});
+
+$('#multiOff').click(function() {
+	if(optionsHidden == 0) {
+		oneOff = 0;
+	} else {}
+});
+*/
 
 //Making the header a random sound player
 	$('header').click(function() {
