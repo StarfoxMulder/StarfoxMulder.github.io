@@ -218,7 +218,7 @@ a:active {
 
 
 /*smartphone landscape */
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 980px) {
   h2 {
     position: absolute;
     text-transform: uppercase;
