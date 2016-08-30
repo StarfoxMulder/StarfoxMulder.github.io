@@ -218,33 +218,39 @@ a:active {
 
 
 /*smartphone landscape */
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 786px) {
   h2 {
-  position: absolute;
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: 0.1em;
-  background: #000;
-  color: white;
-  text-align: center;
-  font-size: 10px;
-  bottom: 0px;
-  width: 94%;
-  margin-bottom: 20px;
-  padding-left: 5px;
-  padding-right: 15px;
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.1em;
+    background: #000;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    bottom: 0px;
+    width: 94%;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 15px;
   }
 
   .logo {
-  font-family: 'Oswald', sans-serif;
-  font-size: 28px;
-  letter-spacing: 0.5em;
-  margin-right: 0;
-  padding: 40px 0px 40px 15px;
-  text-align: center;
-  text-transform: uppercase;
-}
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.5em;
+    margin-right: 0;
+    padding: 40px 0px 40px 15px;
+    text-align: center;
+    text-transform: uppercase;
+  }
 
+  footer {
+    height: 85px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    background-color: black;
+  }
 
 }
 
