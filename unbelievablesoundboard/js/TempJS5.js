@@ -407,13 +407,15 @@ window.onload = function() {
   		Audio.pause();
   	} */
 	if ($(this).attr('id') == 'b0') {
-		if ($(this).data('state') == 'playing') {
-			currentSong.pause();
+		if ($("#b0").data('state') == 'playing') {
+			console.log($("#b0").data('state'));
+			soundManager.stop('b0');
 		} else {
 		new Audio(bonusTracks[0].soundLink).play();
-		currentSong = Audio(bonusTracks[0].soundLink);
-		$(this).data('state') = 'playing';
-		}
+		$("#b0").data('state') = 'playing';
+		console.log($("#b0").data('state'));
+		} //Been trying a few alts here to control for sound playback - so far,
+		//	nothing works. SoundManager may work, but requires Flash
 	} else if ($(this).attr('id') == 'b1') {
 		new Audio(bonusTracks[1].soundLink).play();
 	} else if ($(this).attr('id') == 'b2') {
