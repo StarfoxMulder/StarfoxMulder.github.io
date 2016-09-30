@@ -7,9 +7,9 @@ window.onload = function() {
 		$('#mainGif').html("<img src='assets/media/A"+gifNum+".gif'>");
 	};
 
-	// function startPlay() {
-	// 	$("#song").next('audio').play();
-	// };
+	$("#mainGif").click(function(){
+		$('song').play();
+	});
 
 	var interval = setInterval(function(){gifRotate()}, 7000);
 }
