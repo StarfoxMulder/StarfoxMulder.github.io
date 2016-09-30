@@ -8,7 +8,7 @@ window.onload = function() {
 	};
 
 	$("#mainGif").click(function(){
-		$('song').play();
+		new Audio('assets/media/yeh.mp3').play();
 	});
 
 	var interval = setInterval(function(){gifRotate()}, 7000);
