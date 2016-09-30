@@ -24,5 +24,5 @@ window.onload = function() {
 	// 	$("#song").next('audio').play();
 	// };
 
-	var interval = window.setInterval(gifRotate(), 15000);
+	var interval = setInterval(function(){gifRotate()}, 7000);
 }

@@ -23,12 +23,12 @@ main {
 
 #mainGif {
 	margin-top: 15%;
-	border: 10px solid #A444FF;
 }
 
 img {
 	max-height: 490px;
 	max-width:490px;
+	border: 10px solid #A444FF;
 }
 
 #pausePlay {
