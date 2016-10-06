@@ -392,7 +392,7 @@ window.onload = function() {
 		'soundTitle': 'the legend (\'87)',
 		'soundLink': 'assets/mp3/TheLegend.mp3'
 	},
-	{	'soundImage': 'assets/images/JohnTitor2.jpg',
+	{	'soundImage': 'assets/images/johnTitor2.jpg',
 		'soundTitle': 'Goin to space',
 		'soundLink': 'assets/mp3/GoinToSpace.mp3'
 	},
