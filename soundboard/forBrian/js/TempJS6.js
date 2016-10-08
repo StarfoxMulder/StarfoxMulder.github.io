@@ -357,6 +357,10 @@ window.onload = function() {
 		'soundTitle': 'infested woods',
 		'soundLink': 'assets/mp3/XFX_DOGMANINFESTEDWOODS.mp3'
 	}, 
+	{	'soundImage': 'assets/images/virrrus.jpg',
+		'soundTitle': 'virrrus',
+		'soundLink': 'assets/mp3/XFX_VIRUS.mp3'
+	}, 
 	{	'soundImage': 'assets/images/werewolf-picture.jpg',
 		'soundTitle': 'sighting',
 		'soundLink': 'assets/mp3/XFX_ISAWTHEDOGMAN.mp3'
