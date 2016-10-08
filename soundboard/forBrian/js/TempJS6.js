@@ -357,7 +357,7 @@ window.onload = function() {
 		'soundTitle': 'infested woods',
 		'soundLink': 'assets/mp3/XFX_DOGMANINFESTEDWOODS.mp3'
 	}, 
-	{	'soundImage': 'assets/images/virrrus.JPG',
+	{	'soundImage': 'assets/images/virus.JPG',
 		'soundTitle': 'virrrus',
 		'soundLink': 'assets/mp3/XFX_VIRUS.mp3'
 	}, 
