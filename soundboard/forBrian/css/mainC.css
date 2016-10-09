@@ -33,6 +33,10 @@ header {
     padding-left: 5%;
  }
 
+ #mainContainer {
+  max-width: 1650px;
+ }
+
 /*main content*/
 
 /*
@@ -55,17 +59,22 @@ li:hover {
 
 }
 
-.col-xs-2:nth-child(1n+1) {
+/*.col-xs-2:nth-child(1n+1) {
   height: 170px;
   overflow: hidden;
   margin: 10px;
   padding: 0px;
-}
+}*/
 
 .col-xs-2 {
   border-radius: 8px;
  /* background-color: black;*/
   border: solid 2px #262626;
+  height: 170px;
+  overflow: hidden;
+  margin: 10px;
+  padding: 0px;
+  max-width: 220px;
 }
 
 
@@ -230,24 +239,24 @@ a:active {
 
 
 /*smartphone landscape */
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 720px) {
   .col-xs-2 {
-    width: 30vw;
-    height: 30vw;
+    width: 25vw;
+    height: 28vw;
   }
   img {
-    width: 30vw;
-    max-height: 30vw;
+    width: 25vw;
+    max-height: 28vw;
     position: center;
     border-radius: 8px;
     border: solid 2px #262626;
   }
-  .otherDiv {
-    margin: 0 20vw;
+  h2 {
+    font-size: 16px;
   }
-}
+};
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1000px) {
   h2 {
     font-size: 16px;
 /*    position: absolute;
@@ -294,7 +303,7 @@ a:active {
     max-height: 35vw;
     width: 20vw;
   }
-}
+};
 
 
 /*smartphone portrait */

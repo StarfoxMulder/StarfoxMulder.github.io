@@ -412,12 +412,12 @@ window.onload = function() {
 	var optionsHidden = 1;
 	var row = "<div class='row arrayRow'></div>";
 	var rowBonus = "<div class='row arrayRowBonus'></div>";
-	var rowNum = soundArray.length / 5;
-	var rowNumBonus = bonusTracks.length / 5;
+	var rowNum = soundArray.length / 6;
+	var rowNumBonus = bonusTracks.length / 6;
 	var counter = 0;
 	var counterBonus = 0;
-	var soundCol = "<div class='col-xs-2' style='background-color:black;'></div>";
-	var leftSoundCol = "<div class='col-xs-2 col-xs-offset-1' style='background-color:black;'></div>";
+	var soundCol = "<div class='col-xs-2 otherDiv' style='background-color:black;'></div>";
+	var leftSoundCol = "<div class='col-xs-2 leftDiv' style='background-color:black;'></div>"; //col-xs-offset-1
 
 	rowColMaker();
 	soundPopulator();
@@ -426,22 +426,37 @@ window.onload = function() {
 
   function rowColMaker() {
 
-	for(var i = 0; i < rowNum; i++) {
-		$('#anchor').append(row);
-		$('.arrayRow').last().addClass('row'+i+'');
+	// for(var i = 0; i < rowNum; i++) {
+	// 	$('#anchor').append(row);
+	// 	$('.arrayRow').last().addClass('row'+i+'');
 
-		var stopCounter = counter + 4;
+	// 	var stopCounter = counter + 5;
 
-		for(var k = counter; k < (stopCounter+1); k++) {
-			if(k % 5 == 0) {
-				$(leftSoundCol).attr('id', k).appendTo($('.row'+i+'')).last();
-			} else {
-				$(soundCol).attr('id', k).appendTo($('.row'+i+'')).last();
+	// 	for(var k = counter; k < (stopCounter+1); k++) {
+	// 		if(k < soundArray.length) {
+	// 			if(k % 6 == 0) {
+	// 				$(leftSoundCol).attr('id', k).appendTo($('.row'+i+'')).last();
+	// 			} else {
+	// 				$(soundCol).attr('id', k).appendTo($('.row'+i+'')).last();
+	// 			}
+	// 		}
+	// 	};
+	// 	counter = counter + 6;
+	// }
+	i=0;
+	$('#anchor').append(row);
+	$('.arrayRow').last().addClass('row'+i+'');
+	for(var k = 0; k < soundArray.length; k++) {
+			if(k < soundArray.length) {
+				if(k % 6 == 0) {
+					$(leftSoundCol).attr('id', k).appendTo($('.row'+i+'')).last();
+				} else {
+					$(soundCol).attr('id', k).appendTo($('.row'+i+'')).last();
+				}
 			}
 		};
-		counter = counter + 5;
-	}
-  };
+
+   };
 
   function soundPopulator() {
 
@@ -455,21 +470,25 @@ window.onload = function() {
 
   function rowColMakerBonus() {
 
-	for(var p = 0; p < rowNumBonus; p++) {
+	// for(var p = 0; p < rowNumBonus; p++) {
+		// $('#anchorBonus').append(rowBonus);
+		// $('.arrayRowBonus').last().addClass('arrayRowBonus'+p+'');
+
+		// var stopCounterBonus = counterBonus + 5;
+		p=0;
 		$('#anchorBonus').append(rowBonus);
 		$('.arrayRowBonus').last().addClass('arrayRowBonus'+p+'');
-
-		var stopCounterBonus = counterBonus + 4;
-
-		for(var d = counterBonus; d < (stopCounterBonus+1); d++) {
-			if(d % 5 == 0) {
-				$(leftSoundCol).attr('id', "b"+d+"").appendTo($('.arrayRowBonus'+p+'')).last();
-			} else {
-				$(soundCol).attr('id', "b"+d+"").appendTo($('.arrayRowBonus'+p+'')).last();
+		for(var d = counterBonus; d < bonusTracks.length ; d++) {
+			if(d < bonusTracks.length) {
+				if(d % 6 == 0) {
+					$(leftSoundCol).attr('id', "b"+d+"").appendTo($('.arrayRowBonus'+p+'')).last();
+				} else {
+					$(soundCol).attr('id', "b"+d+"").appendTo($('.arrayRowBonus'+p+'')).last();
+				}
 			}
 		};
-		counterBonus = counterBonus + 5;
-	}
+		// counterBonus = counterBonus + 6;
+	// }
   };
 
   function soundPopulatorBonus() {
