@@ -29,13 +29,13 @@ header {
   text-align: center;
   text-transform: uppercase;
 }
- main {
-    padding-left: 5%;
- }
-
- #mainContainer {
+main {
+  padding-left: 5%;
+}
+#mainContainer {
+  margin-top: 15px;
   max-width: 1650px;
- }
+}
 
 /*main content*/
 
@@ -130,6 +130,7 @@ footer {
   margin-top: 40px;
   margin-bottom: 0px;
   background-color: black;
+  width: 100%;
 }
 
 #options {
@@ -240,6 +241,9 @@ a:active {
 
 /*smartphone landscape */
 @media only screen and (max-width: 720px) {
+  #mainContainer {
+    margin-left: 10%;
+  }
   .col-xs-2 {
     width: 25vw;
     height: 28vw;
@@ -254,9 +258,24 @@ a:active {
   h2 {
     font-size: 16px;
   }
+  footer {
+    width: 100%;
+  }
+  #copyright {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    background: #000;
+    color: white;
+    text-align: right;
+    font-size: 16px;
+    margin-top: 10px;
+  }
 };
 
 @media only screen and (max-width: 1000px) {
+  #mainContainer {
+    margin-left: 5%;
+  }
   h2 {
     font-size: 16px;
 /*    position: absolute;
