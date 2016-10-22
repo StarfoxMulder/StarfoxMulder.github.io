@@ -368,10 +368,30 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/hisname1.jpg',
 		'soundTitle': 'his name',
 		'soundLink': 'assets/mp3/XFX_JOHNTITOR.mp3'
-	},	/* ----- */
+	},	
 	{	'soundImage': 'assets/images/woosh1.jpg',
 		'soundTitle': 'woosh',
 		'soundLink': 'assets/mp3/XFX_WOOSH.mp3'
+	}, /* sdf */
+	{	'soundImage': 'assets/images/challengeHim1.jpg',
+		'soundTitle': 'hero',
+		'soundLink': 'assets/mp3/XFX_CHALLENGEHIM.mp3'
+	}, 
+	{	'soundImage': 'assets/images/thisMakesSense2.jpg',
+		'soundTitle': 'makes sense',
+		'soundLink': 'assets/mp3/XFX_ARTBELL-THISMAKESSENSE.mp3'
+	}, 
+	{	'soundImage': 'assets/images/fingerStickStroke1.jpg',
+		'soundTitle': 'sticky',
+		'soundLink': 'assets/mp3/XFX_STEVEGIBBS-FINGERSSTICKSTROKE.mp3'
+	}, 
+	{	'soundImage': 'assets/images/fullOfBeans1.jpg',
+		'soundTitle': 'full of beans',
+		'soundLink': 'assets/mp3/XFX_STEVEGIBBS-FULL_OF_BEANS.mp3'
+	},	
+	{	'soundImage': 'assets/images/sushi1.jpg',
+		'soundTitle': 'sushi',
+		'soundLink': 'assets/mp3/XFX_SUSHI.mp3'
 	}
 	];
 
