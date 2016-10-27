@@ -1,7 +1,7 @@
 body {
 	background-color: #5DB7FF;
 	height: 100vh;
-	width: 100vw;
+	width: 98vw;
 }
 
 main {
@@ -9,25 +9,73 @@ main {
 		url("../media/1.gif"),
 		url("../media/2.gif"),
 		url("../media/3.gif"),
-/*		url("../media/4.gif"),
-*/		url("../media/5.gif"),
-		url("../media/6.gif"),
-		url("../media/7.gif"),
-		url("../media/8.gif"),
+		url("../media/5.gif"),
 		url("../media/9.gif"),
-		url("../media/10.gif");
+/*		url("../media/7.gif"),*/
+		url("../media/8.gif"),
+		url("../media/6.gif");
+/*		url("../media/10.gif");*/
 	background-repeat: repeat;
 	height: 100vh;
-	width: 100vw;
+	width: 98vw;
+	left: 4vw;
 }
 
 #mainGif {
 	margin-top: 15%;
+	height: 480px;
+	width: 480px;
+	margin-bottom: 9%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 img {
-	max-height: 490px;
-	max-width:490px;
+	max-height: 480px;
+	max-width:480px;
 	border: 10px solid #A444FF;
 }
 
+#myInfo {
+	background-color: #76C2FF;
+	border: 3px solid #2F78B2;
+	border-radius: 20px;
+	color: #A9D9FF;
+	font-family: 'Russo One', sans-serif;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 800;
+}
+#github, #paypalLink, #email {
+	background-color: #FFBF5D;
+	border: 2px solid #B2781D;
+	border-radius: 15px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding: 2% 0 1% 0;
+	letter-spacing: 3px;
+}
+
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#pseudoFooter {
+	height: 7%;
+}
+
+footer {
+	height: 0px;
+}
+
+
+/*    <!-- <audio id="song" src="assets/media/yeh.mp3" autoplay="autoplay" loop="loop"> -->*/

@@ -1,3 +1,10 @@
+//// NOTE from guy at Cup A Joe ////
+// First, institute some sort of .stop() control
+// Once you know that you can stop sound playback,
+//	you can figure out a way to control that globablly
+//	from a location other than the initial click event
+////////////////////////////////////
+
 window.onload = function() {
 
 	var soundArray = [
