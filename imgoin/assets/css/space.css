@@ -1,10 +1,16 @@
+
+.container-fluid {
+	padding-left: 0%;
+}
+
 body {
-	background-color: #5DB7FF;
+	background-color: #172E40;
 	height: 100vh;
-	width: 98vw;
+	width: 100vw;
 }
 
 main {
+	background-color: #5DB7FF;
 	background-image:
 		url("../media/1.gif"),
 		url("../media/2.gif"),
@@ -16,16 +22,20 @@ main {
 		url("../media/6.gif");
 /*		url("../media/10.gif");*/
 	background-repeat: repeat;
-	height: 100vh;
+	height: 100%;
 	width: 98vw;
-	left: 4vw;
+}
+
+section {
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
 
 #mainGif {
-	margin-top: 15%;
+/*	margin-top: 10%;*/
 	height: 480px;
 	width: 480px;
-	margin-bottom: 9%;
+	margin-bottom: 10%;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -34,6 +44,8 @@ img {
 	max-height: 480px;
 	max-width:480px;
 	border: 10px solid #A444FF;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #myInfo {
@@ -45,6 +57,7 @@ img {
 	text-align: center;
 	font-size: 22px;
 	font-weight: 800;
+/*	margin-bottom: 10%;*/
 }
 #github, #paypalLink, #email {
 	background-color: #FFBF5D;
@@ -70,12 +83,91 @@ a:active {
 }
 
 #pseudoFooter {
-	height: 7%;
+	margin-bottom: 0;
+	height: 0;
 }
 
 footer {
 	height: 0px;
 }
+
+@media (max-width: 800px) and (orientation: landscape) {
+/*	body {
+		height: 200vw;
+	}
+	main {
+		height: 200vw;
+	}*/
+	/*.container {
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}*/
+	/*section {
+		height: 100vh;
+	}*/
+	
+	#mainGif {
+/*		margin-top: 40px;*/
+		margin-bottom: 35px;
+		height: 110vw;
+		width: 110vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	img {
+		max-height: 110vw;
+		max-width: 110vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media(max-height: 800px) {
+/*	body {
+		height: 100vw;
+	}
+	main {
+		height: 100vw;
+	}*/
+	section {
+		height: 100vh;
+	}
+
+	#mainGif {
+		margin-top: 5%;
+		margin-bottom: 5%;
+		height: 75vh;
+		width: 75vh;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	img {
+		max-height: 75vh;
+		max-width: 75vh;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/*@media (max-width: 800px) {
+	section {
+		height: 100vh;
+	}
+	
+	#mainGif {
+		margin-bottom: 40px;
+		height: 110vw;
+		width: 110vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	img {
+		max-height: 110vw;
+		max-width: 110vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}*/
 
 
 /*    <!-- <audio id="song" src="assets/media/yeh.mp3" autoplay="autoplay" loop="loop"> -->*/

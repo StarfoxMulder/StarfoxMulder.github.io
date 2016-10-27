@@ -21,4 +21,8 @@ window.onload = function() {
 		new Audio('assets/media/yeh.mp3').play();
 	});
 
+	$("#mainGif").click(function(){
+		new Audio('assets/media/yeh.mp3').play();
+	});
+
 }
