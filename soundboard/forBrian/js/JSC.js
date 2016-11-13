@@ -534,11 +534,18 @@ window.onload = function() {
 
 
   $('div').click(function() {
+  	// if(multisSoundOff){
+  		//for loop
+  			//soundarray[i].pause()
+	//}
+
+  	//
 
 /*	if (oneOffPlay == 1) {
   		Audio.pause();
   	} */
 	if ($(this).attr('id') == 'b0') {
+		currentSong.pause();
 		if ($(this).data('state') == 'playing') {
 			currentSong.pause();
 		} else {
