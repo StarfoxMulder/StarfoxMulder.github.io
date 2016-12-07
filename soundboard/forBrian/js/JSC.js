@@ -315,11 +315,11 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/jason2.jpg',
 		'soundTitle': 'unbelievable',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-TOO_UNBELIEVABLE.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/codeofhonor.png',
 		'soundTitle': 'code of honor',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-CODEOFHONOR.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/transmog.jpg',
 		'soundTitle': 'TRANS\nMOGNIFIED',
 		'soundLink': 'assets/mp3/XFX_ALEX JONES-TRANSMOGNIFIED_IT.mp3'
@@ -327,23 +327,23 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/HoagCNN2.jpg',
 		'soundTitle': 'Watch out',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-WATCHOUTHOAGLAND.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/dogmanNoise.jpg',
 		'soundTitle': 'growl',
 		'soundLink': 'assets/mp3/XFX_DOGMAN-NOISE.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/abby-normal2.jpg',
 		'soundTitle': 'Abbynormal',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-YOUAREABEYNORMAL.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/yesyeah1.jpg',
 		'soundTitle': 'yes yeah',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-YESYEA.mp3'
-	},	
+	},
 	{	'soundImage': 'assets/images/imdifferent.jpg',
 		'soundTitle': 'different',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-IMDIFFERENT.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/MIB1.jpg',
 		'soundTitle': 'its all there',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-ITSTRUEABOUTTHEMIB.mp3'
@@ -351,7 +351,7 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/onemoretime1.jpg',
 		'soundTitle': 'one more time',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-ONEMORETIME.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/timetraveler1.jpeg',
 		'soundTitle': 'Time traveler',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-ONLYIFYOUREATIMETRAVELER.mp3'
@@ -359,23 +359,23 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/et1.jpg',
 		'soundTitle': 'extra...',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-WHATSTHETERMET.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/dogmanWoods.jpg',
 		'soundTitle': 'infested woods',
 		'soundLink': 'assets/mp3/XFX_DOGMANINFESTEDWOODS.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/virus.JPG',
 		'soundTitle': 'virrrus',
 		'soundLink': 'assets/mp3/XFX_VIRUS.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/werewolf-picture.jpg',
 		'soundTitle': 'sighting',
 		'soundLink': 'assets/mp3/XFX_ISAWTHEDOGMAN.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/hisname1.jpg',
 		'soundTitle': 'his name',
 		'soundLink': 'assets/mp3/XFX_JOHNTITOR.mp3'
-	},	
+	},
 	{	'soundImage': 'assets/images/woosh1.jpg',
 		'soundTitle': 'woosh',
 		'soundLink': 'assets/mp3/XFX_WOOSH.mp3'
@@ -383,19 +383,19 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/challengeHim1.jpg',
 		'soundTitle': 'hero',
 		'soundLink': 'assets/mp3/XFX_CHALLENGEHIM.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/thisMakesSense2.jpg',
 		'soundTitle': 'makes sense',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-THISMAKESSENSE.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/fingerStickStroke1.jpg',
 		'soundTitle': 'sticky',
 		'soundLink': 'assets/mp3/XFX_STEVEGIBBS-FINGERSSTICKSTROKE.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/fullOfBeans1.jpg',
 		'soundTitle': 'full of beans',
 		'soundLink': 'assets/mp3/XFX_STEVEGIBBS-FULL_OF_BEANS.mp3'
-	},	
+	},
 	{	'soundImage': 'assets/images/sushi1.jpg',
 		'soundTitle': 'sushi',
 		'soundLink': 'assets/mp3/XFX_SUSHI.mp3'
@@ -545,14 +545,7 @@ window.onload = function() {
   		Audio.pause();
   	} */
 	if ($(this).attr('id') == 'b0') {
-		currentSong.pause();
-		if ($(this).data('state') == 'playing') {
-			currentSong.pause();
-		} else {
 		new Audio(bonusTracks[0].soundLink).play();
-		currentSong = Audio(bonusTracks[0].soundLink);
-		$(this).data('state') = 'playing';
-		}
 	} else if ($(this).attr('id') == 'b1') {
 		new Audio(bonusTracks[1].soundLink).play();
 	} else if ($(this).attr('id') == 'b2') {
@@ -566,7 +559,7 @@ window.onload = function() {
 	} else if ($(this).attr('id') == 'b6') {
 		new Audio(bonusTracks[6].soundLink).play();
 	}
-	/* 
+	/*
 		 BRIAN -- if you want to add something to the BONUS section, reach out to me and I'll either explain what to do
 			or I'd be happy to reach in and tweak the code myself.  If you feel brave enough to try on your own,
 			you'll have to follow these steps:
@@ -575,11 +568,11 @@ window.onload = function() {
 			3) Add a NEW 'else if' right above where these comments are, follwoing the example of the previous three 'else if's
 			4) That new 'else if' array index will be 1 greater than the 'else if' preceeding it (the index is the number inside these [] brackets)
 			5) If there are more BONUS sounds than will fit on the HTML 'row', you'll need to add another 'row' in the HTML.
-				That new 'row' can be copy/pasted from the existing BONUS content row (lines 38-43 in HTML), just updating each 
+				That new 'row' can be copy/pasted from the existing BONUS content row (lines 38-43 in HTML), just updating each
 				of the <div> id's with the number corresponding to the the number you added to the 'else if' in Step 4, following the id="b*" format
 				already laid out, where * is the index number of that sound in the bonusTracks array (starting at line 309 in this js file).
 
-		 I coded myself into a bit of a corner here and couldn't figure out a sustainable way to give you a more simple way of adding BONUS 
+		 I coded myself into a bit of a corner here and couldn't figure out a sustainable way to give you a more simple way of adding BONUS
 				content.  Sorry :(  But I guess that's the main trade-off of making it so easy to add new sounds to the regular soundboard area.
 	*/
 
@@ -595,7 +588,7 @@ window.onload = function() {
 
 //Implementing an opacity callback to indicate that an image was tapped
 	// function opacity(this) {
-	// 	this img att 
+	// 	this img att
 	// }
 
 // For the Option-gear to give users ability over one-off or multi-off sound playback
@@ -633,6 +626,6 @@ window.onload = function() {
 	$('header').click(function() {
 		var r = Math.floor(Math.random() * (soundArray.length));
 		new Audio(soundArray[r].soundLink).play();
-	});	
+	});
 
 };
