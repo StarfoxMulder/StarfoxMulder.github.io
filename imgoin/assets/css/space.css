@@ -54,7 +54,7 @@ img {
 	margin-left: 5%;
 	margin-right: 5%;
 }
-#github, #paypalLink, #email {
+#github, .paypalLink, #email {
 	background-color: #FFBF5D;
 	border: 2px solid #B2781D;
 	border-radius: 15px;
@@ -63,17 +63,6 @@ img {
 	padding: 2% 0 2% 0;
 	letter-spacing: 3px;
 	text-align: center;
-}
-
-#tipjar{
-	display: none;
-}
-#paypalLink:hover #tipjar, #paypalLink:focus #tipjar{
-	display: inline-block;
-	text-align: center;
-}
-#paypalLink:hover #tipjarTitle, #paypalLink:focus #tipjarTitle {
-	display: none;
 }
 
 a:visited {
@@ -86,22 +75,18 @@ a:active {
   text-decoration: none;
 }
 
-#patreon {
-/*	color: #A9D9FF;*/
-	margin-top: 2vh;
-	margin-bottom: 0;
+#patreon, #paypal {
+	margin-top: 1vh;
 	font-size: 18px;
 }
-#patreon:hover {
-	color: #23527c;
-}
+
 
 footer {
 	height: 0px;
 	bottom: 0px;
 }
 
-@media screen and (max-width: 700px) {
+/*@media screen and (max-width: 700px) {
 	#paypalLink:hover #tipjar, #paypalLink:focus #tipjar{
 		display: inline-block;
 		text-align: center;
@@ -119,4 +104,4 @@ footer {
 	#paypalLink:click #tipjarTitle {
 		display: none;
 	}
-}
+}*/
