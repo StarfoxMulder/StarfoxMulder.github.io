@@ -2,7 +2,7 @@
   - set the images as background-image and centered within
     the sound container div.  Set width and height to 100%.
     This should center and have the image completely fill
-    the container 
+    the container
 */
 
 body {
@@ -40,7 +40,7 @@ main {
 /*main content*/
 
 /*
-a, 
+a,
 li,
 .share-menu span:hover {
   color: #00ffbc;
@@ -326,3 +326,4 @@ a:active {
 
 
 /*smartphone portrait */
+

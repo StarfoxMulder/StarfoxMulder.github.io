@@ -4,49 +4,51 @@
     <title>Into Space</title>
     <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Russo+One" rel="stylesheet">
     <link rel="icon" type="image/png" href="assets/media/4.gif"/>
+    <script src="https://use.fontawesome.com/a61d82420f.js"></script>
     <script src="assets/js/space.js" type="text/javascript"></script>
     <link href="assets/css/space.css" rel="stylesheet" type="text/css">
   </head>
-  
-  <body class="container-fluid">
-    <main class="container-fluid">
-      
-<!--       <div class="row"> -->
-      <section class="container">
-        <div class="row">
-<!--           <div class="col-xs-6 col-xs-offset-3"> -->
-            <div id="mainGif">
-            </div>
-<!--           </div>
-          <div class="col-xs-3"></div> -->
-        </div>
 
+  <body class="container-fluid">
+    <main>
+
+      <section>
+        <div class="row">
+          <div id="mainGif"></div>
+        </div>
+      </section>
+
+      <section>
         <div class="row" id="myInfo">
           <div class="col-xs-2 col-xs-offset-2" id="github">
             <p><a href="https://github.com/StarfoxMulder">GITHUB</a></p>
           </div>
+
           <div class="col-xs-2 col-xs-offset-1" id="paypalLink">
-            <p><a href="https://www.paypal.me/CJPrestia">TIP JAR</a></p>
+            <a id="tipjarTitle">TIP JAR</a>
+            <div id="tipjar">
+              <a href="https://www.paypal.me/CJPrestia">
+                <i class="fa fa-paypal fa-lg" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.patreon.com/user?u=5036943">
+                <object id="patreon" type="image/svg+xml" data="patreon.svg" ></object>
+              </a>
+            </div>
           </div>
+
           <div class="col-xs-2 col-xs-offset-1" id="email">
             <p><a href="mailto:UnbelieverJude@gmail.com">EMAIL</a></p>
           </div>
+
           <div class="col-xs-2">
           </div>
+
         </div>
-        <!-- <div id="pseudoFooter"></div> -->
       </section>
 
-       <!--  <div class="row">
-          <div class="col-xs-2 col-xs-offset-5">
-            <img id="pausePlay" src="assets/media/play.gif">
-          </div>
-        </div> -->
-
-      <!-- </div> -->
     </main>
 
     <footer id="singSong">

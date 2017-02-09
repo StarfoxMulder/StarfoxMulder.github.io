@@ -1,15 +1,15 @@
-
-.container-fluid {
-	padding-left: 0%;
+html{
+	padding: 0%;
 }
 
 body {
-	background-color: #172E40;
-	height: 100vh;
-	width: 100vw;
+	padding: 0%;
+	width: 100%;
+	height: 100%;
 }
 
 main {
+	border: 10px solid #172E40;
 	background-color: #5DB7FF;
 	background-image:
 		url("../media/1.gif"),
@@ -23,26 +23,20 @@ main {
 /*		url("../media/10.gif");*/
 	background-repeat: repeat;
 	height: 100%;
-	width: 98vw;
-}
-
-section {
-	margin-top: 10%;
-	margin-bottom: 10%;
 }
 
 #mainGif {
-/*	margin-top: 10%;*/
-	height: 480px;
-	width: 480px;
+	margin-top: 10%;
+	height: 380px;
+	width: 380px;
 	margin-bottom: 10%;
 	margin-right: auto;
 	margin-left: auto;
 }
 
 img {
-	max-height: 480px;
-	max-width:480px;
+	max-height: 380px;
+	max-width:380px;
 	border: 10px solid #A444FF;
 	margin-left: auto;
 	margin-right: auto;
@@ -57,7 +51,9 @@ img {
 	text-align: center;
 	font-size: 22px;
 	font-weight: 800;
-/*	margin-bottom: 10%;*/
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 #github, #paypalLink, #email {
 	background-color: #FFBF5D;
@@ -69,45 +65,32 @@ img {
 	letter-spacing: 3px;
 }
 
+#tipjar{
+	display: none;
+}
+#paypalLink:hover #tipjar{
+	display: inline-block;
+}
+#paypalLink:hover #tipjarTitle {
+	display: none;
+}
+
 a:visited {
-   text-decoration: none;
+  text-decoration: none;
 }
-
 a:hover {
-    text-decoration: none;
-
+  text-decoration: none;
 }
-
 a:active {
-    text-decoration: none;
-}
-
-#pseudoFooter {
-	margin-bottom: 0;
-	height: 0;
+  text-decoration: none;
 }
 
 footer {
 	height: 0px;
 }
 
-@media (max-width: 800px) and (orientation: landscape) {
-/*	body {
-		height: 200vw;
-	}
-	main {
-		height: 200vw;
-	}*/
-	/*.container {
-		margin-top: 10%;
-		margin-bottom: 10%;
-	}*/
-	/*section {
-		height: 100vh;
-	}*/
-	
+/*@media (max-width: 800px) and (orientation: landscape) {
 	#mainGif {
-/*		margin-top: 40px;*/
 		margin-bottom: 35px;
 		height: 110vw;
 		width: 110vw;
@@ -120,15 +103,9 @@ footer {
 		margin-left: auto;
 		margin-right: auto;
 	}
-}
+}*/
 
-@media(max-height: 800px) {
-/*	body {
-		height: 100vw;
-	}
-	main {
-		height: 100vw;
-	}*/
+/*@media(max-height: 800px) {
 	section {
 		height: 100vh;
 	}
@@ -147,13 +124,13 @@ footer {
 		margin-left: auto;
 		margin-right: auto;
 	}
-}
+}*/
 
 /*@media (max-width: 800px) {
 	section {
 		height: 100vh;
 	}
-	
+
 	#mainGif {
 		margin-bottom: 40px;
 		height: 110vw;
@@ -169,5 +146,3 @@ footer {
 	}
 }*/
 
-
-/*    <!-- <audio id="song" src="assets/media/yeh.mp3" autoplay="autoplay" loop="loop"> -->*/
