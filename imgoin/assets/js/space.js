@@ -13,7 +13,7 @@ window.onload = function() {
 	setTimeout(function() {
 		document.getElementById('singSong').click();
 
-		var songInterval = setInterval(function(){document.getElementById('singSong').click()}, 235000);
+		var songInterval = setInterval(function(){document.getElementById('singSong').click()}, 230000);
 	}, 3000);
 
 
