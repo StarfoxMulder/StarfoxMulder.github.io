@@ -403,42 +403,42 @@ window.onload = function() {
 
 
 	{	'soundImage': 'assets/images/champHead.jpg',
-		'soundTitle': 'Countdown',
-		'soundLink': 'assets/mp3/XFX_CHAMP-DINOSAURHEAD.mp3'
+		'soundTitle': 'Dinosaur head',
+		'soundLink': 'assets/mp3/XFX_CHAMP-DINOSAUR HEAD.mp3'
 	},
 	{	'soundImage': 'assets/images/roadkill.jpg',
 		'soundTitle': 'Roadkill',
 		'soundLink': 'assets/mp3/XFX_ROADKILL.mp3'
 	},
 	{	'soundImage': 'assets/images/Countdown1.jpg',
-		'soundTitle': 'Countdown',
+		'soundTitle': 'tastes like fish',
 		'soundLink': 'assets/mp3/XFX_TASTESLIKEFISH.mp3'
 	},
 	{	'soundImage': 'assets/images/gabrielzeros.jpg',
 		'soundTitle': 'Jellyfish',
 		'soundLink': 'assets/mp3/XFX_JELLYFISH3.mp3'
 	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
+	{	'soundImage': 'assets/images/jelly.jpg',
 		'soundTitle': 'Jellyfish II',
 		'soundLink': 'assets/mp3/XFX_JELLYFISH4.mp3'
 	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
-		'soundTitle': 'Countdown',
+	{	'soundImage': 'assets/images/shaqFlat.jpg',
+		'soundTitle': 'shaq flat',
 		'soundLink': 'assets/mp3/XFX_SHAQIDIOTS.mp3'
 	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
-		'soundTitle': 'Countdown',
+	{	'soundImage': 'assets/images/sasquatchfam.jpg',
+		'soundTitle': 'abducted by bigfoot',
 		'soundLink': 'assets/mp3/XFX_ABDUCTEDBYBIGFOOT.mp3'
 	},
 	{	'soundImage': 'assets/images/grumpy-old-man.jpg',
 		'soundTitle': 'Ain\'t seen no monster',
 		'soundLink': 'assets/mp3/XFX_AINTSEENNOMONSTER.mp3'
 	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
+	{	'soundImage': 'assets/images/internetJesus.jpg',
 		'soundTitle': 'internet',
 		'soundLink': 'assets/mp3/XFX_IALWAYSGOONTHEINTERNET.mp3'
 	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
+	{	'soundImage': 'assets/images/outtahere.jpg',
 		'soundTitle': 'let\'s get out of here',
 		'soundLink': 'assets/mp3/XFX_LETSGETOUTTAHERE.mp3'
 	},
@@ -450,7 +450,7 @@ window.onload = function() {
 		'soundTitle': 'horse? Monster?',
 		'soundLink': 'assets/mp3/XFX_CHAMP-HORSEMONSTER.mp3'
 	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
+	{	'soundImage': 'assets/images/bigfootSounds.jpg',
 		'soundTitle': 'noises',
 		'soundLink': 'assets/mp3/XFX_BIGFOOTNOISES.mp3'
 	},
@@ -458,17 +458,9 @@ window.onload = function() {
 		'soundTitle': 'Tulpafoot',
 		'soundLink': 'assets/mp3/XFX_JOSHUAPWARREN-BIGFOOTTULPA.mp3'
 	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
-		'soundTitle': 'Countdown',
-		'soundLink': 'assets/mp3/111_COUNTDOWN.mp3'
-	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
-		'soundTitle': 'Countdown',
-		'soundLink': 'assets/mp3/111_COUNTDOWN.mp3'
-	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
-		'soundTitle': 'Countdown',
-		'soundLink': 'assets/mp3/111_COUNTDOWN.mp3'
+	{	'soundImage': 'assets/images/walnuts.jpg',
+		'soundTitle': 'walnuts',
+		'soundLink': 'assets/mp3/XFX_WALNUTSINPOCKET.mp3'
 	}
 	];
 
