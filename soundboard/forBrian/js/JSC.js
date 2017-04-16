@@ -34,11 +34,11 @@ window.onload = function() {
 	},
 	{	'soundImage': 'assets/images/Wikia1.JPG',
 		'soundTitle': 'Wikia',
-		'soundLink': 'assets/mp3/888_WIKIA.mp3'
+		'soundLink': 'assets/mp3/888 - From the Wikia (Final Render)'
 	},
 	{	'soundImage': 'assets/images/ResultsWinner2.jpg',
 		'soundTitle': 'Winner',
-		'soundLink': 'assets/mp3/999_CAPTION WINNER.mp3'
+		'soundLink': 'assets/mp3/Winner! - Sound Bite.mp3'
 	},
 	{	'soundImage': 'assets/images/PollResults2.jpg',
 		'soundTitle': 'Poll Results',
@@ -379,7 +379,7 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/woosh1.jpg',
 		'soundTitle': 'woosh',
 		'soundLink': 'assets/mp3/XFX_WOOSH.mp3'
-	}, /* sdf */
+	},
 	{	'soundImage': 'assets/images/challengeHim1.jpg',
 		'soundTitle': 'hero',
 		'soundLink': 'assets/mp3/XFX_CHALLENGEHIM.mp3'
@@ -399,6 +399,76 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/sushi1.jpg',
 		'soundTitle': 'sushi',
 		'soundLink': 'assets/mp3/XFX_SUSHI.mp3'
+	},
+
+
+	{	'soundImage': 'assets/images/Countdown1.jpg',
+		'soundTitle': 'Countdown',
+		'soundLink': 'assets/mp3/XFX_CHAMP-DINOSAUR HEAD.mp3'
+	},
+	{	'soundImage': 'assets/images/Countdown1.jpg',
+		'soundTitle': 'Countdown',
+		'soundLink': 'assets/mp3/XFX_ROADKILL.mp3'
+	},
+	{	'soundImage': 'assets/images/Countdown1.jpg',
+		'soundTitle': 'Countdown',
+		'soundLink': 'assets/mp3/XFX_TASTESLIKEFISH.mp3'
+	},
+	{	'soundImage': 'assets/images/Countdown1.jpg',
+		'soundTitle': 'Countdown',
+		'soundLink': 'assets/mp3/XFX_JELLYFISH3.mp3'
+	},
+	{	'soundImage': 'assets/images/Countdown1.jpg',
+		'soundTitle': 'Countdown',
+		'soundLink': 'assets/mp3/XFX_JELLYFISH4.mp3'
+	},
+	{	'soundImage': 'assets/images/Countdown1.jpg',
+		'soundTitle': 'Countdown',
+		'soundLink': 'assets/mp3/XFX_SHAQIDIOTS.mp3'
+	},
+	{	'soundImage': 'assets/images/Countdown1.jpg',
+		'soundTitle': 'Countdown',
+		'soundLink': 'assets/mp3/XFX_ABDUCTEDBYBIGFOOT.mp3'
+	},
+	{	'soundImage': 'assets/images/Countdown1.jpg',
+		'soundTitle': 'Countdown',
+		'soundLink': 'assets/mp3/XFX_AINTSEENNOMONSTER.mp3'
+	},
+	{	'soundImage': 'assets/images/Countdown1.jpg',
+		'soundTitle': 'Countdown',
+		'soundLink': 'assets/mp3/XFX_IALWAYSGOONTHEINTERNET.mp3'
+	},
+	{	'soundImage': 'assets/images/Countdown1.jpg',
+		'soundTitle': 'Countdown',
+		'soundLink': 'assets/mp3/XFX_LETSGETOUTTAHERE.mp3'
+	},
+	{	'soundImage': 'assets/images/Countdown1.jpg',
+		'soundTitle': 'Countdown',
+		'soundLink': 'assets/mp3/XFX_CHAMP - SOUND EFFECTS.mp3'
+	},
+	{	'soundImage': 'assets/images/Countdown1.jpg',
+		'soundTitle': 'Countdown',
+		'soundLink': 'assets/mp3/XFX_CHAMP-HORSEMONSTER.mp3'
+	},
+	{	'soundImage': 'assets/images/Countdown1.jpg',
+		'soundTitle': 'Countdown',
+		'soundLink': 'assets/mp3/111_COUNTDOWN.mp3'
+	},
+	{	'soundImage': 'assets/images/Countdown1.jpg',
+		'soundTitle': 'Countdown',
+		'soundLink': 'assets/mp3/111_COUNTDOWN.mp3'
+	},
+	{	'soundImage': 'assets/images/Countdown1.jpg',
+		'soundTitle': 'Countdown',
+		'soundLink': 'assets/mp3/111_COUNTDOWN.mp3'
+	},
+	{	'soundImage': 'assets/images/Countdown1.jpg',
+		'soundTitle': 'Countdown',
+		'soundLink': 'assets/mp3/111_COUNTDOWN.mp3'
+	},
+	{	'soundImage': 'assets/images/Countdown1.jpg',
+		'soundTitle': 'Countdown',
+		'soundLink': 'assets/mp3/111_COUNTDOWN.mp3'
 	}
 	];
 
