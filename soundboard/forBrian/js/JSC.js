@@ -32,9 +32,9 @@ window.onload = function() {
 		'soundTitle': 'Mailbag',
 		'soundLink': 'assets/mp3/888_MAIL.mp3'
 	},
-	{	'soundImage': 'assets/images/Wikia1.JPG',
+	{	'soundImage': 'assets/images/AG1_5544-1_2.jpg',
 		'soundTitle': 'Wikia',
-		'soundLink': 'assets/mp3/888 - From the Wikia (Final Render)'
+		'soundLink': 'assets/mp3/888 - From the Wikia (Final Render).mp3'
 	},
 	{	'soundImage': 'assets/images/ResultsWinner2.jpg',
 		'soundTitle': 'Winner',
@@ -307,7 +307,7 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/ShootAMonkey2.jpg',
 		'soundTitle': 'shoot a monkey',
 		'soundLink': 'assets/mp3/XFX_SHOOTAMONKEY.mp3'
-	}, /* --------- */
+	},
 	{	'soundImage': 'assets/images/AJHWNC.jpg',
 		'soundTitle': 'no cheese',
 		'soundLink': 'assets/mp3/XFX_ALEXJONES-HAMBURGERNOCHEESE.mp3'
@@ -402,24 +402,24 @@ window.onload = function() {
 	},
 
 
-	{	'soundImage': 'assets/images/Countdown1.jpg',
+	{	'soundImage': 'assets/images/champHead.jpg',
 		'soundTitle': 'Countdown',
-		'soundLink': 'assets/mp3/XFX_CHAMP-DINOSAUR HEAD.mp3'
+		'soundLink': 'assets/mp3/XFX_CHAMP-DINOSAURHEAD.mp3'
 	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
-		'soundTitle': 'Countdown',
+	{	'soundImage': 'assets/images/roadkill.jpg',
+		'soundTitle': 'Roadkill',
 		'soundLink': 'assets/mp3/XFX_ROADKILL.mp3'
 	},
 	{	'soundImage': 'assets/images/Countdown1.jpg',
 		'soundTitle': 'Countdown',
 		'soundLink': 'assets/mp3/XFX_TASTESLIKEFISH.mp3'
 	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
-		'soundTitle': 'Countdown',
+	{	'soundImage': 'assets/images/gabrielzeros.jpg',
+		'soundTitle': 'Jellyfish',
 		'soundLink': 'assets/mp3/XFX_JELLYFISH3.mp3'
 	},
 	{	'soundImage': 'assets/images/Countdown1.jpg',
-		'soundTitle': 'Countdown',
+		'soundTitle': 'Jellyfish II',
 		'soundLink': 'assets/mp3/XFX_JELLYFISH4.mp3'
 	},
 	{	'soundImage': 'assets/images/Countdown1.jpg',
@@ -430,33 +430,33 @@ window.onload = function() {
 		'soundTitle': 'Countdown',
 		'soundLink': 'assets/mp3/XFX_ABDUCTEDBYBIGFOOT.mp3'
 	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
-		'soundTitle': 'Countdown',
+	{	'soundImage': 'assets/images/grumpy-old-man.jpg',
+		'soundTitle': 'Ain\'t seen no monster',
 		'soundLink': 'assets/mp3/XFX_AINTSEENNOMONSTER.mp3'
 	},
 	{	'soundImage': 'assets/images/Countdown1.jpg',
-		'soundTitle': 'Countdown',
+		'soundTitle': 'internet',
 		'soundLink': 'assets/mp3/XFX_IALWAYSGOONTHEINTERNET.mp3'
 	},
 	{	'soundImage': 'assets/images/Countdown1.jpg',
-		'soundTitle': 'Countdown',
+		'soundTitle': 'let\'s get out of here',
 		'soundLink': 'assets/mp3/XFX_LETSGETOUTTAHERE.mp3'
 	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
-		'soundTitle': 'Countdown',
-		'soundLink': 'assets/mp3/XFX_CHAMP - SOUND EFFECTS.mp3'
+	{	'soundImage': 'assets/images/waterHorse2_2.jpg',
+		'soundTitle': 'Champy sounds',
+		'soundLink': 'assets/mp3/XFX_CHAMP-SOUNDEFFECTS.mp3'
 	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
-		'soundTitle': 'Countdown',
+	{	'soundImage': 'assets/images/lapras.jpg',
+		'soundTitle': 'horse? Monster?',
 		'soundLink': 'assets/mp3/XFX_CHAMP-HORSEMONSTER.mp3'
 	},
 	{	'soundImage': 'assets/images/Countdown1.jpg',
-		'soundTitle': 'Countdown',
-		'soundLink': 'assets/mp3/111_COUNTDOWN.mp3'
+		'soundTitle': 'noises',
+		'soundLink': 'assets/mp3/XFX_BIGFOOTNOISES.mp3'
 	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
-		'soundTitle': 'Countdown',
-		'soundLink': 'assets/mp3/111_COUNTDOWN.mp3'
+	{	'soundImage': 'assets/images/jpwTulpa.jpg',
+		'soundTitle': 'Tulpafoot',
+		'soundLink': 'assets/mp3/XFX_JOSHUAPWARREN-BIGFOOTTULPA.mp3'
 	},
 	{	'soundImage': 'assets/images/Countdown1.jpg',
 		'soundTitle': 'Countdown',
