@@ -38,7 +38,7 @@ window.onload = function() {
 	},
 	{	'soundImage': 'assets/images/ResultsWinner2.jpg',
 		'soundTitle': 'Winner',
-		'soundLink': 'assets/mp3/WinnerSoundBite.mp3.mp3'
+		'soundLink': 'assets/mp3/WinnerSoundBite.mp3'
 	},
 	{	'soundImage': 'assets/images/PollResults2.jpg',
 		'soundTitle': 'Poll Results',
