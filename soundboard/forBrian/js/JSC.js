@@ -38,7 +38,7 @@ window.onload = function() {
 	},
 	{	'soundImage': 'assets/images/ResultsWinner2.jpg',
 		'soundTitle': 'Winner',
-		'soundLink': 'assets/mp3/Winner! - Sound Bite.mp3'
+		'soundLink': 'assets/mp3/WinnerSoundBite.mp3.mp3'
 	},
 	{	'soundImage': 'assets/images/PollResults2.jpg',
 		'soundTitle': 'Poll Results',
@@ -461,6 +461,10 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/walnuts.jpg',
 		'soundTitle': 'walnuts',
 		'soundLink': 'assets/mp3/XFX_WALNUTSINPOCKET.mp3'
+	},
+	{	'soundImage': 'assets/images/robO.jpg',
+		'soundTitle': 'fetuses',
+		'soundLink': 'assets/mp3/XFX_ROB OKEY - SWERDLOW FETUS.mp3'
 	}
 	];
 
