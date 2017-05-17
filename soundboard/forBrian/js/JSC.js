@@ -478,7 +478,7 @@ window.onload = function() {
 		'soundTitle': 'yahyel',
 		'soundLink': 'assets/mp3/XFX_YAHYEL.mp3'
 	},
-	{	'soundImage': 'assets/images/Hooray.jpg',
+	{	'soundImage': 'assets/images/Hooray.png',
 		'soundTitle': 'hooray',
 		'soundLink': 'assets/mp3/XFX_WHITLEY-HOORAY.mp3'
 	}
