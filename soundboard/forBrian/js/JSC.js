@@ -465,6 +465,22 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/robO.jpg',
 		'soundTitle': 'fetuses',
 		'soundLink': 'assets/mp3/XFX_ROB OKEY - SWERDLOW FETUS.mp3'
+	}, //////
+		{	'soundImage': 'assets/images/ThickKids.jpg',
+		'soundTitle': 'thick kids',
+		'soundLink': 'assets/mp3/XFX_WHITLEY - THICK KIDS.mp3'
+	},
+	{	'soundImage': 'assets/images/Butt.jpg',
+		'soundTitle': 'probe',
+		'soundLink': 'assets/mp3/XFX_WHITLEY-BUTT.mp3'
+	},
+	{	'soundImage': 'assets/images/Yahyel.jpg',
+		'soundTitle': 'yahyel',
+		'soundLink': 'assets/mp3/XFX_YAHYEL.mp3'
+	},
+	{	'soundImage': 'assets/images/Hooray.jpg',
+		'soundTitle': 'hooray',
+		'soundLink': 'assets/mp3/XFX_WHITLEY-HOORAY.mp3'
 	}
 	];
 
