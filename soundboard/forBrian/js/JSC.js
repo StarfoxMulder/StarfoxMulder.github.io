@@ -42,7 +42,7 @@ window.onload = function() {
 	},
 	{	'soundImage': 'assets/images/PollResults2.jpg',
 		'soundTitle': 'Poll Results',
-		'soundLink': 'assets/mp3/999_PollResults.mp3'
+		'soundLink': 'assets/mp3/Poll Results (Final Render).mp3'
 	},
 	{	'soundImage': 'assets/images/tUPCrispyCritter.jpg',
 		'soundTitle': 'Crispy Critter\'d',
@@ -400,8 +400,6 @@ window.onload = function() {
 		'soundTitle': 'sushi',
 		'soundLink': 'assets/mp3/XFX_SUSHI.mp3'
 	},
-
-
 	{	'soundImage': 'assets/images/champHead.jpg',
 		'soundTitle': 'Dinosaur head',
 		'soundLink': 'assets/mp3/XFX_CHAMP-DINOSAUR HEAD.mp3'
@@ -465,8 +463,8 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/robO.jpg',
 		'soundTitle': 'fetuses',
 		'soundLink': 'assets/mp3/XFX_ROB OKEY - SWERDLOW FETUS.mp3'
-	}, //////
-		{	'soundImage': 'assets/images/ThickKids.jpg',
+	},
+	{	'soundImage': 'assets/images/ThickKids.jpg',
 		'soundTitle': 'thick kids',
 		'soundLink': 'assets/mp3/XFX_WHITLEY - THICK KIDS.mp3'
 	},
@@ -481,6 +479,52 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/Hooray.png',
 		'soundTitle': 'hooray',
 		'soundLink': 'assets/mp3/XFX_WHITLEY-HOORAY.mp3'
+	},
+
+
+	{	'soundImage': 'assets/images/beardog2.jpg',
+		'soundTitle': 'beardogs',
+		'soundLink': 'assets/mp3/XFX_BIGFOOT BEAR DOGS HOG DOGS.mp3'
+	},
+	{	'soundImage': 'assets/images/timpeeler.jpg',
+		'soundTitle': 'get away',
+		'soundLink': 'assets/mp3/XFX_BIGFOOT-GET AWAY.mp3'
+	},
+	{	'soundImage': 'assets/images/timpeeler2.jpg',
+		'soundTitle': 'yallow',
+		'soundLink': 'assets/mp3/XFX_BIGFOOT-YALLOW.mp3'
+	},
+	{	'soundImage': 'assets/images/korton1.jpg',
+		'soundTitle': 'understood',
+		'soundLink': 'assets/mp3/XFX_KORTON - ANIMAL UNDERSTOOD.mp3'
+	},
+	{	'soundImage': 'assets/images/korton2.jpg',
+		'soundTitle': 'central control',
+		'soundLink': 'assets/mp3/XFX_KORTON - CENTRAL CONTROL.mp3'
+	},
+	{	'soundImage': 'assets/images/korton3.png',
+		'soundTitle': 'discontinue',
+		'soundLink': 'assets/mp3/XFX_KORTON - DISCONTINUE.mp3'
+	},
+	{	'soundImage': 'assets/images/korton4.jpg',
+		'soundTitle': 'final sign off',
+		'soundLink': 'assets/mp3/XFX_KORTON - THE FINAL SIGN OFF.mp3'
+	},
+	{	'soundImage': 'assets/images/korton5.jpg',
+		'soundTitle': 'sign off',
+		'soundLink': 'assets/mp3/XFX_KORTON SIGN OFF.mp3'
+	},
+	{	'soundImage': 'assets/images/korton6.jpg',
+		'soundTitle': 'noises',
+		'soundLink': 'assets/mp3/XFX_KORTON-NOISES.mp3'
+	},
+	{	'soundImage': 'assets/images/korton7.jpg',
+		'soundTitle': 'transmit',
+		'soundLink': 'assets/mp3/XFX_KORTON-READY TO TRANSMIT.mp3'
+	},
+	{	'soundImage': 'assets/images/king1.jpg',
+		'soundTitle': 'gorbachev',
+		'soundLink': 'assets/mp3/XFX_LARRY KING - GORBACHEV.mp3'
 	}
 	];
 
