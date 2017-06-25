@@ -480,8 +480,6 @@ window.onload = function() {
 		'soundTitle': 'hooray',
 		'soundLink': 'assets/mp3/XFX_WHITLEY-HOORAY.mp3'
 	},
-
-
 	{	'soundImage': 'assets/images/beardog2.jpg',
 		'soundTitle': 'beardogs',
 		'soundLink': 'assets/mp3/XFX_BIGFOOT BEAR DOGS HOG DOGS.mp3'
@@ -502,7 +500,7 @@ window.onload = function() {
 		'soundTitle': 'central control',
 		'soundLink': 'assets/mp3/XFX_KORTON - CENTRAL CONTROL.mp3'
 	},
-	{	'soundImage': 'assets/images/korton3.png',
+	{	'soundImage': 'assets/images/korton3.jpg',
 		'soundTitle': 'discontinue',
 		'soundLink': 'assets/mp3/XFX_KORTON - DISCONTINUE.mp3'
 	},
