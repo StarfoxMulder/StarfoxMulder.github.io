@@ -32,17 +32,17 @@ window.onload = function() {
 		'soundTitle': 'Mailbag',
 		'soundLink': 'assets/mp3/888_MAIL.mp3'
 	},
-	{	'soundImage': 'assets/images/AG1_5544-1_2.jpg',
+	{	'soundImage': 'assets/images/Wikia1.JPG',
 		'soundTitle': 'Wikia',
-		'soundLink': 'assets/mp3/888 - From the Wikia (Final Render).mp3'
+		'soundLink': 'assets/mp3/888_WIKIA.mp3'
 	},
 	{	'soundImage': 'assets/images/ResultsWinner2.jpg',
 		'soundTitle': 'Winner',
-		'soundLink': 'assets/mp3/WinnerSoundBite.mp3'
+		'soundLink': 'assets/mp3/999_CAPTION WINNER.mp3'
 	},
 	{	'soundImage': 'assets/images/PollResults2.jpg',
 		'soundTitle': 'Poll Results',
-		'soundLink': 'assets/mp3/Poll Results (Final Render).mp3'
+		'soundLink': 'assets/mp3/999_PollResults.mp3'
 	},
 	{	'soundImage': 'assets/images/tUPCrispyCritter.jpg',
 		'soundTitle': 'Crispy Critter\'d',
@@ -307,7 +307,7 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/ShootAMonkey2.jpg',
 		'soundTitle': 'shoot a monkey',
 		'soundLink': 'assets/mp3/XFX_SHOOTAMONKEY.mp3'
-	},
+	}, 
 	{	'soundImage': 'assets/images/AJHWNC.jpg',
 		'soundTitle': 'no cheese',
 		'soundLink': 'assets/mp3/XFX_ALEXJONES-HAMBURGERNOCHEESE.mp3'
@@ -315,11 +315,11 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/jason2.jpg',
 		'soundTitle': 'unbelievable',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-TOO_UNBELIEVABLE.mp3'
-	},
+	}, 
 	{	'soundImage': 'assets/images/codeofhonor.png',
 		'soundTitle': 'code of honor',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-CODEOFHONOR.mp3'
-	},
+	}, 
 	{	'soundImage': 'assets/images/transmog.jpg',
 		'soundTitle': 'TRANS\nMOGNIFIED',
 		'soundLink': 'assets/mp3/XFX_ALEX JONES-TRANSMOGNIFIED_IT.mp3'
@@ -327,23 +327,23 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/HoagCNN2.jpg',
 		'soundTitle': 'Watch out',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-WATCHOUTHOAGLAND.mp3'
-	},
+	}, 
 	{	'soundImage': 'assets/images/dogmanNoise.jpg',
 		'soundTitle': 'growl',
 		'soundLink': 'assets/mp3/XFX_DOGMAN-NOISE.mp3'
-	},
+	}, 
 	{	'soundImage': 'assets/images/abby-normal2.jpg',
 		'soundTitle': 'Abbynormal',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-YOUAREABEYNORMAL.mp3'
-	},
+	}, 
 	{	'soundImage': 'assets/images/yesyeah1.jpg',
 		'soundTitle': 'yes yeah',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-YESYEA.mp3'
-	},
+	},	
 	{	'soundImage': 'assets/images/imdifferent.jpg',
 		'soundTitle': 'different',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-IMDIFFERENT.mp3'
-	},
+	}, 
 	{	'soundImage': 'assets/images/MIB1.jpg',
 		'soundTitle': 'its all there',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-ITSTRUEABOUTTHEMIB.mp3'
@@ -351,7 +351,7 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/onemoretime1.jpg',
 		'soundTitle': 'one more time',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-ONEMORETIME.mp3'
-	},
+	}, 
 	{	'soundImage': 'assets/images/timetraveler1.jpeg',
 		'soundTitle': 'Time traveler',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-ONLYIFYOUREATIMETRAVELER.mp3'
@@ -359,23 +359,23 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/et1.jpg',
 		'soundTitle': 'extra...',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-WHATSTHETERMET.mp3'
-	},
+	}, 
 	{	'soundImage': 'assets/images/dogmanWoods.jpg',
 		'soundTitle': 'infested woods',
 		'soundLink': 'assets/mp3/XFX_DOGMANINFESTEDWOODS.mp3'
-	},
+	}, 
 	{	'soundImage': 'assets/images/virus.JPG',
 		'soundTitle': 'virrrus',
 		'soundLink': 'assets/mp3/XFX_VIRUS.mp3'
-	},
+	}, 
 	{	'soundImage': 'assets/images/werewolf-picture.jpg',
 		'soundTitle': 'sighting',
 		'soundLink': 'assets/mp3/XFX_ISAWTHEDOGMAN.mp3'
-	},
+	}, 
 	{	'soundImage': 'assets/images/hisname1.jpg',
 		'soundTitle': 'his name',
 		'soundLink': 'assets/mp3/XFX_JOHNTITOR.mp3'
-	},
+	},	
 	{	'soundImage': 'assets/images/woosh1.jpg',
 		'soundTitle': 'woosh',
 		'soundLink': 'assets/mp3/XFX_WOOSH.mp3'
@@ -383,146 +383,22 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/challengeHim1.jpg',
 		'soundTitle': 'hero',
 		'soundLink': 'assets/mp3/XFX_CHALLENGEHIM.mp3'
-	},
+	}, 
 	{	'soundImage': 'assets/images/thisMakesSense2.jpg',
 		'soundTitle': 'makes sense',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-THISMAKESSENSE.mp3'
-	},
+	}, 
 	{	'soundImage': 'assets/images/fingerStickStroke1.jpg',
 		'soundTitle': 'sticky',
 		'soundLink': 'assets/mp3/XFX_STEVEGIBBS-FINGERSSTICKSTROKE.mp3'
-	},
+	}, 
 	{	'soundImage': 'assets/images/fullOfBeans1.jpg',
 		'soundTitle': 'full of beans',
 		'soundLink': 'assets/mp3/XFX_STEVEGIBBS-FULL_OF_BEANS.mp3'
-	},
+	},	
 	{	'soundImage': 'assets/images/sushi1.jpg',
 		'soundTitle': 'sushi',
 		'soundLink': 'assets/mp3/XFX_SUSHI.mp3'
-	},
-	{	'soundImage': 'assets/images/champHead.jpg',
-		'soundTitle': 'Dinosaur head',
-		'soundLink': 'assets/mp3/XFX_CHAMP-DINOSAUR HEAD.mp3'
-	},
-	{	'soundImage': 'assets/images/roadkill.jpg',
-		'soundTitle': 'Roadkill',
-		'soundLink': 'assets/mp3/XFX_ROADKILL.mp3'
-	},
-	{	'soundImage': 'assets/images/Countdown1.jpg',
-		'soundTitle': 'tastes like fish',
-		'soundLink': 'assets/mp3/XFX_TASTESLIKEFISH.mp3'
-	},
-	{	'soundImage': 'assets/images/gabrielzeros.jpg',
-		'soundTitle': 'Jellyfish',
-		'soundLink': 'assets/mp3/XFX_JELLYFISH3.mp3'
-	},
-	{	'soundImage': 'assets/images/jelly.jpg',
-		'soundTitle': 'Jellyfish II',
-		'soundLink': 'assets/mp3/XFX_JELLYFISH4.mp3'
-	},
-	{	'soundImage': 'assets/images/shaqFlat.jpg',
-		'soundTitle': 'shaq flat',
-		'soundLink': 'assets/mp3/XFX_SHAQIDIOTS.mp3'
-	},
-	{	'soundImage': 'assets/images/sasquatchfam.jpg',
-		'soundTitle': 'abducted by bigfoot',
-		'soundLink': 'assets/mp3/XFX_ABDUCTEDBYBIGFOOT.mp3'
-	},
-	{	'soundImage': 'assets/images/grumpy-old-man.jpg',
-		'soundTitle': 'Ain\'t seen no monster',
-		'soundLink': 'assets/mp3/XFX_AINTSEENNOMONSTER.mp3'
-	},
-	{	'soundImage': 'assets/images/internetJesus.jpg',
-		'soundTitle': 'internet',
-		'soundLink': 'assets/mp3/XFX_IALWAYSGOONTHEINTERNET.mp3'
-	},
-	{	'soundImage': 'assets/images/outtahere.jpg',
-		'soundTitle': 'let\'s get out of here',
-		'soundLink': 'assets/mp3/XFX_LETSGETOUTTAHERE.mp3'
-	},
-	{	'soundImage': 'assets/images/waterHorse2_2.jpg',
-		'soundTitle': 'Champy sounds',
-		'soundLink': 'assets/mp3/XFX_CHAMP-SOUNDEFFECTS.mp3'
-	},
-	{	'soundImage': 'assets/images/lapras.jpg',
-		'soundTitle': 'horse? Monster?',
-		'soundLink': 'assets/mp3/XFX_CHAMP-HORSEMONSTER.mp3'
-	},
-	{	'soundImage': 'assets/images/bigfootSounds.jpg',
-		'soundTitle': 'noises',
-		'soundLink': 'assets/mp3/XFX_BIGFOOTNOISES.mp3'
-	},
-	{	'soundImage': 'assets/images/jpwTulpa.jpg',
-		'soundTitle': 'Tulpafoot',
-		'soundLink': 'assets/mp3/XFX_JOSHUAPWARREN-BIGFOOTTULPA.mp3'
-	},
-	{	'soundImage': 'assets/images/walnuts.jpg',
-		'soundTitle': 'walnuts',
-		'soundLink': 'assets/mp3/XFX_WALNUTSINPOCKET.mp3'
-	},
-	{	'soundImage': 'assets/images/robO.jpg',
-		'soundTitle': 'fetuses',
-		'soundLink': 'assets/mp3/XFX_ROB OKEY - SWERDLOW FETUS.mp3'
-	},
-	{	'soundImage': 'assets/images/ThickKids.jpg',
-		'soundTitle': 'thick kids',
-		'soundLink': 'assets/mp3/XFX_WHITLEY - THICK KIDS.mp3'
-	},
-	{	'soundImage': 'assets/images/Butt.jpg',
-		'soundTitle': 'probe',
-		'soundLink': 'assets/mp3/XFX_WHITLEY-BUTT.mp3'
-	},
-	{	'soundImage': 'assets/images/Yahyel.jpg',
-		'soundTitle': 'yahyel',
-		'soundLink': 'assets/mp3/XFX_YAHYEL.mp3'
-	},
-	{	'soundImage': 'assets/images/Hooray.png',
-		'soundTitle': 'hooray',
-		'soundLink': 'assets/mp3/XFX_WHITLEY-HOORAY.mp3'
-	},
-	{	'soundImage': 'assets/images/beardog2.jpg',
-		'soundTitle': 'beardogs',
-		'soundLink': 'assets/mp3/XFX_BIGFOOT BEAR DOGS HOG DOGS.mp3'
-	},
-	{	'soundImage': 'assets/images/timpeeler.jpg',
-		'soundTitle': 'get away',
-		'soundLink': 'assets/mp3/XFX_BIGFOOT-GET AWAY.mp3'
-	},
-	{	'soundImage': 'assets/images/timpeeler2.jpg',
-		'soundTitle': 'yallow',
-		'soundLink': 'assets/mp3/XFX_BIGFOOT-YALLOW.mp3'
-	},
-	{	'soundImage': 'assets/images/korton1.jpg',
-		'soundTitle': 'understood',
-		'soundLink': 'assets/mp3/XFX_KORTON - ANIMAL UNDERSTOOD.mp3'
-	},
-	{	'soundImage': 'assets/images/korton2.jpg',
-		'soundTitle': 'central control',
-		'soundLink': 'assets/mp3/XFX_KORTON - CENTRAL CONTROL.mp3'
-	},
-	{	'soundImage': 'assets/images/korton3.jpg',
-		'soundTitle': 'discontinue',
-		'soundLink': 'assets/mp3/XFX_KORTON - DISCONTINUE.mp3'
-	},
-	{	'soundImage': 'assets/images/korton4.jpg',
-		'soundTitle': 'final sign off',
-		'soundLink': 'assets/mp3/XFX_KORTON - THE FINAL SIGN OFF.mp3'
-	},
-	{	'soundImage': 'assets/images/korton5.jpg',
-		'soundTitle': 'sign off',
-		'soundLink': 'assets/mp3/XFX_KORTON SIGN OFF.mp3'
-	},
-	{	'soundImage': 'assets/images/korton6.jpg',
-		'soundTitle': 'noises',
-		'soundLink': 'assets/mp3/XFX_KORTON-NOISES.mp3'
-	},
-	{	'soundImage': 'assets/images/korton7.jpg',
-		'soundTitle': 'transmit',
-		'soundLink': 'assets/mp3/XFX_KORTON-READY TO TRANSMIT.mp3'
-	},
-	{	'soundImage': 'assets/images/king1.jpg',
-		'soundTitle': 'gorbachev',
-		'soundLink': 'assets/mp3/XFX_LARRY KING - GORBACHEV.mp3'
 	}
 	];
 
@@ -561,71 +437,71 @@ window.onload = function() {
 	var baseImg = "assets/images/";
 	var oneOffPlay = 1;
 	var optionsHidden = 1;
+  var currentAudio = bonusTracks[1].soundLink;
 	var row = "<div class='row arrayRow'></div>";
 	var rowBonus = "<div class='row arrayRowBonus'></div>";
 	var rowNum = soundArray.length / 6;
 	var rowNumBonus = bonusTracks.length / 6;
 	var counter = 0;
 	var counterBonus = 0;
-	var soundCol = "<div class='col-xs-2 otherDiv' style='background-color:black;'></div>";
-	var leftSoundCol = "<div class='col-xs-2 leftDiv' style='background-color:black;'></div>"; //col-xs-offset-1
+  var soundOverPlay = false;
+	var soundCol = "<div class='col-xs-2 otherDiv soundBite' style='background-color:black;'></div>";
+	var leftSoundCol = "<div class='col-xs-2 leftDiv soundBite' style='background-color:black;'></div>"; //col-xs-offset-1
 
 	rowColMaker();
 	soundPopulator();
 	rowColMakerBonus();
 	soundPopulatorBonus();
 
+  $('#playbackC').click(function() {
+    if(soundOverPlay == false){
+      soundOverPlay = true;
+      $('#playbackC').text('ON');
+      $('#playbackC').addClass('on');
+      $('#playbackC').removeClass('off');
+      console.log('Sound Overplay has been activated');
+    }
+    else {
+      soundOverPlay = false;
+      // if(currentAudio.currentTime != 0 && currentAudio.currentTime != undefined){
+      //   console.log(currentAudio.length);
+      //   for(i=0; i<currentAudio.length; i++){
+      //     currentAudio.pause();
+      //     currentAudio.currentTime = 0;
+      //   }
+      // };
+      $('#playbackC').text('OFF');
+      $('#playbackC').addClass('off');
+      $('#playbackC').removeClass('on');
+      console.log('Sound Overplay has been deactivated');
+    }
+  });
+  $('#stopSounds').click(function() {
+    window.location.reload(false);
+  });
+
   function rowColMaker() {
-
-	// for(var i = 0; i < rowNum; i++) {
-	// 	$('#anchor').append(row);
-	// 	$('.arrayRow').last().addClass('row'+i+'');
-
-	// 	var stopCounter = counter + 5;
-
-	// 	for(var k = counter; k < (stopCounter+1); k++) {
-	// 		if(k < soundArray.length) {
-	// 			if(k % 6 == 0) {
-	// 				$(leftSoundCol).attr('id', k).appendTo($('.row'+i+'')).last();
-	// 			} else {
-	// 				$(soundCol).attr('id', k).appendTo($('.row'+i+'')).last();
-	// 			}
-	// 		}
-	// 	};
-	// 	counter = counter + 6;
-	// }
-	i=0;
-	$('#anchor').append(row);
-	$('.arrayRow').last().addClass('row'+i+'');
-	for(var k = 0; k < soundArray.length; k++) {
-			if(k < soundArray.length) {
-				if(k % 6 == 0) {
-					$(leftSoundCol).attr('id', k).appendTo($('.row'+i+'')).last();
-				} else {
-					$(soundCol).attr('id', k).appendTo($('.row'+i+'')).last();
-				}
-			}
-		};
-
+    i=0;
+    $('#anchor').append(row);
+    $('.arrayRow').last().addClass('row'+i+'');
+    for(var k = 0; k < soundArray.length; k++) {
+      if(k < soundArray.length) {
+        if(k % 6 == 0) {
+          $(leftSoundCol).attr('id', k).appendTo($('.row'+i+'')).last();
+        } else {
+          $(soundCol).attr('id', k).appendTo($('.row'+i+'')).last();
+        }
+      }
+    };
    };
 
   function soundPopulator() {
-
-	for(var c = 0; c < soundArray.length; c++) {
-		// alt='Responsive image' on the following line
-		$('#'+c+'').html("<img class='img'  src="+soundArray[c].soundImage+"><h2>"+soundArray[c].soundTitle+"</h2>");
-	//	$('#'+c+'').attr('background-image', "url('../"+soundArray[c].soundImage+"')");
-	//	$('#'+c+'').html("<h2>"+soundArray[c].soundTitle+"</h2>");
-	}
+    for(var c = 0; c < soundArray.length; c++) {
+      $('#'+c+'').html("<img class='img'  src="+soundArray[c].soundImage+"><h2>"+soundArray[c].soundTitle+"</h2>");
+    }
   };
 
   function rowColMakerBonus() {
-
-	// for(var p = 0; p < rowNumBonus; p++) {
-		// $('#anchorBonus').append(rowBonus);
-		// $('.arrayRowBonus').last().addClass('arrayRowBonus'+p+'');
-
-		// var stopCounterBonus = counterBonus + 5;
 		p=0;
 		$('#anchorBonus').append(rowBonus);
 		$('.arrayRowBonus').last().addClass('arrayRowBonus'+p+'');
@@ -638,118 +514,78 @@ window.onload = function() {
 				}
 			}
 		};
-		// counterBonus = counterBonus + 6;
-	// }
   };
 
   function soundPopulatorBonus() {
 
-		for(var e = 0; e < bonusTracks.length; e++) {
-			$('#b'+e+'').html("<img class='img' alt='Responsive image' src="+bonusTracks[e].soundImage+"><h2>"+bonusTracks[e].soundTitle+"</h2>");
-		//	$('#'+c+'').attr('background-image', "url('../"+soundArray[c].soundImage+"')");
-		//	$('#'+c+'').html("<h2>"+soundArray[c].soundTitle+"</h2>");
-		}
+    for(var e = 0; e < bonusTracks.length; e++) {
+      $('#b'+e+'').html("<img class='img' alt='Responsive image' src="+bonusTracks[e].soundImage+"><h2>"+bonusTracks[e].soundTitle+"</h2>");
+    }
   };
 
- //  // BONUS TRACKS bc I made this shit yo
-	// for(var b = 0; b < bonusTracks.length; b++) {
-	// 	$('#b'+b+'').html("<img class='img-rounded' alt='image' src="+bonusTracks[b].soundImage+"><h2>"+bonusTracks[b].soundTitle+"</h2>");
-	// };
+
+  $('.soundBite').click(function() {
+
+    console.log('the ID of this clip is : '+$(this).attr('id'));
+    if(soundOverPlay == false){
+      if(currentAudio.currentTime != 0 && currentAudio.currentTime != undefined){
+        console.log("currentAudio from .soundbite click "+currentAudio);
+        console.log('currentTime of audio element : '+currentAudio.currentTime);
+        currentAudio.pause();
+        currentAudio.currentTime = 0;
+      };
+    };
 
 
-  $('div').click(function() {
-  	// if(multisSoundOff){
-  		//for loop
-  			//soundarray[i].pause()
-	//}
+    if ($(this).attr('id') == 'b0') {
+      currentAudio = new Audio(bonusTracks[0].soundLink);
+      currentAudio.play();
+      cSID = 0;
+    } else if ($(this).attr('id') == 'b1') {
+      currentAudio = new Audio(bonusTracks[1].soundLink);
+      currentAudio.play();
+      cSID = 1;
+    } else if ($(this).attr('id') == 'b2') {
+      currentAudio = new Audio(bonusTracks[2].soundLink);
+      currentAudio.play();
+      cSID = 2;
+    } else if ($(this).attr('id') == 'b3') {
+      currentAudio = new Audio(bonusTracks[3].soundLink);
+      currentAudio.play();
+      cSID = 3;
+    } else if ($(this).attr('id') == 'b4') {
+      currentAudio = new Audio(bonusTracks[4].soundLink);
+      currentAudio.play();
+      cSID = 4;
+    } else if ($(this).attr('id') == 'b5') {
+      currentAudio = new Audio(bonusTracks[5].soundLink);
+      currentAudio.play();
+      cSID = 5;
+    } else if ($(this).attr('id') == 'b6') {
+      currentAudio = new Audio(bonusTracks[6].soundLink);
+      currentAudio.play();
+      cSID = 6;
+    }
 
-  	//
-
-/*	if (oneOffPlay == 1) {
-  		Audio.pause();
-  	} */
-	if ($(this).attr('id') == 'b0') {
-		new Audio(bonusTracks[0].soundLink).play();
-	} else if ($(this).attr('id') == 'b1') {
-		new Audio(bonusTracks[1].soundLink).play();
-	} else if ($(this).attr('id') == 'b2') {
-		new Audio(bonusTracks[2].soundLink).play();
-	} else if ($(this).attr('id') == 'b3') {
-		new Audio(bonusTracks[3].soundLink).play();
-	} else if ($(this).attr('id') == 'b4') {
-		new Audio(bonusTracks[4].soundLink).play();
-	} else if ($(this).attr('id') == 'b5') {
-		new Audio(bonusTracks[5].soundLink).play();
-	} else if ($(this).attr('id') == 'b6') {
-		new Audio(bonusTracks[6].soundLink).play();
-	}
-	/*
-		 BRIAN -- if you want to add something to the BONUS section, reach out to me and I'll either explain what to do
-			or I'd be happy to reach in and tweak the code myself.  If you feel brave enough to try on your own,
-			you'll have to follow these steps:
-			1) Add the image, title, and sound to the server folders with the rest of those items
-			2) Add the image, title, and sound locations to the BONUS array following the example laid out by the current array items
-			3) Add a NEW 'else if' right above where these comments are, follwoing the example of the previous three 'else if's
-			4) That new 'else if' array index will be 1 greater than the 'else if' preceeding it (the index is the number inside these [] brackets)
-			5) If there are more BONUS sounds than will fit on the HTML 'row', you'll need to add another 'row' in the HTML.
-				That new 'row' can be copy/pasted from the existing BONUS content row (lines 38-43 in HTML), just updating each
-				of the <div> id's with the number corresponding to the the number you added to the 'else if' in Step 4, following the id="b*" format
-				already laid out, where * is the index number of that sound in the bonusTracks array (starting at line 309 in this js file).
-
-		 I coded myself into a bit of a corner here and couldn't figure out a sustainable way to give you a more simple way of adding BONUS
-				content.  Sorry :(  But I guess that's the main trade-off of making it so easy to add new sounds to the regular soundboard area.
-	*/
-
-	else {
-		var j = $(this).attr('id');
-		new Audio(soundArray[j].soundLink).play();
-	}
+    else {
+      var j = $(this).attr('id');
+      currentAudio = new Audio(soundArray[j].soundLink);
+      currentAudio.play();
+      cSID = j;
+    }
+    
   });
-// BONUS TRACKS bc I made this shit yo
-	for(var b = 0; b < bonusTracks.length; b++) {
-		$('#b'+b+'').html("<img class='img-rounded' alt='image' src="+bonusTracks[b].soundImage+"><h2>"+bonusTracks[b].soundTitle+"</h2>");
-	};
 
-//Implementing an opacity callback to indicate that an image was tapped
-	// function opacity(this) {
-	// 	this img att
-	// }
+  //Making the header a random sound player
+  $('header').click(function() {
+    console.log('the each Audio function is firing');
+    currentAudio.pause();
+    currentAudio.currentTime = 0;
+    console.log('pauses and set current time to 0 of audio : '+$(this).attr('src'));
 
-// For the Option-gear to give users ability over one-off or multi-off sound playback
-// Was too complex trying to integrate <div> into audio play conditionals.  Switching to buttons.
-	// function soundPlaybackSelector() {
-
-	// 		// if(optionsHidden == 1) {
-	// 		// 	$('#oneOff').removeAttr('visibility', 'hidden');
-	// 		// 	$('#multiOff').removeAttr('visibility', 'hidden');
-	// 		// 	$('#oneOff').attr('visibility', 'visible');
-	// 		// 	$('#multiOff').attr('visibility', 'visible');
-	// 		// 	optionsHidden = 0;
-	// 		// } else if (optionsHidden == 0) {
-	// 		// 	$('#oneOff').removeAttr('visibility', 'visible');
-	// 		// 	$('#multiOff').removeAttr('visibility', 'visible');
-	// 		// 	$('#oneOff').attr('visibility', 'hidden');
-	// 		// 	$('#multiOff').attr('visibility', 'hidden');
-	// 		// 	optionsHidden = 1;
-	// 		// }
-
-	// 	$('#oneOff').click(function() {
-	// 		if(optionsHidden == 0) {
-	// 			oneOff = 1;
-	// 		} else {}
-	// 	});
-
-	// 	$('#multiOff').click(function() {
-	// 		if(optionsHidden == 0) {
-	// 			oneOff = 0;
-	// 		} else {}
-	// 	});
-
-	// }
-//Making the header a random sound player
-	$('header').click(function() {
-		var r = Math.floor(Math.random() * (soundArray.length));
-		new Audio(soundArray[r].soundLink).play();
-	});
+    var r = Math.floor(Math.random() * (soundArray.length));
+    currentAudio = new Audio(soundArray[r].soundLink);
+    currentAudio.play();
+  });	
 
 };
