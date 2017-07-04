@@ -579,9 +579,11 @@ window.onload = function() {
   //Making the header a random sound player
   $('header').click(function() {
     console.log('the each Audio function is firing');
-    currentAudio.pause();
-    currentAudio.currentTime = 0;
-    console.log('pauses and set current time to 0 of audio : '+$(this).attr('src'));
+    if(currentAudio.currentTime != 0 && currentAudio.currentTime != undefined){
+      currentAudio.pause();
+      currentAudio.currentTime = 0;
+      console.log('pauses and set current time to 0 of audio : '+$(this).attr('src'));
+    };
 
     var r = Math.floor(Math.random() * (soundArray.length));
     currentAudio = new Audio(soundArray[r].soundLink);
