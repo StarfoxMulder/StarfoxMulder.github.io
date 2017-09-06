@@ -101,7 +101,7 @@ window.onload = function() {
 		'soundLink': 'assets/mp3/XFX_BEHIND_A_BUSH.mp3'
 	},
 	{	'soundImage': 'assets/images/Montauk1.jpg',
-		'soundTitle': 'junior',
+		'soundTitle': 'bites out of buildings',
 		'soundLink': 'assets/mp3/XFX_BITES OUT OF BUILDINGS.mp3'
 	},
 	{	'soundImage': 'assets/images/YourBrainIsAShootingStar1.JPG',
