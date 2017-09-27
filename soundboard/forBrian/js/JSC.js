@@ -44,7 +44,7 @@ window.onload = function() {
 		'soundTitle': 'Poll Results',
 		'soundLink': 'assets/mp3/Poll Results (Final Render).mp3'
 	},
-	{	'soundImage': 'assets/images/.jpg',
+	{	'soundImage': 'assets/images/news3.jpg',
 		'soundTitle': 'news theme',
 		'soundLink': 'assets/mp3/Unbelievable News Theme (Final).mp3'
 	},
