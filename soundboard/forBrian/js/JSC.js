@@ -44,6 +44,10 @@ window.onload = function() {
 		'soundTitle': 'Poll Results',
 		'soundLink': 'assets/mp3/Poll Results (Final Render).mp3'
 	},
+	{	'soundImage': 'assets/images/.jpg',
+		'soundTitle': 'news theme',
+		'soundLink': 'assets/mp3/Unbelievable News Theme (Final).mp3'
+	},
 	{	'soundImage': 'assets/images/tUPCrispyCritter.jpg',
 		'soundTitle': 'Crispy Critter\'d',
 		'soundLink': 'assets/mp3/CrispyCrittered.mp3'
@@ -523,6 +527,75 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/king1.jpg',
 		'soundTitle': 'gorbachev',
 		'soundLink': 'assets/mp3/XFX_LARRY KING - GORBACHEV.mp3'
+	},
+	/////// 9/26 updates (don't forget to update News at the top)
+	{	'soundImage': 'assets/images/theyseeus.jpg',
+		'soundTitle': 'they see us',
+		'soundLink': 'assets/mp3/XFX_MCPHERSON-THEY SEE US.mp3'
+	},
+	{	'soundImage': 'assets/images/sketch5.jpg',
+		'soundTitle': 'picture',
+		'soundLink': 'assets/mp3/XFX_MCPHERSON-THATS A PICTURE.mp3'
+	},
+	{	'soundImage': 'assets/images/spaceship2.jpg',
+		'soundTitle': 'spaceship',
+		'soundLink': 'assets/mp3/XFX_MCPHERSON-SPACESHIPORSOMETHINGOUTSIDE.mp3'
+	},
+	{	'soundImage': 'assets/images/brian1.jpg',
+		'soundTitle': 'brian',
+		'soundLink': 'assets/mp3/XFX_MCPHERSON-BRIAN.mp3'
+	},
+	{	'soundImage': 'assets/images/notpeople.jpg',
+		'soundTitle': 'not people',
+		'soundLink': 'assets/mp3/XFX_THEYRE NOT PEOPLE.mp3'
+	},
+	{	'soundImage': 'assets/images/romanek3.jpg',
+		'soundTitle': 'can\'t believe',
+		'soundLink': 'assets/mp3/XFX_ROMANEK-CANT BELIEVE.mp3'
+	},
+	{	'soundImage': 'assets/images/etking.jpg',
+		'soundTitle': 'et',
+		'soundLink': 'assets/mp3/XFX_LARRYKING-LOOKSLIKEET.mp3'
+	},
+	{	'soundImage': 'assets/images/romanek1.jpg',
+		'soundTitle': 'come from',
+		'soundLink': 'assets/mp3/XFX_ROMANEK-COMEFROM.mp3'
+	},
+	{	'soundImage': 'assets/images/helloromanek.jpg',
+		'soundTitle': 'hello?',
+		'soundLink': 'assets/mp3/XFX_ROMANEK-HELLO.mp3'
+	},
+	{	'soundImage': 'assets/images/facelessPeople2.jpgd',
+		'soundTitle': 'no faces',
+		'soundLink': 'assets/mp3/XFX_THEY HAD NO FACES.mp3'
+	},
+	{	'soundImage': 'assets/images/walnutsJPW2.png',
+		'soundTitle': 'walnuts',
+		'soundLink': 'assets/mp3/XFX_WALNUTS-JPW.mp3'
+	},
+	{	'soundImage': 'assets/images/abreast.jpg',
+		'soundTitle': 'a breast',
+		'soundLink': 'assets/mp3/XFX_ABREAST.mp3'
+	},
+	{	'soundImage': 'assets/images/ratsInsides.jpg',
+		'soundTitle': 'rats',
+		'soundLink': 'assets/mp3/XFX_RATSEATINGYOU.mp3'
+	},
+	{	'soundImage': 'assets/images/jesuslovesme.png',
+		'soundTitle': 'jesus loves me',
+		'soundLink': 'assets/mp3/XFX_JESUSLOVESME.mp3'
+	},
+	{	'soundImage': 'assets/images/sawoutthere.jpg',
+		'soundTitle': 'aliens',
+		'soundLink': 'assets/mp3/XFX_MCPHERSON-FUCKING ALIENS.mp3'
+	},
+	{	'soundImage': 'assets/images/martainshit.jpg',
+		'soundTitle': 'martian',
+		'soundLink': 'assets/mp3/XFX_MCPHERSON-MARTIANORSHIT.mp3'
+	},
+	{	'soundImage': 'assets/images/pisspants2.jpg',
+		'soundTitle': 'peed my pants',
+		'soundLink': 'assets/mp3/XFX_MCPHERSON-PEEDMYPANTS.mp3'
 	}
 	];
 
@@ -561,71 +634,71 @@ window.onload = function() {
 	var baseImg = "assets/images/";
 	var oneOffPlay = 1;
 	var optionsHidden = 1;
+  var currentAudio = bonusTracks[1].soundLink;
 	var row = "<div class='row arrayRow'></div>";
 	var rowBonus = "<div class='row arrayRowBonus'></div>";
 	var rowNum = soundArray.length / 6;
 	var rowNumBonus = bonusTracks.length / 6;
 	var counter = 0;
 	var counterBonus = 0;
-	var soundCol = "<div class='col-xs-2 otherDiv' style='background-color:black;'></div>";
-	var leftSoundCol = "<div class='col-xs-2 leftDiv' style='background-color:black;'></div>"; //col-xs-offset-1
+  var soundOverPlay = false;
+	var soundCol = "<div class='col-xs-2 otherDiv soundBite' style='background-color:black;'></div>";
+	var leftSoundCol = "<div class='col-xs-2 leftDiv soundBite' style='background-color:black;'></div>"; //col-xs-offset-1
 
 	rowColMaker();
 	soundPopulator();
 	rowColMakerBonus();
 	soundPopulatorBonus();
 
+  $('#playbackC').click(function() {
+    if(soundOverPlay == false){
+      soundOverPlay = true;
+      $('#playbackC').text('ON');
+      $('#playbackC').addClass('on');
+      $('#playbackC').removeClass('off');
+      console.log('Sound Overplay has been activated');
+    }
+    else {
+      soundOverPlay = false;
+      // if(currentAudio.currentTime != 0 && currentAudio.currentTime != undefined){
+      //   console.log(currentAudio.length);
+      //   for(i=0; i<currentAudio.length; i++){
+      //     currentAudio.pause();
+      //     currentAudio.currentTime = 0;
+      //   }
+      // };
+      $('#playbackC').text('OFF');
+      $('#playbackC').addClass('off');
+      $('#playbackC').removeClass('on');
+      console.log('Sound Overplay has been deactivated');
+    }
+  });
+  $('#stopSounds').click(function() {
+    window.location.reload(false);
+  });
+
   function rowColMaker() {
-
-	// for(var i = 0; i < rowNum; i++) {
-	// 	$('#anchor').append(row);
-	// 	$('.arrayRow').last().addClass('row'+i+'');
-
-	// 	var stopCounter = counter + 5;
-
-	// 	for(var k = counter; k < (stopCounter+1); k++) {
-	// 		if(k < soundArray.length) {
-	// 			if(k % 6 == 0) {
-	// 				$(leftSoundCol).attr('id', k).appendTo($('.row'+i+'')).last();
-	// 			} else {
-	// 				$(soundCol).attr('id', k).appendTo($('.row'+i+'')).last();
-	// 			}
-	// 		}
-	// 	};
-	// 	counter = counter + 6;
-	// }
-	i=0;
-	$('#anchor').append(row);
-	$('.arrayRow').last().addClass('row'+i+'');
-	for(var k = 0; k < soundArray.length; k++) {
-			if(k < soundArray.length) {
-				if(k % 6 == 0) {
-					$(leftSoundCol).attr('id', k).appendTo($('.row'+i+'')).last();
-				} else {
-					$(soundCol).attr('id', k).appendTo($('.row'+i+'')).last();
-				}
-			}
-		};
-
+    i=0;
+    $('#anchor').append(row);
+    $('.arrayRow').last().addClass('row'+i+'');
+    for(var k = 0; k < soundArray.length; k++) {
+      if(k < soundArray.length) {
+        if(k % 6 == 0) {
+          $(leftSoundCol).attr('id', k).appendTo($('.row'+i+'')).last();
+        } else {
+          $(soundCol).attr('id', k).appendTo($('.row'+i+'')).last();
+        }
+      }
+    };
    };
 
   function soundPopulator() {
-
-	for(var c = 0; c < soundArray.length; c++) {
-		// alt='Responsive image' on the following line
-		$('#'+c+'').html("<img class='img'  src="+soundArray[c].soundImage+"><h2>"+soundArray[c].soundTitle+"</h2>");
-	//	$('#'+c+'').attr('background-image', "url('../"+soundArray[c].soundImage+"')");
-	//	$('#'+c+'').html("<h2>"+soundArray[c].soundTitle+"</h2>");
-	}
+    for(var c = 0; c < soundArray.length; c++) {
+      $('#'+c+'').html("<img class='img'  src="+soundArray[c].soundImage+"><h2>"+soundArray[c].soundTitle+"</h2>");
+    }
   };
 
   function rowColMakerBonus() {
-
-	// for(var p = 0; p < rowNumBonus; p++) {
-		// $('#anchorBonus').append(rowBonus);
-		// $('.arrayRowBonus').last().addClass('arrayRowBonus'+p+'');
-
-		// var stopCounterBonus = counterBonus + 5;
 		p=0;
 		$('#anchorBonus').append(rowBonus);
 		$('.arrayRowBonus').last().addClass('arrayRowBonus'+p+'');
@@ -638,118 +711,80 @@ window.onload = function() {
 				}
 			}
 		};
-		// counterBonus = counterBonus + 6;
-	// }
   };
 
   function soundPopulatorBonus() {
 
-		for(var e = 0; e < bonusTracks.length; e++) {
-			$('#b'+e+'').html("<img class='img' alt='Responsive image' src="+bonusTracks[e].soundImage+"><h2>"+bonusTracks[e].soundTitle+"</h2>");
-		//	$('#'+c+'').attr('background-image', "url('../"+soundArray[c].soundImage+"')");
-		//	$('#'+c+'').html("<h2>"+soundArray[c].soundTitle+"</h2>");
-		}
+    for(var e = 0; e < bonusTracks.length; e++) {
+      $('#b'+e+'').html("<img class='img' alt='Responsive image' src="+bonusTracks[e].soundImage+"><h2>"+bonusTracks[e].soundTitle+"</h2>");
+    }
   };
 
- //  // BONUS TRACKS bc I made this shit yo
-	// for(var b = 0; b < bonusTracks.length; b++) {
-	// 	$('#b'+b+'').html("<img class='img-rounded' alt='image' src="+bonusTracks[b].soundImage+"><h2>"+bonusTracks[b].soundTitle+"</h2>");
-	// };
+
+  $('.soundBite').click(function() {
+
+    console.log('the ID of this clip is : '+$(this).attr('id'));
+    if(soundOverPlay == false){
+      if(currentAudio.currentTime != 0 && currentAudio.currentTime != undefined){
+        console.log("currentAudio from .soundbite click "+currentAudio);
+        console.log('currentTime of audio element : '+currentAudio.currentTime);
+        currentAudio.pause();
+        currentAudio.currentTime = 0;
+      };
+    };
 
 
-  $('div').click(function() {
-  	// if(multisSoundOff){
-  		//for loop
-  			//soundarray[i].pause()
-	//}
+    if ($(this).attr('id') == 'b0') {
+      currentAudio = new Audio(bonusTracks[0].soundLink);
+      currentAudio.play();
+      cSID = 0;
+    } else if ($(this).attr('id') == 'b1') {
+      currentAudio = new Audio(bonusTracks[1].soundLink);
+      currentAudio.play();
+      cSID = 1;
+    } else if ($(this).attr('id') == 'b2') {
+      currentAudio = new Audio(bonusTracks[2].soundLink);
+      currentAudio.play();
+      cSID = 2;
+    } else if ($(this).attr('id') == 'b3') {
+      currentAudio = new Audio(bonusTracks[3].soundLink);
+      currentAudio.play();
+      cSID = 3;
+    } else if ($(this).attr('id') == 'b4') {
+      currentAudio = new Audio(bonusTracks[4].soundLink);
+      currentAudio.play();
+      cSID = 4;
+    } else if ($(this).attr('id') == 'b5') {
+      currentAudio = new Audio(bonusTracks[5].soundLink);
+      currentAudio.play();
+      cSID = 5;
+    } else if ($(this).attr('id') == 'b6') {
+      currentAudio = new Audio(bonusTracks[6].soundLink);
+      currentAudio.play();
+      cSID = 6;
+    }
 
-  	//
-
-/*	if (oneOffPlay == 1) {
-  		Audio.pause();
-  	} */
-	if ($(this).attr('id') == 'b0') {
-		new Audio(bonusTracks[0].soundLink).play();
-	} else if ($(this).attr('id') == 'b1') {
-		new Audio(bonusTracks[1].soundLink).play();
-	} else if ($(this).attr('id') == 'b2') {
-		new Audio(bonusTracks[2].soundLink).play();
-	} else if ($(this).attr('id') == 'b3') {
-		new Audio(bonusTracks[3].soundLink).play();
-	} else if ($(this).attr('id') == 'b4') {
-		new Audio(bonusTracks[4].soundLink).play();
-	} else if ($(this).attr('id') == 'b5') {
-		new Audio(bonusTracks[5].soundLink).play();
-	} else if ($(this).attr('id') == 'b6') {
-		new Audio(bonusTracks[6].soundLink).play();
-	}
-	/*
-		 BRIAN -- if you want to add something to the BONUS section, reach out to me and I'll either explain what to do
-			or I'd be happy to reach in and tweak the code myself.  If you feel brave enough to try on your own,
-			you'll have to follow these steps:
-			1) Add the image, title, and sound to the server folders with the rest of those items
-			2) Add the image, title, and sound locations to the BONUS array following the example laid out by the current array items
-			3) Add a NEW 'else if' right above where these comments are, follwoing the example of the previous three 'else if's
-			4) That new 'else if' array index will be 1 greater than the 'else if' preceeding it (the index is the number inside these [] brackets)
-			5) If there are more BONUS sounds than will fit on the HTML 'row', you'll need to add another 'row' in the HTML.
-				That new 'row' can be copy/pasted from the existing BONUS content row (lines 38-43 in HTML), just updating each
-				of the <div> id's with the number corresponding to the the number you added to the 'else if' in Step 4, following the id="b*" format
-				already laid out, where * is the index number of that sound in the bonusTracks array (starting at line 309 in this js file).
-
-		 I coded myself into a bit of a corner here and couldn't figure out a sustainable way to give you a more simple way of adding BONUS
-				content.  Sorry :(  But I guess that's the main trade-off of making it so easy to add new sounds to the regular soundboard area.
-	*/
-
-	else {
-		var j = $(this).attr('id');
-		new Audio(soundArray[j].soundLink).play();
-	}
+    else {
+      var j = $(this).attr('id');
+      currentAudio = new Audio(soundArray[j].soundLink);
+      currentAudio.play();
+      cSID = j;
+    }
+    
   });
-// BONUS TRACKS bc I made this shit yo
-	for(var b = 0; b < bonusTracks.length; b++) {
-		$('#b'+b+'').html("<img class='img-rounded' alt='image' src="+bonusTracks[b].soundImage+"><h2>"+bonusTracks[b].soundTitle+"</h2>");
-	};
 
-//Implementing an opacity callback to indicate that an image was tapped
-	// function opacity(this) {
-	// 	this img att
-	// }
+  //Making the header a random sound player
+  $('header').click(function() {
+    console.log('the each Audio function is firing');
+    if(currentAudio.currentTime != 0 && currentAudio.currentTime != undefined){
+      currentAudio.pause();
+      currentAudio.currentTime = 0;
+      console.log('pauses and set current time to 0 of audio : '+$(this).attr('src'));
+    };
 
-// For the Option-gear to give users ability over one-off or multi-off sound playback
-// Was too complex trying to integrate <div> into audio play conditionals.  Switching to buttons.
-	// function soundPlaybackSelector() {
-
-	// 		// if(optionsHidden == 1) {
-	// 		// 	$('#oneOff').removeAttr('visibility', 'hidden');
-	// 		// 	$('#multiOff').removeAttr('visibility', 'hidden');
-	// 		// 	$('#oneOff').attr('visibility', 'visible');
-	// 		// 	$('#multiOff').attr('visibility', 'visible');
-	// 		// 	optionsHidden = 0;
-	// 		// } else if (optionsHidden == 0) {
-	// 		// 	$('#oneOff').removeAttr('visibility', 'visible');
-	// 		// 	$('#multiOff').removeAttr('visibility', 'visible');
-	// 		// 	$('#oneOff').attr('visibility', 'hidden');
-	// 		// 	$('#multiOff').attr('visibility', 'hidden');
-	// 		// 	optionsHidden = 1;
-	// 		// }
-
-	// 	$('#oneOff').click(function() {
-	// 		if(optionsHidden == 0) {
-	// 			oneOff = 1;
-	// 		} else {}
-	// 	});
-
-	// 	$('#multiOff').click(function() {
-	// 		if(optionsHidden == 0) {
-	// 			oneOff = 0;
-	// 		} else {}
-	// 	});
-
-	// }
-//Making the header a random sound player
-	$('header').click(function() {
-		var r = Math.floor(Math.random() * (soundArray.length));
-		new Audio(soundArray[r].soundLink).play();
-	});
+    var r = Math.floor(Math.random() * (soundArray.length));
+    currentAudio = new Audio(soundArray[r].soundLink);
+    currentAudio.play();
+  });	
 
 };

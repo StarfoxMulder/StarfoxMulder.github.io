@@ -32,17 +32,21 @@ window.onload = function() {
 		'soundTitle': 'Mailbag',
 		'soundLink': 'assets/mp3/888_MAIL.mp3'
 	},
-	{	'soundImage': 'assets/images/Wikia1.JPG',
+	{	'soundImage': 'assets/images/AG1_5544-1_2.jpg',
 		'soundTitle': 'Wikia',
-		'soundLink': 'assets/mp3/888_WIKIA.mp3'
+		'soundLink': 'assets/mp3/888 - From the Wikia (Final Render).mp3'
 	},
 	{	'soundImage': 'assets/images/ResultsWinner2.jpg',
 		'soundTitle': 'Winner',
-		'soundLink': 'assets/mp3/999_CAPTION WINNER.mp3'
+		'soundLink': 'assets/mp3/WinnerSoundBite.mp3'
 	},
 	{	'soundImage': 'assets/images/PollResults2.jpg',
 		'soundTitle': 'Poll Results',
-		'soundLink': 'assets/mp3/999_PollResults.mp3'
+		'soundLink': 'assets/mp3/Poll Results (Final Render).mp3'
+	},
+	{	'soundImage': 'assets/images/.jpg',
+		'soundTitle': 'news theme',
+		'soundLink': 'assets/mp3/Unbelievable News Theme (Final).mp3'
 	},
 	{	'soundImage': 'assets/images/tUPCrispyCritter.jpg',
 		'soundTitle': 'Crispy Critter\'d',
@@ -101,7 +105,7 @@ window.onload = function() {
 		'soundLink': 'assets/mp3/XFX_BEHIND_A_BUSH.mp3'
 	},
 	{	'soundImage': 'assets/images/Montauk1.jpg',
-		'soundTitle': 'bites out of buildings',
+		'soundTitle': 'junior',
 		'soundLink': 'assets/mp3/XFX_BITES OUT OF BUILDINGS.mp3'
 	},
 	{	'soundImage': 'assets/images/YourBrainIsAShootingStar1.JPG',
@@ -307,7 +311,7 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/ShootAMonkey2.jpg',
 		'soundTitle': 'shoot a monkey',
 		'soundLink': 'assets/mp3/XFX_SHOOTAMONKEY.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/AJHWNC.jpg',
 		'soundTitle': 'no cheese',
 		'soundLink': 'assets/mp3/XFX_ALEXJONES-HAMBURGERNOCHEESE.mp3'
@@ -315,11 +319,11 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/jason2.jpg',
 		'soundTitle': 'unbelievable',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-TOO_UNBELIEVABLE.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/codeofhonor.png',
 		'soundTitle': 'code of honor',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-CODEOFHONOR.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/transmog.jpg',
 		'soundTitle': 'TRANS\nMOGNIFIED',
 		'soundLink': 'assets/mp3/XFX_ALEX JONES-TRANSMOGNIFIED_IT.mp3'
@@ -327,23 +331,23 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/HoagCNN2.jpg',
 		'soundTitle': 'Watch out',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-WATCHOUTHOAGLAND.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/dogmanNoise.jpg',
 		'soundTitle': 'growl',
 		'soundLink': 'assets/mp3/XFX_DOGMAN-NOISE.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/abby-normal2.jpg',
 		'soundTitle': 'Abbynormal',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-YOUAREABEYNORMAL.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/yesyeah1.jpg',
 		'soundTitle': 'yes yeah',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-YESYEA.mp3'
-	},	
+	},
 	{	'soundImage': 'assets/images/imdifferent.jpg',
 		'soundTitle': 'different',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-IMDIFFERENT.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/MIB1.jpg',
 		'soundTitle': 'its all there',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-ITSTRUEABOUTTHEMIB.mp3'
@@ -351,7 +355,7 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/onemoretime1.jpg',
 		'soundTitle': 'one more time',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-ONEMORETIME.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/timetraveler1.jpeg',
 		'soundTitle': 'Time traveler',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-ONLYIFYOUREATIMETRAVELER.mp3'
@@ -359,23 +363,23 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/et1.jpg',
 		'soundTitle': 'extra...',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-WHATSTHETERMET.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/dogmanWoods.jpg',
 		'soundTitle': 'infested woods',
 		'soundLink': 'assets/mp3/XFX_DOGMANINFESTEDWOODS.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/virus.JPG',
 		'soundTitle': 'virrrus',
 		'soundLink': 'assets/mp3/XFX_VIRUS.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/werewolf-picture.jpg',
 		'soundTitle': 'sighting',
 		'soundLink': 'assets/mp3/XFX_ISAWTHEDOGMAN.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/hisname1.jpg',
 		'soundTitle': 'his name',
 		'soundLink': 'assets/mp3/XFX_JOHNTITOR.mp3'
-	},	
+	},
 	{	'soundImage': 'assets/images/woosh1.jpg',
 		'soundTitle': 'woosh',
 		'soundLink': 'assets/mp3/XFX_WOOSH.mp3'
@@ -383,22 +387,215 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/challengeHim1.jpg',
 		'soundTitle': 'hero',
 		'soundLink': 'assets/mp3/XFX_CHALLENGEHIM.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/thisMakesSense2.jpg',
 		'soundTitle': 'makes sense',
 		'soundLink': 'assets/mp3/XFX_ARTBELL-THISMAKESSENSE.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/fingerStickStroke1.jpg',
 		'soundTitle': 'sticky',
 		'soundLink': 'assets/mp3/XFX_STEVEGIBBS-FINGERSSTICKSTROKE.mp3'
-	}, 
+	},
 	{	'soundImage': 'assets/images/fullOfBeans1.jpg',
 		'soundTitle': 'full of beans',
 		'soundLink': 'assets/mp3/XFX_STEVEGIBBS-FULL_OF_BEANS.mp3'
-	},	
+	},
 	{	'soundImage': 'assets/images/sushi1.jpg',
 		'soundTitle': 'sushi',
 		'soundLink': 'assets/mp3/XFX_SUSHI.mp3'
+	},
+	{	'soundImage': 'assets/images/champHead.jpg',
+		'soundTitle': 'Dinosaur head',
+		'soundLink': 'assets/mp3/XFX_CHAMP-DINOSAUR HEAD.mp3'
+	},
+	{	'soundImage': 'assets/images/roadkill.jpg',
+		'soundTitle': 'Roadkill',
+		'soundLink': 'assets/mp3/XFX_ROADKILL.mp3'
+	},
+	{	'soundImage': 'assets/images/Countdown1.jpg',
+		'soundTitle': 'tastes like fish',
+		'soundLink': 'assets/mp3/XFX_TASTESLIKEFISH.mp3'
+	},
+	{	'soundImage': 'assets/images/gabrielzeros.jpg',
+		'soundTitle': 'Jellyfish',
+		'soundLink': 'assets/mp3/XFX_JELLYFISH3.mp3'
+	},
+	{	'soundImage': 'assets/images/jelly.jpg',
+		'soundTitle': 'Jellyfish II',
+		'soundLink': 'assets/mp3/XFX_JELLYFISH4.mp3'
+	},
+	{	'soundImage': 'assets/images/shaqFlat.jpg',
+		'soundTitle': 'shaq flat',
+		'soundLink': 'assets/mp3/XFX_SHAQIDIOTS.mp3'
+	},
+	{	'soundImage': 'assets/images/sasquatchfam.jpg',
+		'soundTitle': 'abducted by bigfoot',
+		'soundLink': 'assets/mp3/XFX_ABDUCTEDBYBIGFOOT.mp3'
+	},
+	{	'soundImage': 'assets/images/grumpy-old-man.jpg',
+		'soundTitle': 'Ain\'t seen no monster',
+		'soundLink': 'assets/mp3/XFX_AINTSEENNOMONSTER.mp3'
+	},
+	{	'soundImage': 'assets/images/internetJesus.jpg',
+		'soundTitle': 'internet',
+		'soundLink': 'assets/mp3/XFX_IALWAYSGOONTHEINTERNET.mp3'
+	},
+	{	'soundImage': 'assets/images/outtahere.jpg',
+		'soundTitle': 'let\'s get out of here',
+		'soundLink': 'assets/mp3/XFX_LETSGETOUTTAHERE.mp3'
+	},
+	{	'soundImage': 'assets/images/waterHorse2_2.jpg',
+		'soundTitle': 'Champy sounds',
+		'soundLink': 'assets/mp3/XFX_CHAMP-SOUNDEFFECTS.mp3'
+	},
+	{	'soundImage': 'assets/images/lapras.jpg',
+		'soundTitle': 'horse? Monster?',
+		'soundLink': 'assets/mp3/XFX_CHAMP-HORSEMONSTER.mp3'
+	},
+	{	'soundImage': 'assets/images/bigfootSounds.jpg',
+		'soundTitle': 'noises',
+		'soundLink': 'assets/mp3/XFX_BIGFOOTNOISES.mp3'
+	},
+	{	'soundImage': 'assets/images/jpwTulpa.jpg',
+		'soundTitle': 'Tulpafoot',
+		'soundLink': 'assets/mp3/XFX_JOSHUAPWARREN-BIGFOOTTULPA.mp3'
+	},
+	{	'soundImage': 'assets/images/walnuts.jpg',
+		'soundTitle': 'walnuts',
+		'soundLink': 'assets/mp3/XFX_WALNUTSINPOCKET.mp3'
+	},
+	{	'soundImage': 'assets/images/robO.jpg',
+		'soundTitle': 'fetuses',
+		'soundLink': 'assets/mp3/XFX_ROB OKEY - SWERDLOW FETUS.mp3'
+	},
+	{	'soundImage': 'assets/images/ThickKids.jpg',
+		'soundTitle': 'thick kids',
+		'soundLink': 'assets/mp3/XFX_WHITLEY - THICK KIDS.mp3'
+	},
+	{	'soundImage': 'assets/images/Butt.jpg',
+		'soundTitle': 'probe',
+		'soundLink': 'assets/mp3/XFX_WHITLEY-BUTT.mp3'
+	},
+	{	'soundImage': 'assets/images/Yahyel.jpg',
+		'soundTitle': 'yahyel',
+		'soundLink': 'assets/mp3/XFX_YAHYEL.mp3'
+	},
+	{	'soundImage': 'assets/images/Hooray.png',
+		'soundTitle': 'hooray',
+		'soundLink': 'assets/mp3/XFX_WHITLEY-HOORAY.mp3'
+	},
+	{	'soundImage': 'assets/images/beardog2.jpg',
+		'soundTitle': 'beardogs',
+		'soundLink': 'assets/mp3/XFX_BIGFOOT BEAR DOGS HOG DOGS.mp3'
+	},
+	{	'soundImage': 'assets/images/timpeeler.jpg',
+		'soundTitle': 'get away',
+		'soundLink': 'assets/mp3/XFX_BIGFOOT-GET AWAY.mp3'
+	},
+	{	'soundImage': 'assets/images/timpeeler2.jpg',
+		'soundTitle': 'yallow',
+		'soundLink': 'assets/mp3/XFX_BIGFOOT-YALLOW.mp3'
+	},
+	{	'soundImage': 'assets/images/korton1.jpg',
+		'soundTitle': 'understood',
+		'soundLink': 'assets/mp3/XFX_KORTON - ANIMAL UNDERSTOOD.mp3'
+	},
+	{	'soundImage': 'assets/images/korton2.jpg',
+		'soundTitle': 'central control',
+		'soundLink': 'assets/mp3/XFX_KORTON - CENTRAL CONTROL.mp3'
+	},
+	{	'soundImage': 'assets/images/korton3.jpg',
+		'soundTitle': 'discontinue',
+		'soundLink': 'assets/mp3/XFX_KORTON - DISCONTINUE.mp3'
+	},
+	{	'soundImage': 'assets/images/korton4.jpg',
+		'soundTitle': 'final sign off',
+		'soundLink': 'assets/mp3/XFX_KORTON - THE FINAL SIGN OFF.mp3'
+	},
+	{	'soundImage': 'assets/images/korton5.jpg',
+		'soundTitle': 'sign off',
+		'soundLink': 'assets/mp3/XFX_KORTON SIGN OFF.mp3'
+	},
+	{	'soundImage': 'assets/images/korton6.jpg',
+		'soundTitle': 'noises',
+		'soundLink': 'assets/mp3/XFX_KORTON-NOISES.mp3'
+	},
+	{	'soundImage': 'assets/images/korton7.jpg',
+		'soundTitle': 'transmit',
+		'soundLink': 'assets/mp3/XFX_KORTON-READY TO TRANSMIT.mp3'
+	},
+	{	'soundImage': 'assets/images/king1.jpg',
+		'soundTitle': 'gorbachev',
+		'soundLink': 'assets/mp3/XFX_LARRY KING - GORBACHEV.mp3'
+	},
+	/////// 9/26 updates (don't forget to update News at the top)
+	{	'soundImage': 'assets/images/theyseeus.jpg',
+		'soundTitle': 'they see us',
+		'soundLink': 'assets/mp3/XFX_MCPHERSON-THEY SEE US.mp3'
+	},
+	{	'soundImage': 'assets/images/sketch5.jpg',
+		'soundTitle': 'picture',
+		'soundLink': 'assets/mp3/XFX_MCPHERSON-THATS A PICTURE.mp3'
+	},
+	{	'soundImage': 'assets/images/spaceship2.jpg',
+		'soundTitle': 'spaceship',
+		'soundLink': 'assets/mp3/XFX_MCPHERSON-SPACESHIPORSOMETHINGOUTSIDE.mp3'
+	},
+	{	'soundImage': 'assets/images/brian1.jpg',
+		'soundTitle': 'brian',
+		'soundLink': 'assets/mp3/XFX_MCPHERSON-BRIAN.mp3'
+	},
+	{	'soundImage': 'assets/images/notpeople.jpg',
+		'soundTitle': 'not people',
+		'soundLink': 'assets/mp3/XFX_THEYRE NOT PEOPLE.mp3'
+	},
+	{	'soundImage': 'assets/images/romanek3.jpg',
+		'soundTitle': 'can\'t believe',
+		'soundLink': 'assets/mp3/XFX_ROMANEK-CANT BELIEVE.mp3'
+	},
+	{	'soundImage': 'assets/images/etking.jpg',
+		'soundTitle': 'et',
+		'soundLink': 'assets/mp3/XFX_LARRYKING-LOOKSLIKEET.mp3'
+	},
+	{	'soundImage': 'assets/images/romanek1.jpg',
+		'soundTitle': 'come from',
+		'soundLink': 'assets/mp3/XFX_ROMANEK-COMEFROM.mp3'
+	},
+	{	'soundImage': 'assets/images/helloromanek.jpg',
+		'soundTitle': 'hello?',
+		'soundLink': 'assets/mp3/XFX_ROMANEK-HELLO.mp3'
+	},
+	{	'soundImage': 'assets/images/facelessPeople2.jpgd',
+		'soundTitle': 'no faces',
+		'soundLink': 'assets/mp3/XFX_THEY HAD NO FACES.mp3'
+	},
+	{	'soundImage': 'assets/images/walnutsJPW2.png',
+		'soundTitle': 'walnuts',
+		'soundLink': 'assets/mp3/XFX_WALNUTS-JPW.mp3'
+	},
+	{	'soundImage': 'assets/images/abreast.jpg',
+		'soundTitle': 'a breast',
+		'soundLink': 'assets/mp3/XFX_ABREAST.mp3'
+	},
+	{	'soundImage': 'assets/images/ratsInsides.jpg',
+		'soundTitle': 'rats',
+		'soundLink': 'assets/mp3/XFX_RATSEATINGYOU.mp3'
+	},
+	{	'soundImage': 'assets/images/jesuslovesme.png',
+		'soundTitle': 'jesus loves me',
+		'soundLink': 'assets/mp3/XFX_JESUSLOVESME.mp3'
+	},
+	{	'soundImage': 'assets/images/sawoutthere.jpg',
+		'soundTitle': 'aliens',
+		'soundLink': 'assets/mp3/XFX_MCPHERSON-FUCKING ALIENS.mp3'
+	},
+	{	'soundImage': 'assets/images/martainshit.jpg',
+		'soundTitle': 'martian',
+		'soundLink': 'assets/mp3/XFX_MCPHERSON-MARTIANORSHIT.mp3'
+	},
+	{	'soundImage': 'assets/images/pisspants2.jpg',
+		'soundTitle': 'peed my pants',
+		'soundLink': 'assets/mp3/XFX_MCPHERSON-PEEDMYPANTS.mp3'
 	}
 	];
 
