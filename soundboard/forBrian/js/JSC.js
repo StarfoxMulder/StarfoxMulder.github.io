@@ -565,7 +565,7 @@ window.onload = function() {
 		'soundTitle': 'hello?',
 		'soundLink': 'assets/mp3/XFX_ROMANEK-HELLO.mp3'
 	},
-	{	'soundImage': 'assets/images/facelessPeople2.jpgd',
+	{	'soundImage': 'assets/images/facelessPeople2.jpg',
 		'soundTitle': 'no faces',
 		'soundLink': 'assets/mp3/XFX_THEY HAD NO FACES.mp3'
 	},
