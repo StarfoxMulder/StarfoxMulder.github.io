@@ -595,6 +595,26 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/pisspants2.jpg',
 		'soundTitle': 'peed my pants',
 		'soundLink': 'assets/mp3/XFX_MCPHERSON-PEEDMYPANTS.mp3'
+	},
+	{	'soundImage': 'assets/images/mothBrownie.jpg',
+		'soundTitle': 'disgusting',
+		'soundLink': 'assets/mp3/XFX_UNBELIEVER-Kimmy-Disgusting.mp3'
+	},
+	{	'soundImage': 'assets/images/rusHowLong.jpg',
+		'soundTitle': 'How long??',
+		'soundLink': 'assets/mp3/XFX_UNBELIEVER RUS-HOW LONG.mp3'
+	},
+	{	'soundImage': 'assets/images/poodoo1.jpg',
+		'soundTitle': 'poo-do-poo',
+		'soundLink': 'assets/mp3/XFX_PARROT-POODOOPOO.mp3'
+	},
+	{	'soundImage': 'assets/images/counting.jpg',
+		'soundTitle': 'counting',
+		'soundLink': 'assets/mp3/XFX_PARROT-KID COUNTING.mp3'
+	},
+	{	'soundImage': 'assets/images/powerful1.jpg',
+		'soundTitle': 'powerful',
+		'soundLink': 'assets/mp3/XFX_KNAPP-POWERFUL.mp3'
 	}
 	];
 
