@@ -528,7 +528,6 @@ window.onload = function() {
 		'soundTitle': 'gorbachev',
 		'soundLink': 'assets/mp3/XFX_LARRY KING - GORBACHEV.mp3'
 	},
-	/////// 9/26 updates (don't forget to update News at the top)
 	{	'soundImage': 'assets/images/theyseeus.jpg',
 		'soundTitle': 'they see us',
 		'soundLink': 'assets/mp3/XFX_MCPHERSON-THEY SEE US.mp3'
