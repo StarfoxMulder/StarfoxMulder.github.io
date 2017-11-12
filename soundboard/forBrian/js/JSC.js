@@ -612,7 +612,7 @@ window.onload = function() {
 		'soundTitle': 'counting',
 		'soundLink': 'assets/mp3/XFX_PARROT-KID COUNTING.mp3'
 	},
-	{	'soundImage': 'assets/images/powerful1.jpg',
+	{	'soundImage': 'assets/images/bpWolf2.jpg',
 		'soundTitle': 'powerful',
 		'soundLink': 'assets/mp3/XFX_KNAPP-POWERFUL.mp3'
 	}
