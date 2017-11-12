@@ -785,6 +785,10 @@ window.onload = function() {
       currentAudio = new Audio(bonusTracks[6].soundLink);
       currentAudio.play();
       cSID = 6;
+    } else if ($(this).attr('id') == 'b7') {
+      currentAudio = new Audio(bonusTracks[7].soundLink);
+      currentAudio.play();
+      cSID = 7;
     }
 
     else {
