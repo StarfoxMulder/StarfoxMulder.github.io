@@ -646,6 +646,10 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/jw1.jpg',
 		'soundTitle': 'Rainbow',
 		'soundLink': 'assets/mp3/JeniferWhisper-ARainbowofLove.mp3'
+	},
+	{	'soundImage': 'assets/images/fishfisher1.jpg',
+		'soundTitle': 'Fish fisher mothman',
+		'soundLink': 'assets/mp3/0999_FISH FISHER MOTHMAN SONG.mp3'
 	}
 	];
 
