@@ -624,7 +624,7 @@ window.onload = function() {
 		'soundTitle': 'dont touch me',
 		'soundLink': 'assets/mp3/XFX_Fire In The Sky - DONT TOUCH ME.mp3'
 	},
-	{	'soundImage': 'assets/images/holdIt.jpg',
+	{	'soundImage': 'assets/images/holdIt.JPG',
 		'soundTitle': 'hold it',
 		'soundLink': 'assets/mp3/XFX_Fire In The Sky - HOLD IT RIGHT THERE.mp3'
 	},
@@ -636,7 +636,7 @@ window.onload = function() {
 		'soundTitle': 'what are you doing',
 		'soundLink': 'assets/mp3/XFX_Fire In The Sky - WHAT ARE YOU DOING.mp3'
 	},
-	{	'soundImage': 'assets/images/scream.jpg',
+	{	'soundImage': 'assets/images/scream.JPG',
 		'soundTitle': 'shut up',
 		'soundLink': 'assets/mp3/XFX_Fire IN The Sky SEXY - SHUT UP.mp3'
 	},
