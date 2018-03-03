@@ -615,6 +615,70 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/bpWolf3.jpg',
 		'soundTitle': 'powerful',
 		'soundLink': 'assets/mp3/XFX_KNAPP-POWERFUL.mp3'
+	},////////////////////
+	{	'soundImage': 'assets/images/murder.jpg',
+		'soundTitle': 'murder',
+		'soundLink': 'assets/mp3/XFX_Fire In The Sky - accused of murder thats serious.mp3'
+	},
+	{	'soundImage': 'assets/images/dontTouchMe.jpg',
+		'soundTitle': 'dont touch me',
+		'soundLink': 'assets/mp3/XFX_Fire In The Sky - DONT TOUCH ME.mp3'
+	},
+	{	'soundImage': 'assets/images/holdIt.jpg',
+		'soundTitle': 'hold it',
+		'soundLink': 'assets/mp3/XFX_Fire In The Sky - HOLD IT RIGHT THERE.mp3'
+	},
+	{	'soundImage': 'assets/images/scream2.jpg',
+		'soundTitle': 'scream',
+		'soundLink': 'assets/mp3/XFX_Fire In The Sky - SCREAM.mp3'
+	},
+	{	'soundImage': 'assets/images/whatAreYouDoing.jpg',
+		'soundTitle': 'what are you doing',
+		'soundLink': 'assets/mp3/XFX_Fire In The Sky - WHAT ARE YOU DOING.mp3'
+	},
+	{	'soundImage': 'assets/images/scream.jpg',
+		'soundTitle': 'shut up',
+		'soundLink': 'assets/mp3/XFX_Fire IN The Sky SEXY - SHUT UP.mp3'
+	},
+	{	'soundImage': 'assets/images/whacko.jpg',
+		'soundTitle': 'whacko',
+		'soundLink': 'assets/mp3/XFX_Fire In The Sky-Whacko.mp3'
+	},
+	{	'soundImage': 'assets/images/fuBev.jpg',
+		'soundTitle': 'fuck you beverly',
+		'soundLink': 'assets/mp3/XFX_Fuck you beverly.mp3'
+	},
+	{	'soundImage': 'assets/images/glasses.jpg',
+		'soundTitle': 'glasses',
+		'soundLink': 'assets/mp3/XFX_GULF BREEZE - have some glasses.mp3'
+	},
+	{	'soundImage': 'assets/images/strieber.jpg',
+		'soundTitle': 'streiber heil',
+		'soundLink': 'assets/mp3/XFX_LARRY KING - whitney streiber file.mp3'
+	},
+	{	'soundImage': 'assets/images/askingQuestions.jpg',
+		'soundTitle': 'asking questions',
+		'soundLink': 'assets/mp3/XFX_LARRY KING just asking questions.mp3'
+	},
+	{	'soundImage': 'assets/images/klass.jpeg',
+		'soundTitle': 'goddamn liar',
+		'soundLink': 'assets/mp3/XFX_PHILLIP KLASS goddamn liar.mp3'
+	},
+	{	'soundImage': 'assets/images/cia.png',
+		'soundTitle': 'paying you',
+		'soundLink': 'assets/mp3/XFX_TRAVIS WALTON - how much are they paying.mp3'
+	},
+	{	'soundImage': 'assets/images/leaf.jpg',
+		'soundTitle': 'a leaf',
+		'soundLink': 'assets/mp3/XFX_YAHYEL - a leaf.mp3'
+	},
+	{	'soundImage': 'assets/images/ingestLeaf.jpg',
+		'soundTitle': 'ingest leafs',
+		'soundLink': 'assets/mp3/XFX_YAHYEL - we ocassionally ingest leafs.mp3'
+	},
+	{	'soundImage': 'assets/images/toa18.jpg',
+		'soundTitle': 'TOA \'18 theme',
+		'soundLink': 'assets/mp3/TOA theme - faster tempo.mp3'
 	}
 	];
 
@@ -646,6 +710,14 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/jw1.jpg',
 		'soundTitle': 'Rainbow',
 		'soundLink': 'assets/mp3/JeniferWhisper-ARainbowofLove.mp3'
+	},
+	{	'soundImage': 'assets/images/aaron.jpg',
+		'soundTitle': 'aa-ron lizardman stomp',
+		'soundLink': 'assets/mp3/AAA_Lizardman StompNEW (Final Render).mp3'
+	},
+	{	'soundImage': 'assets/images/Brian_Frange.png',
+		'soundTitle': 'Return of Hollywood bryan',
+		'soundLink': 'assets/mp3/AC$ - The return of Hollywood Bryan final.mp3'
 	},
 	{	'soundImage': 'assets/images/fishfisher1.jpg',
 		'soundTitle': 'Fish fisher mothman',
@@ -789,6 +861,14 @@ window.onload = function() {
       currentAudio = new Audio(bonusTracks[7].soundLink);
       currentAudio.play();
       cSID = 7;
+    } else if ($(this).attr('id') == 'b8') {
+      currentAudio = new Audio(bonusTracks[8].soundLink);
+      currentAudio.play();
+      cSID = 8;
+    } else if ($(this).attr('id') == 'b9') {
+      currentAudio = new Audio(bonusTracks[9].soundLink);
+      currentAudio.play();
+      cSID = 9;
     }
 
     else {
