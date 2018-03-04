@@ -656,7 +656,7 @@ window.onload = function() {
 		'soundTitle': 'streiber heil',
 		'soundLink': 'assets/mp3/XFX_LARRY KING - whitney streiber file.mp3'
 	},
-	{	'soundImage': 'assets/images/askingQuestions.jpg',
+	{	'soundImage': 'assets/images/kingMantis.jpg',
 		'soundTitle': 'asking questions',
 		'soundLink': 'assets/mp3/XFX_LARRY KING just asking questions.mp3'
 	},
