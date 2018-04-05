@@ -679,6 +679,34 @@ window.onload = function() {
 	{	'soundImage': 'assets/images/toa18.jpg',
 		'soundTitle': 'TOA \'18 theme',
 		'soundLink': 'assets/mp3/TOA theme - faster tempo.mp3'
+	},
+	{	'soundImage': 'assets/images/davidAliens.jpg',
+		'soundTitle': 'ejacalate',
+		'soundLink': 'assets/mp3/XFX_HUGGINS - ejaculate.mp3'
+	},
+	{	'soundImage': 'assets/images/davidBoss.jpg',
+		'soundTitle': 'gulp',
+		'soundLink': 'assets/mp3/XFX_HUGGINS - gulp.mp3'
+	},
+	{	'soundImage': 'assets/images/davidCollege.jpg',
+		'soundTitle': 'touching babies',
+		'soundLink': 'assets/mp3/XFX_HUGGINS - touching all the babies.mp3'
+	},
+	{	'soundImage': 'assets/images/davidHairyGuy.jpg',
+		'soundTitle': 'a head?',
+		'soundLink': 'assets/mp3/XFX_HUGGINS is that a head.mp3'
+	},
+	{	'soundImage': 'assets/images/davidC1.jpg',
+		'soundTitle': 'large woman',
+		'soundLink': 'assets/mp3/XFX_HUGGINS sex with large woman.mp3'
+	},
+	{	'soundImage': 'assets/images/davidAndC.jpg',
+		'soundTitle': 'rubbing heads',
+		'soundLink': 'assets/mp3/XFX_HUGGINS-gf start rubbing heads.mp3'
+	},
+	{	'soundImage': 'assets/images/davidC2.jpg',
+		'soundTitle': 'nice for her',
+		'soundLink': 'assets/mp3/XFX_HUGGINS-nice for her hmmm.mp3'
 	}
 	];
 
