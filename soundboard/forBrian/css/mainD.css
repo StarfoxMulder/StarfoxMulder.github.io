@@ -80,7 +80,6 @@ li:hover {
 img {
   height: 100%;
   width: 100%;
-  position: center;
   border-radius: 8px;
   border: solid 2px #262626;
   transition: 0s 1.5s;
@@ -89,7 +88,7 @@ img:hover {
   cursor: pointer;
 }
 img:active {
-  opacity: 0.2;
+  opacity: 0.01;
   transition: 0.5s;
 }
 
@@ -299,7 +298,7 @@ a:active {
 
 @media only screen and (max-width: 1000px) {
   #mainContainer {
-    margin-left: 5%;
+    margin-left: 2.5%;
   }
   h2 {
     font-size: 16px;
